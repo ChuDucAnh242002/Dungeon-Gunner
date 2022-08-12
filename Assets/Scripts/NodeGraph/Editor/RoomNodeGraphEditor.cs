@@ -33,11 +33,11 @@ public class RoomNodeGraphEditor : EditorWindow
         Vector2 pos2 = new Vector2(300f, 300f);
         string labelField1 = "Node 1";
         string labelField2 = "Node 2";
-        createArea(pos1, labelField1);
-        createArea(pos2, labelField2);
+        createNode(pos1, labelField1);
+        createNode(pos2, labelField2);
     }
 
-    private void createArea(Vector2 pos, string labelField){
+    private void createNode(Vector2 pos, string labelField){
         Vector2 size = new Vector2(nodeWidth, nodeHeight);
         Rect rect = new Rect(pos, size);
         GUILayout.BeginArea(rect, roomNodeStyle);
