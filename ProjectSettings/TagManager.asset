@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3092603403
+    locked: 0
+  - name: Ground Decoration 1
+    uniqueID: 3204682781
+    locked: 0
+  - name: Ground Decoration 2
+    uniqueID: 152323709
+    locked: 0
+  - name: Instances
+    uniqueID: 2582247377
+    locked: 0
+  - name: Front
+    uniqueID: 1706067465
+    locked: 0
+  - name: Collision
+    uniqueID: 1717702189
+    locked: 0
+  - name: Minimap
+    uniqueID: 3590217605
+    locked: 0

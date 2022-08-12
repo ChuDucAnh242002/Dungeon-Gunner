@@ -14,7 +14,7 @@ Preset:
   m_Properties:
   - target: {fileID: 0}
     propertyPath: tags.Array.size
-    value: 10
+    value: 11
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: tags.Array.data[0]
@@ -55,6 +55,10 @@ Preset:
   - target: {fileID: 0}
     propertyPath: tags.Array.data[9]
     value: playerWeapon
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[10]
+    value: dfd
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: layers.Array.size
@@ -190,7 +194,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SortingLayers.Array.size
-    value: 8
+    value: 15
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SortingLayers.Array.data[0].name
@@ -278,7 +282,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SortingLayers.Array.data[7].name
-    value: Minimap
+    value: New Layer
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SortingLayers.Array.data[7].uniqueID
@@ -286,6 +290,90 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SortingLayers.Array.data[7].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[8].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[8].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[8].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[9].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[9].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[9].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[10].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[10].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[10].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[11].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[11].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[11].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[12].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[12].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[12].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[13].name
+    value: New Layer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[13].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[13].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[14].name
+    value: Minimap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[14].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[14].locked
     value: 0
     objectReference: {fileID: 0}
   m_ExcludedProperties: []
