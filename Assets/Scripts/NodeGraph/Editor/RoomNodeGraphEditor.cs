@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
@@ -7,6 +9,7 @@ public class RoomNodeGraphEditor : EditorWindow
 {
     private GUIStyle roomNodeStyle;
     private static RoomNodeGraphSO currentRoomNodeGraph;
+    private RoomNodeSO currentRoomNode = null;
     private RoomNodeTypeListSO roomNodeTypeList;
 
     private const float nodeWidth = 160f;
@@ -14,7 +17,7 @@ public class RoomNodeGraphEditor : EditorWindow
     private const int nodePadding = 25;
     private const int nodeBorder = 12;
 
-    [MenuItem("Room Node Graph Editor", menuItem ="Window/Dungeo Editor/Room Node Graph Editor")]
+    // [MenuItem("Room Node Graph Editor", menuItem ="Window/Dungeo Editor/Room Node Graph Editor")]
 
     private static void OpenWindow(){
         GetWindow<RoomNodeGraphEditor>("Room Node Graph Editor");
@@ -32,6 +35,7 @@ public class RoomNodeGraphEditor : EditorWindow
     }
 
 
+    // Double click on node graph to open the editor
     [OnOpenAsset(0)]
     public static bool OnDoubleClickAsset(int instanceId, int line){
         RoomNodeGraphSO roomNodeGraph = EditorUtility.InstanceIDToObject(instanceId) as RoomNodeGraphSO;
@@ -39,6 +43,7 @@ public class RoomNodeGraphEditor : EditorWindow
         if (roomNodeGraph != null){
             OpenWindow();
             currentRoomNodeGraph = roomNodeGraph;
+
             return true;
         }
         return false;
@@ -59,9 +64,33 @@ public class RoomNodeGraphEditor : EditorWindow
     }
 
     private void ProcessEvents(Event currentEvent){
-        ProcessRoomNodeGraphEvents(currentEvent);
+
+        if(currentRoomNode == null || currentRoomNode.isLeftClickDragging == false){
+            currentRoomNode = IsMouseOverRoomNode(currentEvent);
+        }
+
+        if (currentRoomNode == null){
+            ProcessRoomNodeGraphEvents(currentEvent);
+        } else {
+            currentRoomNode.ProcessEvents(currentEvent);
+        }
+        
     }
 
+    private RoomNodeSO IsMouseOverRoomNode(Event currentEvent){
+        List<RoomNodeSO> roomNodeList = currentRoomNodeGraph.roomNodeList;
+
+        for(int i = roomNodeList.Count - 1; i >= 0; i--){
+            if(roomNodeList[i].rect.Contains(currentEvent.mousePosition)){
+                return roomNodeList[i];
+            }
+        }
+
+        return null;
+    }
+
+
+//-------------------------------Graph event ------------------------------------------------//
     private void ProcessRoomNodeGraphEvents(Event currentEvent){
         switch(currentEvent.type){
 
@@ -75,6 +104,7 @@ public class RoomNodeGraphEditor : EditorWindow
     }
 
     private void ProcessMouseDownEvent(Event currentEvent){
+        // Right button down
         if(currentEvent.button == 1){
             ShowContextMenu(currentEvent.mousePosition);
         }
@@ -95,7 +125,8 @@ public class RoomNodeGraphEditor : EditorWindow
 
         RoomNodeSO roomNode = ScriptableObject.CreateInstance<RoomNodeSO>();
         currentRoomNodeGraph.roomNodeList.Add(roomNode);
-        roomNode.Initialise(new Rect(mousePosition, new Vector2(nodeWidth, nodeHeight)), currentRoomNodeGraph, roomNodeType);
+        Rect rect = new Rect(mousePosition, new Vector2(nodeWidth, nodeHeight));
+        roomNode.Initialise(rect, currentRoomNodeGraph, roomNodeType);
 
         AssetDatabase.AddObjectToAsset(roomNode, currentRoomNodeGraph);
         AssetDatabase.SaveAssets();
@@ -109,7 +140,7 @@ public class RoomNodeGraphEditor : EditorWindow
 
         GUI.changed = true;
     }
-
+//-------------------------------Graph event-------------------------------------------------//
 }
 
 
