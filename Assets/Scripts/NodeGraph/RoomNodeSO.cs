@@ -76,6 +76,9 @@ public class RoomNodeSO : ScriptableObject {
         if(currentEvent.button == 0){
             ProcessLeftClickDownEvent();
         }
+        else if(currentEvent.button == 1){
+            ProcessRightClickDownEvent(currentEvent);
+        }
     }
 
     private void ProcessLeftClickDownEvent(){
@@ -87,6 +90,10 @@ public class RoomNodeSO : ScriptableObject {
         } else {
             isSelected = true;
         }
+    }
+
+    private void ProcessRightClickDownEvent(Event currentEvent){
+        roomNodeGraph.SetNodeToDrawConnectionLineFrom(this, currentEvent.mousePosition);
     }
 
     private void ProcessMouseUpEvent(Event currentEvent){
@@ -117,6 +124,16 @@ public class RoomNodeSO : ScriptableObject {
     public void DragNode(Vector2 delta){
         rect.position += delta;
         EditorUtility.SetDirty(this);
+    }
+
+    public bool AddChildRoomNodeIDToRoomNode(string childID){
+        childRoomNodeIDList.Add(childID);
+        return true;
+    }
+
+    public bool AddParentRoomNodeIDToRoomNode(string parentID){
+        parentRoomNodeIDList.Add(parentID);
+        return true;
     }
 
 #endif
