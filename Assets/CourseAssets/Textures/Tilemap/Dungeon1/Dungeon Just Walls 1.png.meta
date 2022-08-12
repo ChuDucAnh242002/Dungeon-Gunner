@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: 3454760dd13340b4783c5ea8333039e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6162070526085049777
+    second: Dungeon 1 Just Walls 1 _0
+  - first:
+      213: -4495473622680796116
+    second: Dungeon 1 Just Walls 1 _1
+  - first:
+      213: 1615279105487152757
+    second: Dungeon 1 Just Walls 1 _2
+  - first:
+      213: 5605824068522982929
+    second: Dungeon 1 Just Walls 1 _3
+  - first:
+      213: 5069729331723833387
+    second: Dungeon 1 Just Walls 1 _4
+  - first:
+      213: 8541926092236651233
+    second: Dungeon 1 Just Walls 1 _5
+  - first:
+      213: 5804801839284477219
+    second: Dungeon 1 Just Walls 1 _6
+  - first:
+      213: 2199314040938421935
+    second: Dungeon 1 Just Walls 1 _7
+  - first:
+      213: 8372050437780869969
+    second: Dungeon 1 Just Walls 1 _8
+  - first:
+      213: -1250444574793123447
+    second: Dungeon 1 Just Walls 1 _9
+  - first:
+      213: 3871412518338856150
+    second: Dungeon 1 Just Walls 1 _10
+  - first:
+      213: -239326276606752776
+    second: Dungeon 1 Just Walls 1 _11
+  - first:
+      213: 7440442271893520993
+    second: Dungeon 1 Just Walls 1 _12
+  - first:
+      213: -718124497160432863
+    second: Dungeon 1 Just Walls 1 _13
+  - first:
+      213: 3989321126763408078
+    second: Dungeon 1 Just Walls 1 _14
+  - first:
+      213: 892792597321684573
+    second: Dungeon 1 Just Walls 1 _15
+  - first:
+      213: 3411486731330871778
+    second: Dungeon 1 Just Walls 1 _16
+  - first:
+      213: 6323204992116993556
+    second: Dungeon 1 Just Walls 1 _17
+  - first:
+      213: 5064580310575585611
+    second: Dungeon 1 Just Walls 1 _18
+  - first:
+      213: -3081454373881922583
+    second: Dungeon 1 Just Walls 1 _19
+  - first:
+      213: 4172561022056542921
+    second: Dungeon 1 Just Walls 1 _20
+  - first:
+      213: 42803655206434312
+    second: Dungeon 1 Just Walls 1 _21
+  - first:
+      213: 4846777978911229701
+    second: Dungeon 1 Just Walls 1 _22
+  - first:
+      213: 8601729037526228124
+    second: Dungeon 1 Just Walls 1 _23
+  - first:
+      213: -2652138618197243649
+    second: Dungeon 1 Just Walls 1 _24
+  - first:
+      213: -8236551097942277068
+    second: Dungeon 1 Just Walls 1 _25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd2434de72148550800000000000000
+      internalID: 6162070526085049777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2409f6ee8edc91c0800000000000000
+      internalID: -4495473622680796116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5762cafc9cf9a6610800000000000000
+      internalID: 1615279105487152757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eb5a51a43ebcd40800000000000000
+      internalID: 5605824068522982929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2017c477fb4b5640800000000000000
+      internalID: 5069729331723833387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaf76916840b8670800000000000000
+      internalID: 8541926092236651233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd516848cce8050800000000000000
+      internalID: 5804801839284477219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faed9afb778858e10800000000000000
+      internalID: 2199314040938421935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1531591248f7f2470800000000000000
+      internalID: 8372050437780869969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989342cc84785aee0800000000000000
+      internalID: -1250444574793123447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4869e7c250ab530800000000000000
+      internalID: 3871412518338856150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f70079f40ebdacf0800000000000000
+      internalID: -239326276606752776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162830c33d2c14760800000000000000
+      internalID: 7440442271893520993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1231f3a1395b806f0800000000000000
+      internalID: -718124497160432863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaa1bfad6aec5730800000000000000
+      internalID: 3989321126763408078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5615751326d36c00800000000000000
+      internalID: 892792597321684573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e16fe87b19085f20800000000000000
+      internalID: 3411486731330871778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2c15407980c750800000000000000
+      internalID: 6323204992116993556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b499b4c85f0094640800000000000000
+      internalID: 5064580310575585611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb13db2997c35d0800000000000000
+      internalID: -3081454373881922583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c23253742ae7e930800000000000000
+      internalID: 4172561022056542921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806faa792b1189000800000000000000
+      internalID: 42803655206434312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507803a74e6334340800000000000000
+      internalID: 4846777978911229701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd9e75cfa7f5770800000000000000
+      internalID: 8601729037526228124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff802477af5b13bd0800000000000000
+      internalID: -2652138618197243649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Just Walls 1 _25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4340cc06a64e1bd80800000000000000
+      internalID: -8236551097942277068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dungeon 1 Just Walls 1 _13: -718124497160432863
+      Dungeon 1 Just Walls 1 _25: -8236551097942277068
+      Dungeon 1 Just Walls 1 _3: 5605824068522982929
+      Dungeon 1 Just Walls 1 _17: 6323204992116993556
+      Dungeon 1 Just Walls 1 _7: 2199314040938421935
+      Dungeon 1 Just Walls 1 _0: 6162070526085049777
+      Dungeon 1 Just Walls 1 _12: 7440442271893520993
+      Dungeon 1 Just Walls 1 _4: 5069729331723833387
+      Dungeon 1 Just Walls 1 _10: 3871412518338856150
+      Dungeon 1 Just Walls 1 _1: -4495473622680796116
+      Dungeon 1 Just Walls 1 _23: 8601729037526228124
+      Dungeon 1 Just Walls 1 _2: 1615279105487152757
+      Dungeon 1 Just Walls 1 _20: 4172561022056542921
+      Dungeon 1 Just Walls 1 _15: 892792597321684573
+      Dungeon 1 Just Walls 1 _22: 4846777978911229701
+      Dungeon 1 Just Walls 1 _8: 8372050437780869969
+      Dungeon 1 Just Walls 1 _21: 42803655206434312
+      Dungeon 1 Just Walls 1 _9: -1250444574793123447
+      Dungeon 1 Just Walls 1 _19: -3081454373881922583
+      Dungeon 1 Just Walls 1 _11: -239326276606752776
+      Dungeon 1 Just Walls 1 _5: 8541926092236651233
+      Dungeon 1 Just Walls 1 _18: 5064580310575585611
+      Dungeon 1 Just Walls 1 _16: 3411486731330871778
+      Dungeon 1 Just Walls 1 _14: 3989321126763408078
+      Dungeon 1 Just Walls 1 _6: 5804801839284477219
+      Dungeon 1 Just Walls 1 _24: -2652138618197243649
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

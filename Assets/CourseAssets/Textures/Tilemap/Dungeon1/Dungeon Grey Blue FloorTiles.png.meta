@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 7cb8a0b917f3c1e4081ef91c5e91aea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4447544953748531885
+    second: Dungeon 1 Grey Blue FloorTiles_0
+  - first:
+      213: 7889712107559110725
+    second: Dungeon 1 Grey Blue FloorTiles_1
+  - first:
+      213: -9114218010320369014
+    second: Dungeon 1 Grey Blue FloorTiles_2
+  - first:
+      213: 6079387690313596609
+    second: Dungeon 1 Grey Blue FloorTiles_3
+  - first:
+      213: 3030872535547399396
+    second: Dungeon 1 Grey Blue FloorTiles_4
+  - first:
+      213: 7004090353008980292
+    second: Dungeon 1 Grey Blue FloorTiles_5
+  - first:
+      213: 925089261209211627
+    second: Dungeon 1 Grey Blue FloorTiles_6
+  - first:
+      213: 2580796408521108737
+    second: Dungeon 1 Grey Blue FloorTiles_7
+  - first:
+      213: 4989725107346662471
+    second: Dungeon 1 Grey Blue FloorTiles_8
+  - first:
+      213: 8772674262003436589
+    second: Dungeon 1 Grey Blue FloorTiles_9
+  - first:
+      213: 315116290407194049
+    second: Dungeon 1 Grey Blue FloorTiles_10
+  - first:
+      213: -6216574612444931914
+    second: Dungeon 1 Grey Blue FloorTiles_11
+  - first:
+      213: 1311790737047600909
+    second: Dungeon 1 Grey Blue FloorTiles_12
+  - first:
+      213: -1624220171234167695
+    second: Dungeon 1 Grey Blue FloorTiles_13
+  - first:
+      213: -2786616226488564432
+    second: Dungeon 1 Grey Blue FloorTiles_14
+  - first:
+      213: -5473904693087217661
+    second: Dungeon 1 Grey Blue FloorTiles_15
+  - first:
+      213: -8437179021390008265
+    second: Dungeon 1 Grey Blue FloorTiles_16
+  - first:
+      213: -7884084437948979564
+    second: Dungeon 1 Grey Blue FloorTiles_17
+  - first:
+      213: -5125405742281951745
+    second: Dungeon 1 Grey Blue FloorTiles_18
+  - first:
+      213: -6564022192571391180
+    second: Dungeon 1 Grey Blue FloorTiles_19
+  - first:
+      213: -8161245302076366625
+    second: Dungeon 1 Grey Blue FloorTiles_20
+  - first:
+      213: -1204574415092940296
+    second: Dungeon 1 Grey Blue FloorTiles_21
+  - first:
+      213: 6531926155698544796
+    second: Dungeon 1 Grey Blue FloorTiles_22
+  - first:
+      213: 8464623965901358713
+    second: Dungeon 1 Grey Blue FloorTiles_23
+  - first:
+      213: -7681029220278754239
+    second: Dungeon 1 Grey Blue FloorTiles_24
+  - first:
+      213: 4090803357112364463
+    second: Dungeon 1 Grey Blue FloorTiles_25
+  - first:
+      213: -6290652440441895363
+    second: Dungeon 1 Grey Blue FloorTiles_26
+  - first:
+      213: -5304559581440548062
+    second: Dungeon 1 Grey Blue FloorTiles_27
+  - first:
+      213: -7541761205100127888
+    second: Dungeon 1 Grey Blue FloorTiles_28
+  - first:
+      213: -8791944886584250180
+    second: Dungeon 1 Grey Blue FloorTiles_29
+  - first:
+      213: -5804165307027272594
+    second: Dungeon 1 Grey Blue FloorTiles_30
+  - first:
+      213: -6235474097566944171
+    second: Dungeon 1 Grey Blue FloorTiles_31
+  - first:
+      213: -2105502177270765041
+    second: Dungeon 1 Grey Blue FloorTiles_32
+  - first:
+      213: -5923550984377191380
+    second: Dungeon 1 Grey Blue FloorTiles_33
+  - first:
+      213: 1352732160383662221
+    second: Dungeon 1 Grey Blue FloorTiles_34
+  - first:
+      213: -5719479949266571937
+    second: Dungeon 1 Grey Blue FloorTiles_35
+  - first:
+      213: -1541661110354720645
+    second: Dungeon 1 Grey Blue FloorTiles_36
+  - first:
+      213: -2560866235012622273
+    second: Dungeon 1 Grey Blue FloorTiles_37
+  - first:
+      213: 8729997863859114083
+    second: Dungeon 1 Grey Blue FloorTiles_38
+  - first:
+      213: -2421779326365323385
+    second: Dungeon 1 Grey Blue FloorTiles_39
+  - first:
+      213: 8352226854836379435
+    second: Dungeon 1 Grey Blue FloorTiles_40
+  - first:
+      213: -2881625937868436251
+    second: Dungeon 1 Grey Blue FloorTiles_41
+  - first:
+      213: -7016770237956551791
+    second: Dungeon 1 Grey Blue FloorTiles_42
+  - first:
+      213: 1719976561195974346
+    second: Dungeon 1 Grey Blue FloorTiles_43
+  - first:
+      213: -1837687748328765566
+    second: Dungeon 1 Grey Blue FloorTiles_44
+  - first:
+      213: -847089501929509998
+    second: Dungeon 1 Grey Blue FloorTiles_45
+  - first:
+      213: -4456530738273303558
+    second: Dungeon 1 Grey Blue FloorTiles_46
+  - first:
+      213: 8525862660805758980
+    second: Dungeon 1 Grey Blue FloorTiles_47
+  - first:
+      213: -9164133923709698380
+    second: Dungeon 1 Grey Blue FloorTiles_48
+  - first:
+      213: -1493684641920232967
+    second: Dungeon 1 Grey Blue FloorTiles_49
+  - first:
+      213: -1310527407152314136
+    second: Dungeon 1 Grey Blue FloorTiles_50
+  - first:
+      213: 7373864946215628033
+    second: Dungeon 1 Grey Blue FloorTiles_51
+  - first:
+      213: 7337889566475299396
+    second: Dungeon 1 Grey Blue FloorTiles_52
+  - first:
+      213: -4079692413137260178
+    second: Dungeon 1 Grey Blue FloorTiles_53
+  - first:
+      213: 191566126913304426
+    second: Dungeon 1 Grey Blue FloorTiles_54
+  - first:
+      213: -743900497627408853
+    second: Dungeon 1 Grey Blue FloorTiles_55
+  - first:
+      213: -1795555693749960232
+    second: Dungeon 1 Grey Blue FloorTiles_56
+  - first:
+      213: -4455341558616740914
+    second: Dungeon 1 Grey Blue FloorTiles_57
+  - first:
+      213: -446588009943498969
+    second: Dungeon 1 Grey Blue FloorTiles_58
+  - first:
+      213: 5551437755894340120
+    second: Dungeon 1 Grey Blue FloorTiles_59
+  - first:
+      213: -2348054869996214634
+    second: Dungeon 1 Grey Blue FloorTiles_60
+  - first:
+      213: -1018410103236157313
+    second: Dungeon 1 Grey Blue FloorTiles_61
+  - first:
+      213: 7762894707831048408
+    second: Dungeon 1 Grey Blue FloorTiles_62
+  - first:
+      213: 791067228609909679
+    second: Dungeon 1 Grey Blue FloorTiles_63
+  - first:
+      213: 2246129609774580930
+    second: Dungeon 1 Grey Blue FloorTiles_64
+  - first:
+      213: 1030887453350936796
+    second: Dungeon 1 Grey Blue FloorTiles_65
+  - first:
+      213: -5725688927389871799
+    second: Dungeon 1 Grey Blue FloorTiles_66
+  - first:
+      213: 503809461006092288
+    second: Dungeon 1 Grey Blue FloorTiles_67
+  - first:
+      213: 6479925781785842030
+    second: Dungeon 1 Grey Blue FloorTiles_68
+  - first:
+      213: -4548264998621217947
+    second: Dungeon 1 Grey Blue FloorTiles_69
+  - first:
+      213: -3782306509387158577
+    second: Dungeon 1 Grey Blue FloorTiles_70
+  - first:
+      213: -392805832253475184
+    second: Dungeon 1 Grey Blue FloorTiles_71
+  - first:
+      213: 5230324174914615990
+    second: Dungeon 1 Grey Blue FloorTiles_72
+  - first:
+      213: -1777121073743559560
+    second: Dungeon 1 Grey Blue FloorTiles_73
+  - first:
+      213: -3524268420103490623
+    second: Dungeon 1 Grey Blue FloorTiles_74
+  - first:
+      213: -5688269714268326121
+    second: Dungeon 1 Grey Blue FloorTiles_75
+  - first:
+      213: -3572351005321720326
+    second: Dungeon 1 Grey Blue FloorTiles_76
+  - first:
+      213: -2742631706498128413
+    second: Dungeon 1 Grey Blue FloorTiles_77
+  - first:
+      213: -3184114021734412461
+    second: Dungeon 1 Grey Blue FloorTiles_78
+  - first:
+      213: 7030562541529541850
+    second: Dungeon 1 Grey Blue FloorTiles_79
+  - first:
+      213: 7284117940770659451
+    second: Dungeon 1 Grey Blue FloorTiles_80
+  - first:
+      213: -3933934766646641248
+    second: Dungeon 1 Grey Blue FloorTiles_81
+  - first:
+      213: 3131189769444367159
+    second: Dungeon 1 Grey Blue FloorTiles_82
+  - first:
+      213: 7171386772534762946
+    second: Dungeon 1 Grey Blue FloorTiles_83
+  - first:
+      213: -3484543937599158
+    second: Dungeon 1 Grey Blue FloorTiles_84
+  - first:
+      213: -2993896421632353628
+    second: Dungeon 1 Grey Blue FloorTiles_85
+  - first:
+      213: 8534117475776471456
+    second: Dungeon 1 Grey Blue FloorTiles_86
+  - first:
+      213: 766257503842962628
+    second: Dungeon 1 Grey Blue FloorTiles_87
+  - first:
+      213: -7905777077935247003
+    second: Dungeon 1 Grey Blue FloorTiles_88
+  - first:
+      213: -555826037024868466
+    second: Dungeon 1 Grey Blue FloorTiles_89
+  - first:
+      213: -983593219820358115
+    second: Dungeon 1 Grey Blue FloorTiles_90
+  - first:
+      213: -4905827811529936881
+    second: Dungeon 1 Grey Blue FloorTiles_91
+  - first:
+      213: 374202174368451682
+    second: Dungeon 1 Grey Blue FloorTiles_92
+  - first:
+      213: -1964420641429972358
+    second: Dungeon 1 Grey Blue FloorTiles_93
+  - first:
+      213: 7729090068161463394
+    second: Dungeon 1 Grey Blue FloorTiles_94
+  - first:
+      213: 8343062654255717588
+    second: Dungeon 1 Grey Blue FloorTiles_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa23c2429ad8bd30800000000000000
+      internalID: 4447544953748531885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548c82f3c53ed7d60800000000000000
+      internalID: 7889712107559110725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a0361420bc38180800000000000000
+      internalID: -9114218010320369014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce3605f4e25e5450800000000000000
+      internalID: 6079387690313596609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec4ac84382df0a20800000000000000
+      internalID: 3030872535547399396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44137d91117833160800000000000000
+      internalID: 7004090353008980292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be257ef18c396dc00800000000000000
+      internalID: 925089261209211627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d218fe8a4d0d320800000000000000
+      internalID: 2580796408521108737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744ee366c801f3540800000000000000
+      internalID: 4989725107346662471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c4decf2ccceb970800000000000000
+      internalID: 8772674262003436589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdd8a8b8948f5400800000000000000
+      internalID: 315116290407194049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b81289a35a4ab9a0800000000000000
+      internalID: -6216574612444931914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fbe55a9ba643210800000000000000
+      internalID: 1311790737047600909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17430981c5c9579e0800000000000000
+      internalID: -1624220171234167695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0354fce5e43f359d0800000000000000
+      internalID: -2786616226488564432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30851320fa8c804b0800000000000000
+      internalID: -5473904693087217661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730bba3d16e19ea80800000000000000
+      internalID: -8437179021390008265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496add0b9fa169290800000000000000
+      internalID: -7884084437948979564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5798902a6eed8b0800000000000000
+      internalID: -5125405742281951745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4336002f798e7e4a0800000000000000
+      internalID: -6564022192571391180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a9ec43ae6dbe80800000000000000
+      internalID: -8161245302076366625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f18cda93fd784fe0800000000000000
+      internalID: -1204574415092940296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ae712b3016aa50800000000000000
+      internalID: 6531926155698544796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9760fc446a2687570800000000000000
+      internalID: 8464623965901358713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a3e7be90876590800000000000000
+      internalID: -7681029220278754239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad68a2baf375c830800000000000000
+      internalID: 4090803357112364463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36440a4fec13b8a0800000000000000
+      internalID: -6290652440441895363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223675a5a2b6266b0800000000000000
+      internalID: -5304559581440548062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0795f255428465790800000000000000
+      internalID: -7541761205100127888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0755615bcbcf580800000000000000
+      internalID: -8791944886584250180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c4ef0b766737fa0800000000000000
+      internalID: -5804165307027272594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5547f5068552779a0800000000000000
+      internalID: -6235474097566944171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae6f9dce0c7c2e0800000000000000
+      internalID: -2105502177270765041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24384793c15bcda0800000000000000
+      internalID: -5923550984377191380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d883ae79bbed5c210800000000000000
+      internalID: 1352732160383662221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2ffb0a4350a0b0800000000000000
+      internalID: -5719479949266571937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78c541636bea9ae0800000000000000
+      internalID: -1541661110354720645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d7c03ab9f57cd0800000000000000
+      internalID: -2560866235012622273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360dd3dbdce272970800000000000000
+      internalID: 8729997863859114083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2c97a88c146ed0800000000000000
+      internalID: -2421779326365323385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f100e821219e370800000000000000
+      internalID: 8352226854836379435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eccccd1a786208d0800000000000000
+      internalID: -2881625937868436251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b011025ac6f9e90800000000000000
+      internalID: -7016770237956551791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace7510d1959ed710800000000000000
+      internalID: 1719976561195974346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c6c8bab83f76e0800000000000000
+      internalID: -1837687748328765566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b678806988e34f0800000000000000
+      internalID: -847089501929509998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34c9eb7e83722c0800000000000000
+      internalID: -4456530738273303558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40018150be2f15670800000000000000
+      internalID: 8525862660805758980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be3d2300c472d080800000000000000
+      internalID: -9164133923709698380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f153e76bbd554be0800000000000000
+      internalID: -1493684641920232967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8c544444210dde0800000000000000
+      internalID: -1310527407152314136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d23e4a91b355660800000000000000
+      internalID: 7373864946215628033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a2ec2deab65d560800000000000000
+      internalID: 7337889566475299396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61f81a8d550267c0800000000000000
+      internalID: -4079692413137260178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673aa1a06498a200800000000000000
+      internalID: 191566126913304426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b269ea250722da5f0800000000000000
+      internalID: -743900497627408853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18a9b1c97e417e0800000000000000
+      internalID: -1795555693749960232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb2d9535727b22c0800000000000000
+      internalID: -4455341558616740914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f7e5232966dc9f0800000000000000
+      internalID: -446588009943498969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a16c8e93baa0d40800000000000000
+      internalID: 5551437755894340120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696efb849880a6fd0800000000000000
+      internalID: -2348054869996214634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70a0f82861edd1f0800000000000000
+      internalID: -1018410103236157313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d887017b975bbb60800000000000000
+      internalID: 7762894707831048408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa31fb2047f6afa00800000000000000
+      internalID: 791067228609909679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c916cafadb2f10800000000000000
+      internalID: 2246129609774580930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c36c4da27e4e00800000000000000
+      internalID: 1030887453350936796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9411a8ca1444a80b0800000000000000
+      internalID: -5725688927389871799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008cfb51904edf600800000000000000
+      internalID: 503809461006092288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e619d3a9a225de950800000000000000
+      internalID: 6479925781785842030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bf6dcd41151e0c0800000000000000
+      internalID: -4548264998621217947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba45ce44c828bc0800000000000000
+      internalID: -3782306509387158577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09674de3d297c8af0800000000000000
+      internalID: -392805832253475184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba7ce92028d59840800000000000000
+      internalID: 5230324174914615990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87487ac8cc56657e0800000000000000
+      internalID: -1777121073743559560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3ba965b88471fc0800000000000000
+      internalID: -3524268420103490623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7177c6625d43f01b0800000000000000
+      internalID: -5688269714268326121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0ac210b57c6ec0800000000000000
+      internalID: -3572351005321720326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5a4787ef630f9d0800000000000000
+      internalID: -2742631706498128413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f0e2ada21cfc3d0800000000000000
+      internalID: -3184114021734412461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc290bc163919160800000000000000
+      internalID: 7030562541529541850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c5fa99ca2661560800000000000000
+      internalID: 7284117940770659451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adb7703c2bd769c0800000000000000
+      internalID: -3933934766646641248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b911c6188347b20800000000000000
+      internalID: 3131189769444367159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd9ed32642e58360800000000000000
+      internalID: 7171386772534762946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49256463de93fff0800000000000000
+      internalID: -3484543937599158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa5a4e111b8376d0800000000000000
+      internalID: -2993896421632353628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a12c17e0a64f6670800000000000000
+      internalID: 8534117475776471456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc8903d32b42aa00800000000000000
+      internalID: 766257503842962628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5617e3c52a9094290800000000000000
+      internalID: -7905777077935247003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87383a0a2f4948f0800000000000000
+      internalID: -555826037024868466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ff198d239952f0800000000000000
+      internalID: -983593219820358115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00b68cf89ffaebb0800000000000000
+      internalID: -4905827811529936881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c096d15ee613500800000000000000
+      internalID: 374202174368451682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a1f16a5d9fcb4e0800000000000000
+      internalID: -1964420641429972358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26483cd677e334b60800000000000000
+      internalID: 7729090068161463394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Grey Blue FloorTiles_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc5db5d74388c370800000000000000
+      internalID: 8343062654255717588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dungeon 1 Grey Blue FloorTiles_55: -743900497627408853
+      Dungeon 1 Grey Blue FloorTiles_4: 3030872535547399396
+      Dungeon 1 Grey Blue FloorTiles_18: -5125405742281951745
+      Dungeon 1 Grey Blue FloorTiles_95: 8343062654255717588
+      Dungeon 1 Grey Blue FloorTiles_3: 6079387690313596609
+      Dungeon 1 Grey Blue FloorTiles_66: -5725688927389871799
+      Dungeon 1 Grey Blue FloorTiles_44: -1837687748328765566
+      Dungeon 1 Grey Blue FloorTiles_1: 7889712107559110725
+      Dungeon 1 Grey Blue FloorTiles_26: -6290652440441895363
+      Dungeon 1 Grey Blue FloorTiles_63: 791067228609909679
+      Dungeon 1 Grey Blue FloorTiles_24: -7681029220278754239
+      Dungeon 1 Grey Blue FloorTiles_56: -1795555693749960232
+      Dungeon 1 Grey Blue FloorTiles_88: -7905777077935247003
+      Dungeon 1 Grey Blue FloorTiles_54: 191566126913304426
+      Dungeon 1 Grey Blue FloorTiles_42: -7016770237956551791
+      Dungeon 1 Grey Blue FloorTiles_93: -1964420641429972358
+      Dungeon 1 Grey Blue FloorTiles_72: 5230324174914615990
+      Dungeon 1 Grey Blue FloorTiles_29: -8791944886584250180
+      Dungeon 1 Grey Blue FloorTiles_58: -446588009943498969
+      Dungeon 1 Grey Blue FloorTiles_21: -1204574415092940296
+      Dungeon 1 Grey Blue FloorTiles_8: 4989725107346662471
+      Dungeon 1 Grey Blue FloorTiles_50: -1310527407152314136
+      Dungeon 1 Grey Blue FloorTiles_49: -1493684641920232967
+      Dungeon 1 Grey Blue FloorTiles_48: -9164133923709698380
+      Dungeon 1 Grey Blue FloorTiles_89: -555826037024868466
+      Dungeon 1 Grey Blue FloorTiles_39: -2421779326365323385
+      Dungeon 1 Grey Blue FloorTiles_76: -3572351005321720326
+      Dungeon 1 Grey Blue FloorTiles_75: -5688269714268326121
+      Dungeon 1 Grey Blue FloorTiles_9: 8772674262003436589
+      Dungeon 1 Grey Blue FloorTiles_28: -7541761205100127888
+      Dungeon 1 Grey Blue FloorTiles_79: 7030562541529541850
+      Dungeon 1 Grey Blue FloorTiles_25: 4090803357112364463
+      Dungeon 1 Grey Blue FloorTiles_30: -5804165307027272594
+      Dungeon 1 Grey Blue FloorTiles_60: -2348054869996214634
+      Dungeon 1 Grey Blue FloorTiles_73: -1777121073743559560
+      Dungeon 1 Grey Blue FloorTiles_14: -2786616226488564432
+      Dungeon 1 Grey Blue FloorTiles_53: -4079692413137260178
+      Dungeon 1 Grey Blue FloorTiles_10: 315116290407194049
+      Dungeon 1 Grey Blue FloorTiles_65: 1030887453350936796
+      Dungeon 1 Grey Blue FloorTiles_90: -983593219820358115
+      Dungeon 1 Grey Blue FloorTiles_46: -4456530738273303558
+      Dungeon 1 Grey Blue FloorTiles_47: 8525862660805758980
+      Dungeon 1 Grey Blue FloorTiles_0: 4447544953748531885
+      Dungeon 1 Grey Blue FloorTiles_33: -5923550984377191380
+      Dungeon 1 Grey Blue FloorTiles_37: -2560866235012622273
+      Dungeon 1 Grey Blue FloorTiles_69: -4548264998621217947
+      Dungeon 1 Grey Blue FloorTiles_57: -4455341558616740914
+      Dungeon 1 Grey Blue FloorTiles_91: -4905827811529936881
+      Dungeon 1 Grey Blue FloorTiles_20: -8161245302076366625
+      Dungeon 1 Grey Blue FloorTiles_71: -392805832253475184
+      Dungeon 1 Grey Blue FloorTiles_23: 8464623965901358713
+      Dungeon 1 Grey Blue FloorTiles_92: 374202174368451682
+      Dungeon 1 Grey Blue FloorTiles_35: -5719479949266571937
+      Dungeon 1 Grey Blue FloorTiles_85: -2993896421632353628
+      Dungeon 1 Grey Blue FloorTiles_83: 7171386772534762946
+      Dungeon 1 Grey Blue FloorTiles_86: 8534117475776471456
+      Dungeon 1 Grey Blue FloorTiles_81: -3933934766646641248
+      Dungeon 1 Grey Blue FloorTiles_19: -6564022192571391180
+      Dungeon 1 Grey Blue FloorTiles_61: -1018410103236157313
+      Dungeon 1 Grey Blue FloorTiles_2: -9114218010320369014
+      Dungeon 1 Grey Blue FloorTiles_5: 7004090353008980292
+      Dungeon 1 Grey Blue FloorTiles_16: -8437179021390008265
+      Dungeon 1 Grey Blue FloorTiles_80: 7284117940770659451
+      Dungeon 1 Grey Blue FloorTiles_13: -1624220171234167695
+      Dungeon 1 Grey Blue FloorTiles_51: 7373864946215628033
+      Dungeon 1 Grey Blue FloorTiles_43: 1719976561195974346
+      Dungeon 1 Grey Blue FloorTiles_6: 925089261209211627
+      Dungeon 1 Grey Blue FloorTiles_62: 7762894707831048408
+      Dungeon 1 Grey Blue FloorTiles_84: -3484543937599158
+      Dungeon 1 Grey Blue FloorTiles_15: -5473904693087217661
+      Dungeon 1 Grey Blue FloorTiles_94: 7729090068161463394
+      Dungeon 1 Grey Blue FloorTiles_7: 2580796408521108737
+      Dungeon 1 Grey Blue FloorTiles_68: 6479925781785842030
+      Dungeon 1 Grey Blue FloorTiles_87: 766257503842962628
+      Dungeon 1 Grey Blue FloorTiles_31: -6235474097566944171
+      Dungeon 1 Grey Blue FloorTiles_34: 1352732160383662221
+      Dungeon 1 Grey Blue FloorTiles_38: 8729997863859114083
+      Dungeon 1 Grey Blue FloorTiles_78: -3184114021734412461
+      Dungeon 1 Grey Blue FloorTiles_59: 5551437755894340120
+      Dungeon 1 Grey Blue FloorTiles_64: 2246129609774580930
+      Dungeon 1 Grey Blue FloorTiles_74: -3524268420103490623
+      Dungeon 1 Grey Blue FloorTiles_40: 8352226854836379435
+      Dungeon 1 Grey Blue FloorTiles_70: -3782306509387158577
+      Dungeon 1 Grey Blue FloorTiles_41: -2881625937868436251
+      Dungeon 1 Grey Blue FloorTiles_17: -7884084437948979564
+      Dungeon 1 Grey Blue FloorTiles_36: -1541661110354720645
+      Dungeon 1 Grey Blue FloorTiles_52: 7337889566475299396
+      Dungeon 1 Grey Blue FloorTiles_12: 1311790737047600909
+      Dungeon 1 Grey Blue FloorTiles_82: 3131189769444367159
+      Dungeon 1 Grey Blue FloorTiles_11: -6216574612444931914
+      Dungeon 1 Grey Blue FloorTiles_77: -2742631706498128413
+      Dungeon 1 Grey Blue FloorTiles_27: -5304559581440548062
+      Dungeon 1 Grey Blue FloorTiles_45: -847089501929509998
+      Dungeon 1 Grey Blue FloorTiles_22: 6531926155698544796
+      Dungeon 1 Grey Blue FloorTiles_32: -2105502177270765041
+      Dungeon 1 Grey Blue FloorTiles_67: 503809461006092288
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

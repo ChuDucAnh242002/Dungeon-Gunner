@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: bd551840dad68ba4dac6073b83aef672
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6962024235574432378
+    second: Dungeon 1 Light GreyFloorTiles_0
+  - first:
+      213: -3469639153013416700
+    second: Dungeon 1 Light GreyFloorTiles_1
+  - first:
+      213: 7230767979851012275
+    second: Dungeon 1 Light GreyFloorTiles_2
+  - first:
+      213: -3658912855431561750
+    second: Dungeon 1 Light GreyFloorTiles_3
+  - first:
+      213: -804128166861641518
+    second: Dungeon 1 Light GreyFloorTiles_4
+  - first:
+      213: 2703265861633472090
+    second: Dungeon 1 Light GreyFloorTiles_5
+  - first:
+      213: 7873222272774522170
+    second: Dungeon 1 Light GreyFloorTiles_6
+  - first:
+      213: -7595927470688620164
+    second: Dungeon 1 Light GreyFloorTiles_7
+  - first:
+      213: -8681735450699874502
+    second: Dungeon 1 Light GreyFloorTiles_8
+  - first:
+      213: 7148007888738741988
+    second: Dungeon 1 Light GreyFloorTiles_9
+  - first:
+      213: -1380133744640104451
+    second: Dungeon 1 Light GreyFloorTiles_10
+  - first:
+      213: 1992854515169707872
+    second: Dungeon 1 Light GreyFloorTiles_11
+  - first:
+      213: 6912346139504665284
+    second: Dungeon 1 Light GreyFloorTiles_12
+  - first:
+      213: -4690837374212519372
+    second: Dungeon 1 Light GreyFloorTiles_13
+  - first:
+      213: 9032580009502328215
+    second: Dungeon 1 Light GreyFloorTiles_14
+  - first:
+      213: -6135218634265372631
+    second: Dungeon 1 Light GreyFloorTiles_15
+  - first:
+      213: 3836543287091468556
+    second: Dungeon 1 Light GreyFloorTiles_16
+  - first:
+      213: -8167420835304841994
+    second: Dungeon 1 Light GreyFloorTiles_17
+  - first:
+      213: -886806711151911853
+    second: Dungeon 1 Light GreyFloorTiles_18
+  - first:
+      213: 3778492018716960314
+    second: Dungeon 1 Light GreyFloorTiles_19
+  - first:
+      213: -6656611166030793658
+    second: Dungeon 1 Light GreyFloorTiles_20
+  - first:
+      213: -9116442590146170757
+    second: Dungeon 1 Light GreyFloorTiles_21
+  - first:
+      213: 718087693099511767
+    second: Dungeon 1 Light GreyFloorTiles_22
+  - first:
+      213: 256396452572333384
+    second: Dungeon 1 Light GreyFloorTiles_23
+  - first:
+      213: 5988044140066055487
+    second: Dungeon 1 Light GreyFloorTiles_24
+  - first:
+      213: 1414193097696209716
+    second: Dungeon 1 Light GreyFloorTiles_25
+  - first:
+      213: 7921791948918745576
+    second: Dungeon 1 Light GreyFloorTiles_26
+  - first:
+      213: 5784071783585228400
+    second: Dungeon 1 Light GreyFloorTiles_27
+  - first:
+      213: -4500314909230099669
+    second: Dungeon 1 Light GreyFloorTiles_28
+  - first:
+      213: 1475079078693426232
+    second: Dungeon 1 Light GreyFloorTiles_29
+  - first:
+      213: 7995698152905349077
+    second: Dungeon 1 Light GreyFloorTiles_30
+  - first:
+      213: -3882597543808361102
+    second: Dungeon 1 Light GreyFloorTiles_31
+  - first:
+      213: -3368681741200034616
+    second: Dungeon 1 Light GreyFloorTiles_32
+  - first:
+      213: 756714243298640510
+    second: Dungeon 1 Light GreyFloorTiles_33
+  - first:
+      213: -3276320060286551089
+    second: Dungeon 1 Light GreyFloorTiles_34
+  - first:
+      213: 1142280471885745493
+    second: Dungeon 1 Light GreyFloorTiles_35
+  - first:
+      213: 1913673906157401993
+    second: Dungeon 1 Light GreyFloorTiles_36
+  - first:
+      213: -6334561973753623820
+    second: Dungeon 1 Light GreyFloorTiles_37
+  - first:
+      213: -3580113466758024261
+    second: Dungeon 1 Light GreyFloorTiles_38
+  - first:
+      213: 4371438269871312877
+    second: Dungeon 1 Light GreyFloorTiles_39
+  - first:
+      213: -6534946240794541599
+    second: Dungeon 1 Light GreyFloorTiles_40
+  - first:
+      213: 7743658312286599867
+    second: Dungeon 1 Light GreyFloorTiles_41
+  - first:
+      213: -236703416455007031
+    second: Dungeon 1 Light GreyFloorTiles_42
+  - first:
+      213: -415221327490388965
+    second: Dungeon 1 Light GreyFloorTiles_43
+  - first:
+      213: -2665096081464269094
+    second: Dungeon 1 Light GreyFloorTiles_44
+  - first:
+      213: 1439892713380696586
+    second: Dungeon 1 Light GreyFloorTiles_45
+  - first:
+      213: 8700658286718382455
+    second: Dungeon 1 Light GreyFloorTiles_46
+  - first:
+      213: 2839820411108430931
+    second: Dungeon 1 Light GreyFloorTiles_47
+  - first:
+      213: -2281977527065600458
+    second: Dungeon 1 Light GreyFloorTiles_48
+  - first:
+      213: -7784136461868414990
+    second: Dungeon 1 Light GreyFloorTiles_49
+  - first:
+      213: 2886831673067585322
+    second: Dungeon 1 Light GreyFloorTiles_50
+  - first:
+      213: 5821403641249185799
+    second: Dungeon 1 Light GreyFloorTiles_51
+  - first:
+      213: -4931491750181830517
+    second: Dungeon 1 Light GreyFloorTiles_52
+  - first:
+      213: 3610044945396970395
+    second: Dungeon 1 Light GreyFloorTiles_53
+  - first:
+      213: 5037525864148439797
+    second: Dungeon 1 Light GreyFloorTiles_54
+  - first:
+      213: 2998145119443949474
+    second: Dungeon 1 Light GreyFloorTiles_55
+  - first:
+      213: -6066921842887098117
+    second: Dungeon 1 Light GreyFloorTiles_56
+  - first:
+      213: 1019595906932143297
+    second: Dungeon 1 Light GreyFloorTiles_57
+  - first:
+      213: 8045846248457973520
+    second: Dungeon 1 Light GreyFloorTiles_58
+  - first:
+      213: -2338071127855064962
+    second: Dungeon 1 Light GreyFloorTiles_59
+  - first:
+      213: -8082518874353860806
+    second: Dungeon 1 Light GreyFloorTiles_60
+  - first:
+      213: 2173648951597189249
+    second: Dungeon 1 Light GreyFloorTiles_61
+  - first:
+      213: -5003892740038483104
+    second: Dungeon 1 Light GreyFloorTiles_62
+  - first:
+      213: -1834223136834497383
+    second: Dungeon 1 Light GreyFloorTiles_63
+  - first:
+      213: 1471720627163339865
+    second: Dungeon 1 Light GreyFloorTiles_64
+  - first:
+      213: 2536756882845564297
+    second: Dungeon 1 Light GreyFloorTiles_65
+  - first:
+      213: -4680784396884763467
+    second: Dungeon 1 Light GreyFloorTiles_66
+  - first:
+      213: -6546358628293377156
+    second: Dungeon 1 Light GreyFloorTiles_67
+  - first:
+      213: -5030259167896931310
+    second: Dungeon 1 Light GreyFloorTiles_68
+  - first:
+      213: -5762335144744587192
+    second: Dungeon 1 Light GreyFloorTiles_69
+  - first:
+      213: 3201026181741816196
+    second: Dungeon 1 Light GreyFloorTiles_70
+  - first:
+      213: -390679825096108217
+    second: Dungeon 1 Light GreyFloorTiles_71
+  - first:
+      213: 1114980998705288570
+    second: Dungeon 1 Light GreyFloorTiles_72
+  - first:
+      213: 7097994886798797061
+    second: Dungeon 1 Light GreyFloorTiles_73
+  - first:
+      213: 4327342715393005578
+    second: Dungeon 1 Light GreyFloorTiles_74
+  - first:
+      213: -7004911927133429351
+    second: Dungeon 1 Light GreyFloorTiles_75
+  - first:
+      213: 1047489297942384392
+    second: Dungeon 1 Light GreyFloorTiles_76
+  - first:
+      213: 8284420894386570856
+    second: Dungeon 1 Light GreyFloorTiles_77
+  - first:
+      213: 3725774696649637814
+    second: Dungeon 1 Light GreyFloorTiles_78
+  - first:
+      213: -5548910817109482352
+    second: Dungeon 1 Light GreyFloorTiles_79
+  - first:
+      213: -3082896063331448163
+    second: Dungeon 1 Light GreyFloorTiles_80
+  - first:
+      213: -7728096957749112827
+    second: Dungeon 1 Light GreyFloorTiles_81
+  - first:
+      213: 3185535266414503083
+    second: Dungeon 1 Light GreyFloorTiles_82
+  - first:
+      213: -4295632179309861215
+    second: Dungeon 1 Light GreyFloorTiles_83
+  - first:
+      213: 4086859132145030990
+    second: Dungeon 1 Light GreyFloorTiles_84
+  - first:
+      213: -5238523733524572906
+    second: Dungeon 1 Light GreyFloorTiles_85
+  - first:
+      213: 5941856647493035486
+    second: Dungeon 1 Light GreyFloorTiles_86
+  - first:
+      213: -5354787477644924278
+    second: Dungeon 1 Light GreyFloorTiles_87
+  - first:
+      213: 8036151549895434218
+    second: Dungeon 1 Light GreyFloorTiles_88
+  - first:
+      213: 6379847023544207758
+    second: Dungeon 1 Light GreyFloorTiles_89
+  - first:
+      213: -8580750686556667372
+    second: Dungeon 1 Light GreyFloorTiles_90
+  - first:
+      213: -4506578786895067630
+    second: Dungeon 1 Light GreyFloorTiles_91
+  - first:
+      213: -7646606482365603401
+    second: Dungeon 1 Light GreyFloorTiles_92
+  - first:
+      213: 1346276897027952006
+    second: Dungeon 1 Light GreyFloorTiles_93
+  - first:
+      213: -5314594360432280923
+    second: Dungeon 1 Light GreyFloorTiles_94
+  - first:
+      213: -214400295249368985
+    second: Dungeon 1 Light GreyFloorTiles_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721317e7241e9060800000000000000
+      internalID: 6962024235574432378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d19d1c29d59dfc0800000000000000
+      internalID: -3469639153013416700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8d94cda29d85460800000000000000
+      internalID: 7230767979851012275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed34ebc42ee83dc0800000000000000
+      internalID: -3658912855431561750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8635451b927d4f0800000000000000
+      internalID: -804128166861641518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567a188afde38520800000000000000
+      internalID: 2703265861633472090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a354b6661fd434d60800000000000000
+      internalID: 7873222272774522170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7139f9d538d59690800000000000000
+      internalID: -7595927470688620164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3e1bfa97448780800000000000000
+      internalID: -8681735450699874502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee66f39d43d23360800000000000000
+      internalID: 7148007888738741988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df76238eba7c8dce0800000000000000
+      internalID: -1380133744640104451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06749b97f9a08ab10800000000000000
+      internalID: 1992854515169707872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e7b1d0369def50800000000000000
+      internalID: 6912346139504665284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43acfe2e24cc6eeb0800000000000000
+      internalID: -4690837374212519372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954ea779ab2a5d70800000000000000
+      internalID: 9032580009502328215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928514d68235bdaa0800000000000000
+      internalID: -6135218634265372631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c091f70fac32e3530800000000000000
+      internalID: 3836543287091468556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcd78ce50e77ae80800000000000000
+      internalID: -8167420835304841994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c9b55aefd61b3f0800000000000000
+      internalID: -886806711151911853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36e542c876ef6430800000000000000
+      internalID: 3778492018716960314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644f5d8a967fe93a0800000000000000
+      internalID: -6656611166030793658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b707817e3c3eb7180800000000000000
+      internalID: -9116442590146170757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa6c8c3f827f900800000000000000
+      internalID: 718087693099511767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8458e351737ee8300800000000000000
+      internalID: 256396452572333384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f352ffb5b6ec91350800000000000000
+      internalID: 5988044140066055487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bedff212930a310800000000000000
+      internalID: 1414193097696209716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9e9db5ecbdfed60800000000000000
+      internalID: 7921791948918745576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07625ff44a6254050800000000000000
+      internalID: 5784071783585228400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2312f90f6bab81c0800000000000000
+      internalID: -4500314909230099669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d1255b98887410800000000000000
+      internalID: 1475079078693426232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79b276b1d66fe60800000000000000
+      internalID: 7995698152905349077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d9f73da1e3e1ac0800000000000000
+      internalID: -3882597543808361102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c47d6eedc90041d0800000000000000
+      internalID: -3368681741200034616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e724b445893608a00800000000000000
+      internalID: 756714243298640510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb322c834c2882d0800000000000000
+      internalID: -3276320060286551089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d8d9089023adf00800000000000000
+      internalID: 1142280471885745493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9873270574cbe8a10800000000000000
+      internalID: 1913673906157401993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fac7b2627d1718a0800000000000000
+      internalID: -6334561973753623820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3bb4e25c1e05ec0800000000000000
+      internalID: -3580113466758024261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def4a3112f77aac30800000000000000
+      internalID: 4371438269871312877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1ca2384053f45a0800000000000000
+      internalID: -6534946240794541599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaf7d51530077b60800000000000000
+      internalID: 7743658312286599867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f3113f7f07bcf0800000000000000
+      internalID: -236703416455007031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce4cf0766dc3af0800000000000000
+      internalID: -415221327490388965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad66904fb3da30bd0800000000000000
+      internalID: -2665096081464269094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02dabf3bc68bf310800000000000000
+      internalID: 1439892713380696586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77178eb1d92feb870800000000000000
+      internalID: 8700658286718382455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354950e2e91196720800000000000000
+      internalID: 2839820411108430931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e94d19789c450e0800000000000000
+      internalID: -2281977527065600458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7ca2b412139f390800000000000000
+      internalID: -7784136461868414990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f3a8f8c16101820800000000000000
+      internalID: 2886831673067585322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700c2d2c4c7c9c050800000000000000
+      internalID: 5821403641249185799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8084a1a162df8bb0800000000000000
+      internalID: -4931491750181830517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b49140c4791230800000000000000
+      internalID: 3610044945396970395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2196f5513e8e540800000000000000
+      internalID: 5037525864148439797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7178de91d8b9920800000000000000
+      internalID: 2998145119443949474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf008a25ab6fdcba0800000000000000
+      internalID: -6066921842887098117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4f1274315562e00800000000000000
+      internalID: 1019595906932143297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2fb4c88698af60800000000000000
+      internalID: 8045846248457973520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e781a9462b08d8fd0800000000000000
+      internalID: -2338071127855064962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f7fb328ef15df80800000000000000
+      internalID: -8082518874353860806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c95a743a5a2e10800000000000000
+      internalID: 2173648951597189249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a9df801a9e8ab0800000000000000
+      internalID: -5003892740038483104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9945d2276c78b86e0800000000000000
+      internalID: -1834223136834497383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c9fa6ec1a9c6410800000000000000
+      internalID: 1471720627163339865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d7983d1fe543320800000000000000
+      internalID: 2536756882845564297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1e7114638a0fb0800000000000000
+      internalID: -4680784396884763467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73824cf289a625a0800000000000000
+      internalID: -6546358628293377156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f95130fde03ab0800000000000000
+      internalID: -5030259167896931310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840ffbc47b21800b0800000000000000
+      internalID: -5762335144744587192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489227f3a545c6c20800000000000000
+      internalID: 3201026181741816196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7471c3cd4c6049af0800000000000000
+      internalID: -390679825096108217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7593279f45397f00800000000000000
+      internalID: 1114980998705288570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5096e252eb4218260800000000000000
+      internalID: 7097994886798797061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08df5cb54fcd0c30800000000000000
+      internalID: 4327342715393005578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991a05447bd89ce90800000000000000
+      internalID: -7004911927133429351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f01e577fd698e00800000000000000
+      internalID: 1047489297942384392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8664cb329ec28f270800000000000000
+      internalID: 8284420894386570856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb0fab85c94b330800000000000000
+      internalID: 3725774696649637814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094eddfd20f4ef2b0800000000000000
+      internalID: -5548910817109482352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acda14d5a5735d0800000000000000
+      internalID: -3082896063331448163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500569b13c840c490800000000000000
+      internalID: -7728096957749112827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4ad16727b453c20800000000000000
+      internalID: 3185535266414503083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6af7aca49d264c0800000000000000
+      internalID: -4295632179309861215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d0924ab077b830800000000000000
+      internalID: 4086859132145030990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61590d35b660d47b0800000000000000
+      internalID: -5238523733524572906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ad1cb327b57250800000000000000
+      internalID: 5941856647493035486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa343f829ffa5b0800000000000000
+      internalID: -5354787477644924278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefd8bcd145268f60800000000000000
+      internalID: 8036151549895434218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e898fa7e015c98850800000000000000
+      internalID: 6379847023544207758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412c99d96bc0be880800000000000000
+      internalID: -8580750686556667372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160fce587a6571c0800000000000000
+      internalID: -4506578786895067630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b12661faebc1e590800000000000000
+      internalID: -7646606482365603401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d8aa874bfeea210800000000000000
+      internalID: 1346276897027952006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aab32d4694ce36b0800000000000000
+      internalID: -5314594360432280923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon 1 Light GreyFloorTiles_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682ce1411c460df0800000000000000
+      internalID: -214400295249368985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dungeon 1 Light GreyFloorTiles_56: -6066921842887098117
+      Dungeon 1 Light GreyFloorTiles_66: -4680784396884763467
+      Dungeon 1 Light GreyFloorTiles_68: -5030259167896931310
+      Dungeon 1 Light GreyFloorTiles_18: -886806711151911853
+      Dungeon 1 Light GreyFloorTiles_34: -3276320060286551089
+      Dungeon 1 Light GreyFloorTiles_39: 4371438269871312877
+      Dungeon 1 Light GreyFloorTiles_25: 1414193097696209716
+      Dungeon 1 Light GreyFloorTiles_69: -5762335144744587192
+      Dungeon 1 Light GreyFloorTiles_73: 7097994886798797061
+      Dungeon 1 Light GreyFloorTiles_64: 1471720627163339865
+      Dungeon 1 Light GreyFloorTiles_63: -1834223136834497383
+      Dungeon 1 Light GreyFloorTiles_0: 6962024235574432378
+      Dungeon 1 Light GreyFloorTiles_79: -5548910817109482352
+      Dungeon 1 Light GreyFloorTiles_93: 1346276897027952006
+      Dungeon 1 Light GreyFloorTiles_31: -3882597543808361102
+      Dungeon 1 Light GreyFloorTiles_74: 4327342715393005578
+      Dungeon 1 Light GreyFloorTiles_44: -2665096081464269094
+      Dungeon 1 Light GreyFloorTiles_14: 9032580009502328215
+      Dungeon 1 Light GreyFloorTiles_21: -9116442590146170757
+      Dungeon 1 Light GreyFloorTiles_49: -7784136461868414990
+      Dungeon 1 Light GreyFloorTiles_15: -6135218634265372631
+      Dungeon 1 Light GreyFloorTiles_67: -6546358628293377156
+      Dungeon 1 Light GreyFloorTiles_52: -4931491750181830517
+      Dungeon 1 Light GreyFloorTiles_19: 3778492018716960314
+      Dungeon 1 Light GreyFloorTiles_27: 5784071783585228400
+      Dungeon 1 Light GreyFloorTiles_62: -5003892740038483104
+      Dungeon 1 Light GreyFloorTiles_77: 8284420894386570856
+      Dungeon 1 Light GreyFloorTiles_88: 8036151549895434218
+      Dungeon 1 Light GreyFloorTiles_22: 718087693099511767
+      Dungeon 1 Light GreyFloorTiles_41: 7743658312286599867
+      Dungeon 1 Light GreyFloorTiles_89: 6379847023544207758
+      Dungeon 1 Light GreyFloorTiles_10: -1380133744640104451
+      Dungeon 1 Light GreyFloorTiles_16: 3836543287091468556
+      Dungeon 1 Light GreyFloorTiles_58: 8045846248457973520
+      Dungeon 1 Light GreyFloorTiles_80: -3082896063331448163
+      Dungeon 1 Light GreyFloorTiles_35: 1142280471885745493
+      Dungeon 1 Light GreyFloorTiles_36: 1913673906157401993
+      Dungeon 1 Light GreyFloorTiles_29: 1475079078693426232
+      Dungeon 1 Light GreyFloorTiles_50: 2886831673067585322
+      Dungeon 1 Light GreyFloorTiles_1: -3469639153013416700
+      Dungeon 1 Light GreyFloorTiles_46: 8700658286718382455
+      Dungeon 1 Light GreyFloorTiles_12: 6912346139504665284
+      Dungeon 1 Light GreyFloorTiles_87: -5354787477644924278
+      Dungeon 1 Light GreyFloorTiles_55: 2998145119443949474
+      Dungeon 1 Light GreyFloorTiles_84: 4086859132145030990
+      Dungeon 1 Light GreyFloorTiles_83: -4295632179309861215
+      Dungeon 1 Light GreyFloorTiles_8: -8681735450699874502
+      Dungeon 1 Light GreyFloorTiles_32: -3368681741200034616
+      Dungeon 1 Light GreyFloorTiles_65: 2536756882845564297
+      Dungeon 1 Light GreyFloorTiles_30: 7995698152905349077
+      Dungeon 1 Light GreyFloorTiles_81: -7728096957749112827
+      Dungeon 1 Light GreyFloorTiles_59: -2338071127855064962
+      Dungeon 1 Light GreyFloorTiles_85: -5238523733524572906
+      Dungeon 1 Light GreyFloorTiles_43: -415221327490388965
+      Dungeon 1 Light GreyFloorTiles_76: 1047489297942384392
+      Dungeon 1 Light GreyFloorTiles_20: -6656611166030793658
+      Dungeon 1 Light GreyFloorTiles_17: -8167420835304841994
+      Dungeon 1 Light GreyFloorTiles_38: -3580113466758024261
+      Dungeon 1 Light GreyFloorTiles_37: -6334561973753623820
+      Dungeon 1 Light GreyFloorTiles_57: 1019595906932143297
+      Dungeon 1 Light GreyFloorTiles_78: 3725774696649637814
+      Dungeon 1 Light GreyFloorTiles_53: 3610044945396970395
+      Dungeon 1 Light GreyFloorTiles_72: 1114980998705288570
+      Dungeon 1 Light GreyFloorTiles_26: 7921791948918745576
+      Dungeon 1 Light GreyFloorTiles_70: 3201026181741816196
+      Dungeon 1 Light GreyFloorTiles_92: -7646606482365603401
+      Dungeon 1 Light GreyFloorTiles_9: 7148007888738741988
+      Dungeon 1 Light GreyFloorTiles_33: 756714243298640510
+      Dungeon 1 Light GreyFloorTiles_86: 5941856647493035486
+      Dungeon 1 Light GreyFloorTiles_42: -236703416455007031
+      Dungeon 1 Light GreyFloorTiles_28: -4500314909230099669
+      Dungeon 1 Light GreyFloorTiles_71: -390679825096108217
+      Dungeon 1 Light GreyFloorTiles_47: 2839820411108430931
+      Dungeon 1 Light GreyFloorTiles_4: -804128166861641518
+      Dungeon 1 Light GreyFloorTiles_24: 5988044140066055487
+      Dungeon 1 Light GreyFloorTiles_5: 2703265861633472090
+      Dungeon 1 Light GreyFloorTiles_51: 5821403641249185799
+      Dungeon 1 Light GreyFloorTiles_61: 2173648951597189249
+      Dungeon 1 Light GreyFloorTiles_3: -3658912855431561750
+      Dungeon 1 Light GreyFloorTiles_45: 1439892713380696586
+      Dungeon 1 Light GreyFloorTiles_23: 256396452572333384
+      Dungeon 1 Light GreyFloorTiles_40: -6534946240794541599
+      Dungeon 1 Light GreyFloorTiles_90: -8580750686556667372
+      Dungeon 1 Light GreyFloorTiles_75: -7004911927133429351
+      Dungeon 1 Light GreyFloorTiles_48: -2281977527065600458
+      Dungeon 1 Light GreyFloorTiles_91: -4506578786895067630
+      Dungeon 1 Light GreyFloorTiles_11: 1992854515169707872
+      Dungeon 1 Light GreyFloorTiles_2: 7230767979851012275
+      Dungeon 1 Light GreyFloorTiles_7: -7595927470688620164
+      Dungeon 1 Light GreyFloorTiles_94: -5314594360432280923
+      Dungeon 1 Light GreyFloorTiles_60: -8082518874353860806
+      Dungeon 1 Light GreyFloorTiles_82: 3185535266414503083
+      Dungeon 1 Light GreyFloorTiles_95: -214400295249368985
+      Dungeon 1 Light GreyFloorTiles_54: 5037525864148439797
+      Dungeon 1 Light GreyFloorTiles_13: -4690837374212519372
+      Dungeon 1 Light GreyFloorTiles_6: 7873222272774522170
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

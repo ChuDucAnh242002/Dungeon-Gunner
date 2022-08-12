@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TagManager
+  m_TargetType:
+    m_NativeTypeID: 78
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: tags.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[0]
+    value: grid
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[1]
+    value: collisionTilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[2]
+    value: minimapTilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[3]
+    value: groundTilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[4]
+    value: decoration1Tilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[5]
+    value: decoration2Tilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[6]
+    value: frontTilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[7]
+    value: roomTilemap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[8]
+    value: miniMapPlayer
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tags.Array.data[9]
+    value: playerWeapon
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.size
+    value: 32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[0]
+    value: Default
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[1]
+    value: TransparentFX
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[2]
+    value: Ignore Raycast
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[4]
+    value: Water
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[5]
+    value: UI
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[7]
+    value: IgnoreAmmo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[8]
+    value: Camera 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[9]
+    value: Camera 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[10]
+    value: Player
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[11]
+    value: MiniMap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[12]
+    value: Room
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[13]
+    value: Wall
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[14]
+    value: PlayerAmmo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[15]
+    value: Enemy
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[16]
+    value: EnemyAmmo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[17]
+    value: Environment
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[18]
+    value: PlayerWeapon
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[19]
+    value: EnemyWeapon
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[20]
+    value: Camera 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[21]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[22]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[23]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[24]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[25]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[26]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[27]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[28]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[29]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[30]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layers.Array.data[31]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[0].name
+    value: Default
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[0].uniqueID
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[0].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[1].name
+    value: Ground
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[1].uniqueID
+    value: 3504611765
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[1].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[2].name
+    value: Ground Decoration 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[2].uniqueID
+    value: 2002717741
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[2].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[3].name
+    value: Ground Decoration 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[3].uniqueID
+    value: 4065348071
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[3].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[4].name
+    value: Instances
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[4].uniqueID
+    value: 3641257881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[4].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[5].name
+    value: Front
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[5].uniqueID
+    value: 1025438153
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[5].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[6].name
+    value: Collision
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[6].uniqueID
+    value: 2870844909
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[6].locked
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[7].name
+    value: Minimap
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[7].uniqueID
+    value: 1491282665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortingLayers.Array.data[7].locked
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
