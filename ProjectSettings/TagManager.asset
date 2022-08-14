@@ -14,7 +14,6 @@ TagManager:
   - roomTilemap
   - miniMapPlayer
   - playerWeapon
-  - dfd
   layers:
   - Default
   - TransparentFX
