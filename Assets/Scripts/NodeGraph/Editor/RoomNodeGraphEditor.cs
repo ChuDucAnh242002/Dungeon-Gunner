@@ -173,6 +173,11 @@ public class RoomNodeGraphEditor : EditorWindow
                 ProcessMouseDragEvent(currentEvent);
                 break;
 
+            case EventType.KeyDown:
+                ProcessKeyDownEvent(currentEvent);
+                // Debug.Log("Key Down");
+                break;
+
             default:
                 break;
         }
@@ -205,6 +210,7 @@ public class RoomNodeGraphEditor : EditorWindow
         menu.AddItem(new GUIContent("Create Room Node"), false, CreateRoomNode, mousePosition);
         menu.AddSeparator("");
         menu.AddItem(new GUIContent("Selected All Room Nodes"), false, SelectAllRoomNodes);
+        menu.AddItem(new GUIContent("Deselected All Room Nodes"), false, DeSelectAllRoomNodes);
         menu.AddSeparator("");
         menu.AddItem(new GUIContent("Delete Selected RoomNode Links"), false, DeleteSelectedRoomNodeLinks);
         menu.AddItem(new GUIContent("Delete Selected RoomNode"), false, DeleteSelectedRoomNodes);
@@ -214,7 +220,7 @@ public class RoomNodeGraphEditor : EditorWindow
 
     private void CreateRoomNode(object mousePositionObject){
         if (currentRoomNodeGraph.roomNodeList.Count == 0){
-            CreateRoomNode(new Vector2(200f, 200f), roomNodeTypeList.list.Find(x => x.isEntrance));
+            CreateRoomNode(new Vector2(20f, 300f), roomNodeTypeList.list.Find(x => x.isEntrance));
         }
 
         CreateRoomNode(mousePositionObject, roomNodeTypeList.list.Find(x => x.isNone));
@@ -237,6 +243,13 @@ public class RoomNodeGraphEditor : EditorWindow
     private void SelectAllRoomNodes(){
         foreach(RoomNodeSO roomNode in currentRoomNodeGraph.roomNodeList){
             roomNode.isSelected = true;
+        }
+        GUI.changed = true;
+    }
+
+    private void DeSelectAllRoomNodes(){
+        foreach(RoomNodeSO roomNode in currentRoomNodeGraph.roomNodeList){
+            roomNode.isSelected = false;
         }
         GUI.changed = true;
     }
@@ -344,6 +357,33 @@ public class RoomNodeGraphEditor : EditorWindow
 
     public void DragConnectingLine(Vector2 delta){
         currentRoomNodeGraph.linePosition += delta;
+    }
+
+
+    private void ProcessKeyDownEvent (Event currentEvent){
+        if (currentEvent.control){
+
+            if(currentEvent.keyCode == KeyCode.C){
+                CreateRoomNode(currentEvent.mousePosition);
+            }
+
+            if (currentEvent.keyCode == KeyCode.A){
+                SelectAllRoomNodes();
+            }
+
+            if (currentEvent.keyCode == KeyCode.X){
+                DeleteSelectedRoomNodeLinks();
+            }
+
+            if (currentEvent.keyCode == KeyCode.D){
+                DeleteSelectedRoomNodes();
+            }
+
+            if (currentEvent.keyCode == KeyCode.Z){
+                DeSelectAllRoomNodes();
+            }
+
+        }
     }
 
     public void ClearLineDrag(){
