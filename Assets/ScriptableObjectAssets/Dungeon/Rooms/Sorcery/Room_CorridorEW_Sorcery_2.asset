@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_CorridorEW_Sorcery_2
+  m_EditorClassIdentifier: 
+  guid: 34669c4fdcaec7a40810d96626fb8ed2
+  prefab: {fileID: 4327421925113694216, guid: d003081b234b38a46bb2d70e67b0f5c4, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: d003081b234b38a46bb2d70e67b0f5c4,
+    type: 3}
+  battleMusic: {fileID: 11400000, guid: a4e1f8d956378ae4a8ec12db302cc572, type: 2}
+  ambientMusic: {fileID: 11400000, guid: 60270dd8cf10b14498c49c54a55e505e, type: 2}
+  roomNodeType: {fileID: 11400000, guid: 1b186682dfeb9f9439fe84f445a53789, type: 2}
+  lowerBounds: {x: -5, y: 6}
+  upperBounds: {x: 28, y: 25}
+  doorwayList:
+  - position: {x: 28, y: 20}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -5, y: 8}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -1, y: 8}
+  - {x: 14, y: 14}
+  - {x: 22, y: 20}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

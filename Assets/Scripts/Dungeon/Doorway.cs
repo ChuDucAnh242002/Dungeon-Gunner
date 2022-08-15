@@ -1,14 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 [System.Serializable]
-
 public class Doorway 
 {
     public Vector2Int position;
     public Orientation orientation;
     public GameObject doorPrefab;
-
     #region Header
     [Header("The Upper Left Position To Start Copying From")]
     #endregion
@@ -21,6 +17,8 @@ public class Doorway
     [Header("The height of tiles in the doorway to copy over")]
     #endregion
     public int doorwayCopyTileHeight;
-    [HideInInspector] public bool isCoonected = false;
-    [HideInInspector] public bool isUnavailable = false;
+    [HideInInspector]
+    public bool isConnected = false;
+    [HideInInspector]
+    public bool isUnavailable = false;
 }

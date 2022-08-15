@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_BossRoom_Sorcery_1
+  m_EditorClassIdentifier: 
+  guid: 7c9812efdfb9dfd45948046144307f9c
+  prefab: {fileID: 4327421925113694216, guid: 5a5cf23fa59a42046bbbd938af607c66, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: 5a5cf23fa59a42046bbbd938af607c66,
+    type: 3}
+  battleMusic: {fileID: 11400000, guid: 8085295ef1235cf498957da9ebb539de, type: 2}
+  ambientMusic: {fileID: 11400000, guid: 60270dd8cf10b14498c49c54a55e505e, type: 2}
+  roomNodeType: {fileID: 11400000, guid: f2afbcec871327c43929f834d2268439, type: 2}
+  lowerBounds: {x: 3, y: 2}
+  upperBounds: {x: 50, y: 51}
+  doorwayList:
+  - position: {x: 26, y: 51}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 23, y: 51}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 9
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 26, y: 2}
+    orientation: 2
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 23, y: 6}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 5
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 50, y: 25}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 47, y: 31}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 3, y: 25}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 3, y: 31}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: 17, y: 31}
+  - {x: 37, y: 32}
+  - {x: 17, y: 21}
+  - {x: 36, y: 19}
+  enemiesByLevelList:
+  - dungeonLevel: {fileID: 11400000, guid: 6a9e5dc3664f0a64c9b82d4264843428, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: 665382b1e0d44ca45acf808d493840c7, type: 2}
+      ratio: 1
+  - dungeonLevel: {fileID: 11400000, guid: 873e5971535540948a8ac948872fca87, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: 665382b1e0d44ca45acf808d493840c7, type: 2}
+      ratio: 1
+    - dungeonObject: {fileID: 11400000, guid: 6b055a4281553104797cec87e5563541, type: 2}
+      ratio: 1
+  - dungeonLevel: {fileID: 11400000, guid: bfd2672c1ea56be4eba6c5fb477991d0, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: 665382b1e0d44ca45acf808d493840c7, type: 2}
+      ratio: 1
+    - dungeonObject: {fileID: 11400000, guid: 6b055a4281553104797cec87e5563541, type: 2}
+      ratio: 1
+    - dungeonObject: {fileID: 11400000, guid: 7d20712f8fb57c748bac4851b654ba89, type: 2}
+      ratio: 1
+  roomEnemySpawnParametersList:
+  - dungeonLevel: {fileID: 11400000, guid: 6a9e5dc3664f0a64c9b82d4264843428, type: 2}
+    minTotalEnemiesToSpawn: 2
+    maxTotalEnemiesToSpawn: 2
+    minConcurrentEnemies: 2
+    maxConcurrentEnemies: 2
+    minSpawnInterval: 2
+    maxSpawnInterval: 4
+  - dungeonLevel: {fileID: 11400000, guid: 873e5971535540948a8ac948872fca87, type: 2}
+    minTotalEnemiesToSpawn: 3
+    maxTotalEnemiesToSpawn: 3
+    minConcurrentEnemies: 3
+    maxConcurrentEnemies: 3
+    minSpawnInterval: 1
+    maxSpawnInterval: 2
+  - dungeonLevel: {fileID: 11400000, guid: bfd2672c1ea56be4eba6c5fb477991d0, type: 2}
+    minTotalEnemiesToSpawn: 4
+    maxTotalEnemiesToSpawn: 4
+    minConcurrentEnemies: 3
+    maxConcurrentEnemies: 3
+    minSpawnInterval: 1
+    maxSpawnInterval: 2

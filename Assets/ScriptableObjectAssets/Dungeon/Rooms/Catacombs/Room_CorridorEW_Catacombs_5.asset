@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_CorridorEW_Catacombs_5
+  m_EditorClassIdentifier: 
+  guid: 5a356e0f7c4fe5c4cac1d2238818794a
+  prefab: {fileID: 5351491626515514454, guid: cddbd83a5b8329d409bd193860949961, type: 3}
+  battleMusic: {fileID: 11400000, guid: a4e1f8d956378ae4a8ec12db302cc572, type: 2}
+  ambientMusic: {fileID: 11400000, guid: 60270dd8cf10b14498c49c54a55e505e, type: 2}
+  roomNodeType: {fileID: 11400000, guid: 1b186682dfeb9f9439fe84f445a53789, type: 2}
+  lowerBounds: {x: -3, y: -16}
+  upperBounds: {x: 27, y: 7}
+  doorwayList:
+  - position: {x: -3, y: -4}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 27, y: -8}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: 14, y: -14}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

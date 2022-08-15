@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_Entrance_Sorcery_1
+  m_EditorClassIdentifier: 
+  guid: 481a26d76387d184b9c17fc536d3432a
+  prefab: {fileID: 4327421925113694216, guid: 2adc9f7ccb3fb7f4ebfc672b71d5e9c6, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: 2adc9f7ccb3fb7f4ebfc672b71d5e9c6,
+    type: 3}
+  battleMusic: {fileID: 11400000, guid: a4e1f8d956378ae4a8ec12db302cc572, type: 2}
+  ambientMusic: {fileID: 11400000, guid: 60270dd8cf10b14498c49c54a55e505e, type: 2}
+  roomNodeType: {fileID: 11400000, guid: 24bc94ff51a05974893394922a219091, type: 2}
+  lowerBounds: {x: 10, y: 2}
+  upperBounds: {x: 34, y: 28}
+  doorwayList:
+  - position: {x: 24, y: 28}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 21, y: 28}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 9
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 26, y: 2}
+    orientation: 2
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 23, y: 4}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 3
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 34, y: 13}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 31, y: 19}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 10, y: 13}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 10, y: 19}
+    doorwayCopyTileWidth: 4
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: 24, y: 19}
+  - {x: 29, y: 19}
+  - {x: 15, y: 9}
+  - {x: 23, y: 8}
+  - {x: 29, y: 8}
+  - {x: 29, y: 16}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []
