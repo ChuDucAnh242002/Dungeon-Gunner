@@ -170,7 +170,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 6.6316867, y: 1}
+    m_SensorSize: {x: 1.7800084, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -193,7 +193,7 @@ Transform:
   m_Children:
   - {fileID: 1169516421}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &81251325
 MonoBehaviour:
@@ -322,10 +322,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.006914434
+    x: 0.13793103
     y: 0
-    width: 0.9874836
-    height: 1.0010384
+    width: 0.72473395
+    height: 1.0012547
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -493,7 +493,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977321100
 GameObject:
@@ -541,7 +541,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1169516420
 GameObject:
@@ -659,6 +659,63 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 8.4375
   m_MaximumOrthoSize: 8.4375
+--- !u!1001 &1446090736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.263786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58437836
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252147, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171339553302252154, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
+      propertyPath: m_Name
+      value: TheThief
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e0c767ce86a64d4890628d20818ad4c, type: 3}
 --- !u!1 &1846448091
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,5 +763,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
