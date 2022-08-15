@@ -12,11 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
   m_Name: Room_CorridorNS_MyRooms_1
   m_EditorClassIdentifier: 
-  guid: 
-  prefab: {fileID: 0}
-  previousPrefab: {fileID: 0}
-  roomNodeType: {fileID: 0}
-  lowerBounds: {x: 0, y: 0}
-  upperBounds: {x: 0, y: 0}
-  doorwayList: []
-  spawnPositionArray: []
+  guid: 15b640601c26e1344ab1989f017e9d1c
+  prefab: {fileID: 2039420477065462710, guid: c72d18dd9ee59c349a027c99dc669cd0, type: 3}
+  previousPrefab: {fileID: 2039420477065462710, guid: c72d18dd9ee59c349a027c99dc669cd0, type: 3}
+  roomNodeType: {fileID: 11400000, guid: b8c145052169728478ddf4361c689432, type: 2}
+  lowerBounds: {x: -11, y: -6}
+  upperBounds: {x: -1, y: 17}
+  doorwayList:
+  - position: {x: -9, y: 17}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -3, y: -6}
+    orientation: 2
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 0, y: 0}
+    doorwayCopyTileWidth: 0
+    doorwayCopyTileHeight: 0
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -6, y: 4}
