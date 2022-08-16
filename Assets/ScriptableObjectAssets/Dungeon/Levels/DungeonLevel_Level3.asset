@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3203156e009a3ac49a4a485122a31b2b, type: 3}
+  m_Name: DungeonLevel_Level3
+  m_EditorClassIdentifier: 
+  levelName: The Spirit Catacombs
+  roomTemplateList:
+  - {fileID: 11400000, guid: 5e10298487db4a548a9e425ea037c915, type: 2}
+  - {fileID: 11400000, guid: 9927e94b574775f4c83d6ac8ef1a7ea1, type: 2}
+  - {fileID: 11400000, guid: ebc7898f88cf218449b384f033e86675, type: 2}
+  - {fileID: 11400000, guid: ead9fb8d1d6f0dd48886b54083b20f65, type: 2}
+  - {fileID: 11400000, guid: 17aab39e60e31b44cbb99c260366f725, type: 2}
+  - {fileID: 11400000, guid: 75e9ed4d33bf76c439c799075b936c76, type: 2}
+  - {fileID: 11400000, guid: 58168ebb0df392f41b061a0c6b25da05, type: 2}
+  - {fileID: 11400000, guid: 230557191ef7e66449fde6cecaf858cb, type: 2}
+  - {fileID: 11400000, guid: a9de631861c958a4b8b6f5da0f8d45a6, type: 2}
+  - {fileID: 11400000, guid: 74c9dcaed5ec2f949878a19a2067a840, type: 2}
+  - {fileID: 11400000, guid: 8560fcec9e5cd454aae62d7775c44da1, type: 2}
+  - {fileID: 11400000, guid: 1d5c4c4b7468b7749bced9ffcf6799be, type: 2}
+  - {fileID: 11400000, guid: 0570548b50ed26c469aa21fbd2cce109, type: 2}
+  - {fileID: 11400000, guid: f2a366d151026cc4ab8d50cdfd60529e, type: 2}
+  - {fileID: 11400000, guid: 3cdc996eae718644dad8dad24ae2c39f, type: 2}
+  - {fileID: 11400000, guid: 03fb8e6e180566844b9c3942a093676e, type: 2}
+  - {fileID: 11400000, guid: 44aecdcc3db913e4499e1717a8957c90, type: 2}
+  - {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
+  - {fileID: 11400000, guid: 162bb1ef7e418cb45b8a9972883291e2, type: 2}
+  - {fileID: 11400000, guid: 441b01f46e3eeb442ade8694ca990dae, type: 2}
+  - {fileID: 11400000, guid: e9398e3d34710984f9bc2ddf731aaaf4, type: 2}
+  - {fileID: 11400000, guid: 6744ab19da7482a498a77a8f8134b14d, type: 2}
+  - {fileID: 11400000, guid: a513c365c6072fa4c9068779c5d2173e, type: 2}
+  - {fileID: 11400000, guid: a1c147aa88a50d64dbc012a46f5d011c, type: 2}
+  - {fileID: 11400000, guid: ffb5abf059fa3cb4187f05ee5225308f, type: 2}
+  - {fileID: 11400000, guid: 68ce17f0d8ab2134a9bbda3b2b5c5c55, type: 2}
+  - {fileID: 11400000, guid: a1fc9a74671f47140ab0810c460f9623, type: 2}
+  - {fileID: 11400000, guid: 1cbc835c305513640970724d8b4d26ef, type: 2}
+  - {fileID: 11400000, guid: 6de62b1aab2953146a354bd9e5f255d0, type: 2}
+  - {fileID: 11400000, guid: ca3ebf2399132f74589db4539c90168f, type: 2}
+  - {fileID: 11400000, guid: f7eb3d585fba40941805d195e7ca6a1f, type: 2}
+  - {fileID: 11400000, guid: 38e938fd0392ecd4f859df7c1a9a4371, type: 2}
+  - {fileID: 11400000, guid: aeaa238dda2b934409291731e7646e39, type: 2}
+  roomNodeGraphList:
+  - {fileID: 11400000, guid: f348be8bf827f1345a28d6a26c6e5b3a, type: 2}
+  - {fileID: 11400000, guid: 565b216f4c17fd740a3e2f6722c6db67, type: 2}
+  - {fileID: 11400000, guid: 1355031816c257f42be407978beb841a, type: 2}
+  - {fileID: 11400000, guid: 3524a14eff9a0f34c8f75ea5293ae894, type: 2}
+  - {fileID: 11400000, guid: a4bd5209602bfe84e8659fb188589dd7, type: 2}

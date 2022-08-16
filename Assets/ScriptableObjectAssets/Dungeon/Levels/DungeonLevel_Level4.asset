@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3203156e009a3ac49a4a485122a31b2b, type: 3}
+  m_Name: DungeonLevel_Level4
+  m_EditorClassIdentifier: 
+  levelName: Dark Magic
+  roomTemplateList:
+  - {fileID: 11400000, guid: 93d5a19f4b6aace49922793f3fb19975, type: 2}
+  - {fileID: 11400000, guid: a78e57a22b8441a4d920713690bfbe82, type: 2}
+  - {fileID: 11400000, guid: f3e9b41bf268eac4ea960aa8e5af4804, type: 2}
+  - {fileID: 11400000, guid: 56752574f921b034eaa3d3e844ff1ad3, type: 2}
+  - {fileID: 11400000, guid: b5d6b7a750a3fb74ba1347c9eda016bd, type: 2}
+  - {fileID: 11400000, guid: f4755a924f6e29844930cae6d7326eae, type: 2}
+  - {fileID: 11400000, guid: 3fe641821de8e5d4aacd3cd6141af9ef, type: 2}
+  - {fileID: 11400000, guid: 7cc8b7445e8ed3e4ea17478076e19828, type: 2}
+  - {fileID: 11400000, guid: c4809859434775c4db43c4fe08eedbac, type: 2}
+  - {fileID: 11400000, guid: 75f657f003d20ca41a404ce258480556, type: 2}
+  - {fileID: 11400000, guid: d71d142559b18e54182ecc4a57b8d521, type: 2}
+  - {fileID: 11400000, guid: 280684b62d7b40f42906e2da772c5afe, type: 2}
+  - {fileID: 11400000, guid: 906fd97f0f6852c44910d1255177abb9, type: 2}
+  - {fileID: 11400000, guid: 934158f41bf0ecc40a7065c7a6102b98, type: 2}
+  - {fileID: 11400000, guid: 573b1fa2887f838478d2d5638ffc9f82, type: 2}
+  - {fileID: 11400000, guid: 8c80937928cc656448fce066056b4413, type: 2}
+  - {fileID: 11400000, guid: 230185be96d7b914092070512659522f, type: 2}
+  - {fileID: 11400000, guid: 51620dc8214bed842b1d2defc616039d, type: 2}
+  - {fileID: 11400000, guid: 3216d5965faf72d41bf434dc2f864c9f, type: 2}
+  - {fileID: 11400000, guid: c98dffe00f9083e4c92a8c220c948709, type: 2}
+  - {fileID: 11400000, guid: c329a45518fe1754391d287e7aaa02ed, type: 2}
+  - {fileID: 11400000, guid: 8f2e8c1257758b0489ad62ed09d9091f, type: 2}
+  roomNodeGraphList:
+  - {fileID: 11400000, guid: 1d9d65b61e83dca4288f288066a0e18e, type: 2}
+  - {fileID: 11400000, guid: 4b97f60ba3bd9de45bdcc19c5ec3b8e8, type: 2}
+  - {fileID: 11400000, guid: 7218c89c51db9c94589e97da035995bc, type: 2}
+  - {fileID: 11400000, guid: 261f05d59df087f4e97f9fd6786a049d, type: 2}
+  - {fileID: 11400000, guid: e1408bb6e38477b42a12fac7a7f24f42, type: 2}
