@@ -22,7 +22,7 @@ public class Room
     public bool isClearedOfEnemies = false;
     public bool isPreviouslyVisisted = false;
 
-    public Room(){
+    public Room(){ 
         childRoomIDList = new List<string>();
         doorWayList = new List<Doorway>();
     }
