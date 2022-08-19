@@ -20,7 +20,27 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     [Tooltip("Populate with starting the dungeon level for testing, first level =0")]
     #endregion Tooltip
     [SerializeField] private int currentDungeonLevelListIndex;
+    private Room currentRoom;
+    private Room previousRoom;
+    private PlayerDetailsSO playerDetails;
+    private Player player;
     [HideInInspector] public GameState gameState;
+
+    protected override void Awake(){
+        base.Awake();
+
+        playerDetails = GameResources.Instance.currentPlayerSO.playerDetails;
+
+        InstantiatePlayer();
+    }
+
+    private void InstantiatePlayer(){
+        GameObject playerGameObject = Instantiate(playerDetails.playerPrefab);
+
+        player = playerGameObject.GetComponent<Player>();
+        
+        player.Initialize(playerDetails);
+    }
 
     private void Start(){
         gameState = GameState.gameStarted;
@@ -43,12 +63,32 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         }
     }
 
+    public void SetCurrentRoom(Room room){
+        previousRoom = currentRoom;
+        currentRoom = room;
+
+    }
+
     private void PlayDungeonLevel(int dungeonLeveListIndex){
+
         bool dungeonBuiltSuccessful = DungeonBuilder.Instance.GenerateDungeon(dungeonLevelList[dungeonLeveListIndex]);
 
         if(!dungeonBuiltSuccessful){
             Debug.LogError("Couldn't build dungeon from specified rooms and node graphs");
         }
+
+        Vector3 Playerposition = new Vector3((currentRoom.lowerBounds.x + currentRoom.upperBounds.x) / 2f,
+            (currentRoom.lowerBounds.y + currentRoom.upperBounds.y) / 2f, 0f);
+
+        player.gameObject.transform.position = HelperUtilities.GetSpawnPositionNearestToPlayer(Playerposition);
+    }
+
+    public Room GetCurrentRoom(){
+        return currentRoom;
+    }
+
+    public Player GetPlayer(){
+        return player;
     }
 
     #region Validation
