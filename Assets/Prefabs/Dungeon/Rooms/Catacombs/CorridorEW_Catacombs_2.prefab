@@ -3952,6 +3952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316384385408736750}
   - component: {fileID: 7061706898141806551}
+  - component: {fileID: 243727461111511813}
   m_Layer: 12
   m_Name: CorridorEW_Catacombs_2
   m_TagString: Untagged
@@ -4002,6 +4003,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17, y: 8}
   m_EdgeRadius: 0
+--- !u!114 &243727461111511813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351491626515514454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c255f19c28ec5e458b848d55219cbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 0}
+  groundTilemap: {fileID: 0}
+  decoration1Tilemap: {fileID: 0}
+  decoration2Tilemap: {fileID: 0}
+  frontTilemap: {fileID: 0}
+  collisionTilemap: {fileID: 0}
+  minimapTilemap: {fileID: 0}
+  roomColliderBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
 --- !u!1 &6714043297886329097
 GameObject:
   m_ObjectHideFlags: 0

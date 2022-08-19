@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 [DisallowMultipleComponent]
 public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
@@ -27,7 +28,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
 
     public bool GenerateDungeon(DungeonLevelSO currentDungeonLevel){
         roomTemplateList = currentDungeonLevel.roomTemplateList;
-
+        
         LoadRoomTemplatesIntoDictionary();
 
         dungeonBuildSuccessful = false;
@@ -45,11 +46,12 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
                 ClearDungeon();
 
                 dungeonRebuildAttemptsForNodeGraph++;
-
+                
                 dungeonBuildSuccessful = AttemptToBuildRandomDungeon(roomNodeGraph);
 
             }
             if (dungeonBuildSuccessful){
+
                 InstantiateRoomGameobjects();
             }
         }
@@ -92,23 +94,25 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
             return false;
         }
 
-        bool noRoomOverlaps = ProcessRommsInOpenRoomNodeQueue(roomNodeGraph, openRoomNodeQueue);
+        bool noRoomOverlaps = true;
+        noRoomOverlaps = ProcessRommsInOpenRoomNodeQueue(roomNodeGraph, openRoomNodeQueue, noRoomOverlaps);
 
-        if(openRoomNodeQueue.Count == 0 && noRoomOverlaps){
-            return true;
-        } else {
-            return false;
-        }
+        // Debug.Log(openRoomNodeQueue.Count);
+        // Debug.Log(noRoomOverlaps);
+        return openRoomNodeQueue.Count == 0 && noRoomOverlaps;
     }
 
-    private bool ProcessRommsInOpenRoomNodeQueue(RoomNodeGraphSO roomNodeGraph, Queue<RoomNodeSO> openRoomNodeQueue){
-        bool noRoomOverlaps = true;
+    private bool ProcessRommsInOpenRoomNodeQueue(RoomNodeGraphSO roomNodeGraph, Queue<RoomNodeSO> openRoomNodeQueue, bool noRoomOverlaps){
+        
 
         while(openRoomNodeQueue.Count > 0 && noRoomOverlaps){
             RoomNodeSO roomNode = openRoomNodeQueue.Dequeue();
 
             foreach (RoomNodeSO childRoomNode in roomNodeGraph.GetChildRoomNodes(roomNode)){
-                openRoomNodeQueue.Enqueue(childRoomNode);
+
+                if(childRoomNode != null){
+                    openRoomNodeQueue.Enqueue(childRoomNode);
+                }
             }
 
             if(roomNode.roomNodeType.isEntrance){
@@ -120,19 +124,17 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
             } else {
                 Room parentRoom = dungeonBuilderRoomDictionary[roomNode.parentRoomNodeIDList[0]];
 
-                noRoomOverlaps = CanPlaceRoomWithNoOverlaps(roomNode, parentRoom);
+                noRoomOverlaps = CanPlaceRoomWithNoOverlaps(roomNode, parentRoom);  
             }
         }
-
+        
         return noRoomOverlaps;
     }
 
     private bool CanPlaceRoomWithNoOverlaps(RoomNodeSO roomNode, Room parentRoom){
-        bool roomOverlaps = true;
 
-        while(roomOverlaps){
+        while(true){
             List<Doorway> unconnectedAvailableParentDoorways = GetUnconnectedAvailableDoorways(parentRoom.doorWayList).ToList();
-
             if(unconnectedAvailableParentDoorways.Count == 0){
                 return false; // room overlaps
             }
@@ -144,22 +146,18 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
             Room room = CreateRoomFromRoomTemplate(roomTemplate, roomNode);
 
             if (PlaceTheRoom(parentRoom, doorwayParent, room)){
-                roomOverlaps = false;
                 room.isPositioned = true;
                 dungeonBuilderRoomDictionary.Add(room.id, room);
-
-            } else {
-                roomOverlaps = true;
+                return true;
             }
-
         }
-
-        return roomOverlaps;
+        
     }
 
     private IEnumerable<Doorway> GetUnconnectedAvailableDoorways(List<Doorway> roomDoorwayList){
         foreach (Doorway doorway in roomDoorwayList){
             if(!doorway.isConnected && !doorway.isUnavailable){
+                // Debug.Log("unconnected doorway");
                 yield return doorway;
             }
         }
@@ -209,13 +207,13 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
                 adjustment = new Vector2Int(0, -1);
                 break;
             case Orientation.east:
-                adjustment = new Vector2Int(1, 0);
+                adjustment = new Vector2Int(-1, 0);
                 break;
             case Orientation.south:
                 adjustment = new Vector2Int(0, 1);
                 break;
             case Orientation.west:
-                adjustment = new Vector2Int(-1, 0);
+                adjustment = new Vector2Int(1, 0);
                 break;
             case Orientation.none:
                 break;
@@ -279,7 +277,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
             else if (doorwayParent.orientation == Orientation.north && doorway.orientation == Orientation.south){
                 return doorway;
             } 
-            else if (doorwayParent.orientation == Orientation.south && doorway.orientation == Orientation.west){
+            else if (doorwayParent.orientation == Orientation.south && doorway.orientation == Orientation.north){
                 return doorway;
             } 
         }
@@ -359,7 +357,21 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
 
 
     private void InstantiateRoomGameobjects(){
+        foreach (KeyValuePair<string, Room> keyValuePair in dungeonBuilderRoomDictionary){
+            Room room = keyValuePair.Value;
 
+            Vector3 roomPosition = new Vector3(room.lowerBounds.x - room.templateLowerBounds.x, room.lowerBounds.y - room.templateLowerBounds.y, 0f);
+
+            GameObject roomGameobject = Instantiate(room.prefab, roomPosition, Quaternion.identity, transform);
+
+            InstantiatedRoom instantiatedRoom = roomGameobject.GetComponentInChildren<InstantiatedRoom>();
+
+            instantiatedRoom.room = room;
+
+            instantiatedRoom.Initialise(roomGameobject);
+
+            room.instantiatedRoom = instantiatedRoom;
+        }
     }
 
     public RoomTemplateSO GetRoomTemplate(string roomTemplateID){
