@@ -136,7 +136,7 @@ public static class HelperUtilities
         return error;
     }
 
-    public static bool ValidatecheckPositiveRange(Object thisObject, string fieldNameMinimum, float valueToCheckMinimum,
+    public static bool ValidateCheckPositiveRange(Object thisObject, string fieldNameMinimum, float valueToCheckMinimum,
         string fieldNameMaximum, float valueToCheckMaximum, bool isZeroAllowed){
         bool error = false;
         if(valueToCheckMinimum > valueToCheckMaximum){
