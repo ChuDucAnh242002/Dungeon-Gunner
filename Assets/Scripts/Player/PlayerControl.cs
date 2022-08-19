@@ -5,14 +5,22 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     #region Tooltip
+    [Tooltip("MovementDetailsSO scriptable object containing movement details such as speed")]
+    #endregion
+    [SerializeField] private MovementDetailsSO movementDetails;
+
+    #region Tooltip
     [Tooltip("The player WeaponShootPosition gameobject in the hieracrchy")]
     #endregion
     [SerializeField] private Transform weaponShootPosition;
 
     private Player player;
+    private float moveSpeed;
 
     private void Awake(){
         player = GetComponent<Player>();
+
+        moveSpeed = movementDetails.GetMoveSpeed();
     }
 
     private void Update() {
@@ -22,7 +30,22 @@ public class PlayerControl : MonoBehaviour
     }
 
     private void MovementInput(){
-        player.idleEvent.CallIdleEvent();
+        float horizontalMovement = Input.GetAxisRaw("Horizontal");
+        float verticalMovement = Input.GetAxisRaw("Vertical");
+
+        Vector2 direction = new Vector2(horizontalMovement, verticalMovement);
+
+        if (horizontalMovement != 0f && verticalMovement != 0f){
+            direction *= 0.7f;
+        }
+
+        // If there is movement
+        if (direction != Vector2.zero){
+            player.movementByVelocityEvent.CallMovementByVelocityEvent(direction, moveSpeed);
+        } else {
+            player.idleEvent.CallIdleEvent();
+        }
+
     }
 
     private void WeaponInput(){
@@ -48,4 +71,13 @@ public class PlayerControl : MonoBehaviour
 
         player.aimWeaponEvent.CallAimWeaponEvent(playerAimDirection, playerAngleDegrees, weaponAngleDegrees, weaponDirection);
     }
+
+    #region Validation
+#if UNITY_EDITOR
+    private void OnValidate(){
+        HelperUtilities.ValidateCheckNullValue(this, nameof(movementDetails), movementDetails);
+    }
+
+#endif
+    #endregion
 }
