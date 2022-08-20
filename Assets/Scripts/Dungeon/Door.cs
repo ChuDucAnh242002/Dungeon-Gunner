@@ -40,8 +40,6 @@ public class Door : MonoBehaviour
         animator.SetBool(Settings.open, isOpen);
     }
 
-
-
     public void OpenDoor(){
         if(!isOpen){
             isOpen = true;

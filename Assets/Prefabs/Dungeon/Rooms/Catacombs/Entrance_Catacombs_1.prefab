@@ -8640,6 +8640,7 @@ GameObject:
   - component: {fileID: 3054645827938798965}
   - component: {fileID: 5476505636122767180}
   - component: {fileID: -5133463304470979644}
+  - component: {fileID: -2620426850812103336}
   m_Layer: 12
   m_Name: Entrance_Catacombs_1
   m_TagString: Untagged
@@ -8712,6 +8713,18 @@ MonoBehaviour:
   roomColliderBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &-2620426850812103336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224931148630070477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5481499b7c4fe4cb719a08c19acd8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7423723252957058154
 GameObject:
   m_ObjectHideFlags: 0
