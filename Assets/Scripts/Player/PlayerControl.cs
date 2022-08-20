@@ -44,7 +44,7 @@ public class PlayerControl : MonoBehaviour
     private void MovementInput(){
         float horizontalMovement = Input.GetAxisRaw("Horizontal");
         float verticalMovement = Input.GetAxisRaw("Vertical");
-        bool spaceKeyDown = Input.GetKeyDown("space");
+        bool rightMouseButtonDown = Input.GetMouseButtonDown(1);
 
         Vector2 direction = new Vector2(horizontalMovement, verticalMovement);
 
@@ -56,7 +56,7 @@ public class PlayerControl : MonoBehaviour
         if (direction != Vector2.zero){
 
             // move
-            if (!spaceKeyDown){
+            if (!rightMouseButtonDown){
                 player.movementByVelocityEvent.CallMovementByVelocityEvent(direction, moveSpeed);
             }
             else if(playerRollCooldownTimer <= 0f){

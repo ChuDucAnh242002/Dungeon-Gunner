@@ -29,6 +29,8 @@ public class InstantiatedRoom : MonoBehaviour
 
         BlockOffUnusedDoorway();
 
+        AddDoorToRooms();
+
         DisableCollisionTilemapRenderer();
     }
 
@@ -129,6 +131,32 @@ public class InstantiatedRoom : MonoBehaviour
                     tilemap.GetTile(new Vector3Int(startPosition.x + xPos, startPosition.y - yPos, 0)));
 
                 tilemap.SetTransformMatrix(new Vector3Int(startPosition.x + xPos, startPosition.y - 1 - yPos, 0), transformMatrix);
+            }
+        }
+    }
+
+    private void AddDoorToRooms(){
+        if(room.roomNodeType.isCorridorEW || room.roomNodeType.isCorridorNS) return; 
+
+        foreach (Doorway doorway in room.doorWayList){
+            if(doorway.doorPrefab != null && doorway.isConnected){
+                float tileDistance = Settings.tileSizePixels / Settings.pixelsPerUnit;
+
+                GameObject door = null;
+                door = Instantiate(doorway.doorPrefab, gameObject.transform);
+
+                if(doorway.orientation == Orientation.north){
+                    door.transform.localPosition = new Vector3(doorway.position.x + tileDistance / 2f, doorway.position.y + tileDistance, 0f);
+                }
+                else if (doorway.orientation == Orientation.south){
+                    door.transform.localPosition = new Vector3(doorway.position.x + tileDistance / 2f, doorway.position.y, 0f);
+                }
+                else if (doorway.orientation == Orientation.east){
+                    door.transform.localPosition = new Vector3(doorway.position.x + tileDistance, doorway.position.y + tileDistance * 1.25f, 0f);
+                }
+                else if (doorway.orientation == Orientation.west){
+                    door.transform.localPosition = new Vector3(doorway.position.x , doorway.position.y + tileDistance * 1.25f, 0f);
+                }
             }
         }
     }
