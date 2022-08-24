@@ -170,7 +170,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1, y: 1}
+    m_SensorSize: {x: 1.4422011, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -324,8 +324,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1033,7 +1033,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b1e54ce1fe87c48a643abc8e348dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolArray: []
+  poolArray:
+  - prefab: {fileID: 477551918507955260, guid: 2b28cdd36cc017d4c89c964d642256f3, type: 3}
+    poolSize: 13
+    componentType: IFireable
 --- !u!4 &1825060546
 Transform:
   m_ObjectHideFlags: 0

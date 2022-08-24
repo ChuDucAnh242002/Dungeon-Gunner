@@ -15,7 +15,8 @@ MonoBehaviour:
   ammoName: Pistol Ammo
   isPlayerAmmo: 1
   ammoSprite: {fileID: 21300000, guid: 4df9cc7131cd27f4288bca5e76c82034, type: 3}
-  ammoPrefabArray: []
+  ammoPrefabArray:
+  - {fileID: 477551918507955260, guid: 2b28cdd36cc017d4c89c964d642256f3, type: 3}
   ammoMaterial: {fileID: 2100000, guid: 5c86445c1f630c141ab88b05539eca5d, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
