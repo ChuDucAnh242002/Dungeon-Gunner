@@ -30,6 +30,11 @@ public static class HelperUtilities
         return degrees;
     }
 
+    public static Vector3 GetDirectionVectorFromAngle(float angle){
+        Vector3 directionVector = new Vector3(Mathf.Cos(Mathf.Deg2Rad * angle), Mathf.Sin(Mathf.Deg2Rad * angle), 0f);
+        return directionVector;
+    }
+
     public static AimDirection GetAimDirection(float angleDegrees){
         AimDirection aimDirection;
 

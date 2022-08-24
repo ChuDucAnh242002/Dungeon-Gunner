@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bedbc9cbd40e44cbc34ab6c98a2e8e, type: 3}
   m_Name: WeaponDetails_Pistol
   m_EditorClassIdentifier: 
-  weaponName: 
-  weaponSprite: {fileID: 0}
-  weaponShootPosition: {x: 0, y: 0, z: 0}
-  hasInfiniteAmmo: 0
+  weaponName: Pistol
+  weaponSprite: {fileID: 21300000, guid: abbe40c4d6a803f42a7c4f53404a484d, type: 3}
+  weaponShootPosition: {x: 1.115, y: 0.277, z: 0}
+  hasInfiniteAmmo: 1
   hasInfiniteClipCapacity: 0
-  weaponClipAmmoCapacity: 6
-  weaponAmmoCapacity: 100
-  weaponFireRate: 0.2
+  weaponClipAmmoCapacity: 10
+  weaponAmmoCapacity: 0
+  weaponFireRate: 0.25
   weaponPrechargeTime: 0
-  weapoonReloadTime: 0
+  weapoonReloadTime: 1.2
