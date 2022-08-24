@@ -10,7 +10,7 @@ public class PoolManager : SingletonMonobehaviour<PoolManager>
     #region  Tooltip
     [Tooltip("Number of prefabs add to the pool and number of gameobjects created")]
     #endregion
-    [SerializeField] private Pool[] poolArray = null;
+    [SerializeField] private Pool[] poolArray = null; 
     private Transform  objectPoolTransform;
     private Dictionary<int, Queue<Component>> poolDictionary = new Dictionary<int, Queue<Component>>();
 
