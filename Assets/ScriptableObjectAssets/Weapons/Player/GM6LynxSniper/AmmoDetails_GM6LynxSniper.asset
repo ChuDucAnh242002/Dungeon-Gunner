@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14254115017cf2141be02335240910db, type: 3}
+  m_Name: AmmoDetails_GM6LynxSniper
+  m_EditorClassIdentifier: 
+  ammoName: GM6 Lynx Ammo
+  isPlayerAmmo: 1
+  ammoSprite: {fileID: 21300000, guid: c3be09077243891458bdbf46a57d2e8a, type: 3}
+  ammoPrefabArray:
+  - {fileID: 477551918507955260, guid: b133e398b06462d47b23272511e82ced, type: 3}
+  ammoMaterial: {fileID: 2100000, guid: 8906ff5d458c0ba4d8d1d0177dfd5df5, type: 2}
+  ammoChargeTime: 0
+  ammoChargeMaterial: {fileID: 0}
+  ammoDamage: 13
+  ammoSpeedMin: 26
+  ammoSpeedMax: 26
+  ammoRange: 20
+  ammoRotationSpeed: 1
+  ammoSpreadMin: 0.5
+  ammoSpreadMax: 1.5
+  ammoSpawnAmountMin: 1
+  ammoSpawnAmountMax: 1
+  ammoSpawnIntervalMin: 0
+  ammoSpawnIntervalMax: 0
+  isAmmoTrail: 0
+  ammoTrailTime: 0
+  ammoTrailMaterial: {fileID: 0}
+  ammoTrailStartWidth: 0
+  ammoTrailEndWidth: 0

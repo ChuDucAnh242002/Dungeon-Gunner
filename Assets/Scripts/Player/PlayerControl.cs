@@ -19,6 +19,7 @@ public class PlayerControl : MonoBehaviour
     private WaitForFixedUpdate waitForFixedUpdate;
     private bool isPlayerRolling = false;
     private float playerRollCooldownTimer = 0f;
+    private bool reverse = false;
 
     private void Awake(){
         player = GetComponent<Player>();
@@ -130,6 +131,8 @@ public class PlayerControl : MonoBehaviour
 
         FireWeaponInput(weaponDirection, weaponAngleDegrees, playerAngleDegrees, playerAimDirection);
 
+        SwitchWeaponInput();
+
         ReloadWeaponInput();
     }
 
@@ -158,12 +161,83 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    private void SwitchWeaponInput(){
+        if (Input.mouseScrollDelta.y < 0f){
+            PreviousWeapon();
+        }
+        if (Input.mouseScrollDelta.y > 0f){
+            NextWeapon();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftControl)){
+            SwitchBetweenTwoWeapon();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha1)){
+            SetWeaponByIndex(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2)){
+            SetWeaponByIndex(2);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3)){
+            SetWeaponByIndex(3);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4)){
+            SetWeaponByIndex(4);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5)){
+            SetWeaponByIndex(5);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6)){
+            SetWeaponByIndex(6);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7)){
+            SetWeaponByIndex(7);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha8)){
+            SetWeaponByIndex(8);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha9)){
+            SetWeaponByIndex(9);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha0)){
+            SetWeaponByIndex(10);
+        }
+        if (Input.GetKeyDown(KeyCode.Minus)){
+            SetCurrentWeaponToFirstInTheList();
+        }
+    }
+
     private void SetWeaponByIndex(int weaponIndex){
         if (weaponIndex -1 < player.weaponList.Count){
             currentWeaponIndex = weaponIndex;
             Weapon weapon = player.weaponList[weaponIndex - 1];
             player.setActiveWeaponEvent.CallSetActiveWeaponEvent(weapon);
         }
+    }
+
+    private void PreviousWeapon(){
+        currentWeaponIndex--;
+        if(currentWeaponIndex < 1){
+            currentWeaponIndex = player.weaponList.Count;
+        }
+        SetWeaponByIndex(currentWeaponIndex);
+
+    }
+
+    private void NextWeapon(){
+        currentWeaponIndex++;
+        if(currentWeaponIndex > player.weaponList.Count){
+            currentWeaponIndex = 1;
+        }
+        SetWeaponByIndex(currentWeaponIndex);
+    }
+
+    private void SwitchBetweenTwoWeapon(){
+        if(!reverse){
+            NextWeapon();
+        } else {
+            PreviousWeapon();
+        }
+        reverse = !reverse;
     }
 
     private void ReloadWeaponInput(){
@@ -174,9 +248,9 @@ public class PlayerControl : MonoBehaviour
         bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
 
         if (currentWeapon.isWeaponReloading) return;
-
+        
         // Don't have enough ammo in clip
-        if (weaponClipRemainingAmmo < weaponClipAmmoCapacity && !hasInfiniteAmmo) return;
+        // if (weaponClipRemainingAmmo < weaponClipAmmoCapacity && !hasInfiniteAmmo) return;
 
         if (weaponClipRemainingAmmo == weaponClipAmmoCapacity) return;
 
@@ -198,6 +272,28 @@ public class PlayerControl : MonoBehaviour
 
             isPlayerRolling = false;
         }
+    }
+
+    private void SetCurrentWeaponToFirstInTheList(){
+        List<Weapon> tempWeaponList = new List<Weapon>();
+
+        Weapon currentWeapon = player.weaponList[currentWeaponIndex - 1];
+        currentWeapon.weaponListPosition = 1;
+        tempWeaponList.Add(currentWeapon);
+
+        int index = 2;
+        foreach (Weapon weapon in player.weaponList){
+            if(weapon == currentWeapon) continue;
+            tempWeaponList.Add(weapon);
+            weapon.weaponListPosition = index;
+            index++;
+        }
+
+        player.weaponList = tempWeaponList;
+        
+        currentWeaponIndex = 1;
+
+        SetWeaponByIndex(currentWeaponIndex);
     }
 
     #region Validation

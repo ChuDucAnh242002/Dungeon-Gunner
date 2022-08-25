@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minMoveSpeed: 9
   maxMoveSpeed: 9
-  rollSpeed: 5
-  rollDistance: 4
+  rollSpeed: 10
+  rollDistance: 5
   rollCooldownTime: 0.2

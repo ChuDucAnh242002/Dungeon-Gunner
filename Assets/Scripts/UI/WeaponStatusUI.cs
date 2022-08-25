@@ -104,13 +104,15 @@ public class WeaponStatusUI : MonoBehaviour
 
     private void UpdateAmmoText(Weapon weapon){
         bool hasInfiniteAmmo = weapon.weaponDetails.hasInfiniteAmmo;
-        string weaponRemainingAmmoToString = weapon.weaponClipRemainingAmmo.ToString();
+        string weaponRemainingAmmoToString = weapon.weaponRemainingAmmo.ToString();
         string weaponAmmoCapacityToString = weapon.weaponDetails.weaponAmmoCapacity.ToString();
         if(hasInfiniteAmmo){
-            ammoRemainingTransform.localPosition = new Vector3(0, 30, 0);
+            ammoRemainingTransform.localPosition = new Vector3(0, 30f, 0);
             ammoRemainingText.fontSize = 17;
             ammoRemainingText.text = "∞";
         } else {
+            ammoRemainingTransform.localPosition = new Vector3(0, 23f, 0);
+            ammoRemainingText.fontSize = 7f;
             ammoRemainingText.text = weaponRemainingAmmoToString + "/" + weaponAmmoCapacityToString;
         }
 
