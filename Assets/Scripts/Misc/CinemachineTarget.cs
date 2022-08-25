@@ -27,8 +27,8 @@ public class CinemachineTarget : MonoBehaviour
         };
 
         CinemachineTargetGroup.Target cinemachineGroupTarget_cursor = new CinemachineTargetGroup.Target {
-            weight = 0.4f,
-            radius = 1f,
+            weight = 0.43f,
+            radius = 2f,
             target = cursorTarget
         };
 

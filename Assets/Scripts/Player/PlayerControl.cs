@@ -207,9 +207,13 @@ public class PlayerControl : MonoBehaviour
     }
 
     private void SetWeaponByIndex(int weaponIndex){
+        Weapon currentWeapon = player.activeWeapon.GetCurrentWeapon();
+        
         if (weaponIndex -1 < player.weaponList.Count){
             currentWeaponIndex = weaponIndex;
             Weapon weapon = player.weaponList[weaponIndex - 1];
+            if(weapon == currentWeapon) return;
+            player.stopReloadWeaponEvent.CallStopReloadWeapon(currentWeapon);
             player.setActiveWeaponEvent.CallSetActiveWeaponEvent(weapon);
         }
     }

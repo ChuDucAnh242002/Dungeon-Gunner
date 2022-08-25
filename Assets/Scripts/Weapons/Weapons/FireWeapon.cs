@@ -77,6 +77,28 @@ public class FireWeapon : MonoBehaviour
         AmmoDetailsSO currentAmmo = activeWeapon.GetCurrentAmmo();
         
         if(currentAmmo != null){
+            StartCoroutine(FireAmmoRoutine(currentAmmo, aimAngle, weaponAimAngle, weaponAimDirectionVector));
+        }
+    }
+
+    private IEnumerator FireAmmoRoutine(AmmoDetailsSO currentAmmo, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector){
+
+        int ammoCounter = 0;
+
+        int ammoPerShot = Random.Range(currentAmmo.ammoSpawnAmountMin, currentAmmo.ammoSpawnAmountMax + 1);
+
+        float ammoSpawnInterval;
+
+        if (ammoPerShot > 1){
+            ammoSpawnInterval = Random.Range(currentAmmo.ammoSpawnIntervalMin, currentAmmo.ammoSpawnIntervalMax);
+        } else {
+            ammoSpawnInterval = 0f;
+        }
+
+        while (ammoCounter < ammoPerShot){
+
+            ammoCounter++;
+
             GameObject ammoPrefab = currentAmmo.ammoPrefabArray[Random.Range(0, currentAmmo.ammoPrefabArray.Length)];
 
             float ammoSpeed = Random.Range(currentAmmo.ammoSpeedMin, currentAmmo.ammoSpeedMax);
@@ -85,15 +107,18 @@ public class FireWeapon : MonoBehaviour
 
             ammo.InitialiseAmmo(currentAmmo, aimAngle, weaponAimAngle, ammoSpeed, weaponAimDirectionVector);
 
-            Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
-            bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
-            if(!hasInfiniteClipCapacity){
-                currentWeapon.weaponClipRemainingAmmo--;
-                currentWeapon.weaponRemainingAmmo--;
-            }
-
-            weaponFiredEvent.CallWeaponFiredEvent(currentWeapon);
+            yield return new WaitForSeconds(ammoSpawnInterval);
         }
+
+
+        Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
+        bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
+        if(!hasInfiniteClipCapacity){
+            currentWeapon.weaponClipRemainingAmmo--;
+            currentWeapon.weaponRemainingAmmo--;
+        }
+
+        weaponFiredEvent.CallWeaponFiredEvent(currentWeapon);
     }
 
     private void ResetCoolDownTimer(){

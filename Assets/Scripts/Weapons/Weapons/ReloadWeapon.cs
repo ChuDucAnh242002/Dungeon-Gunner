@@ -5,27 +5,33 @@ using UnityEngine;
 [RequireComponent(typeof(ReloadWeaponEvent))]
 [RequireComponent(typeof(WeaponReloadedEvent))]
 [RequireComponent(typeof(SetActiveWeaponEvent))]
+[RequireComponent(typeof(StopReloadWeaponEvent))]
 [DisallowMultipleComponent]
 public class ReloadWeapon : MonoBehaviour
 {
     private ReloadWeaponEvent reloadWeaponEvent;
     private WeaponReloadedEvent weaponReloadedEvent;
     private SetActiveWeaponEvent setActiveWeaponEvent;
+    private StopReloadWeaponEvent stopReloadWeaponEvent;
     private Coroutine reloadWeaponCoroutine;
 
     private void Awake(){
         reloadWeaponEvent = GetComponent<ReloadWeaponEvent>();
         weaponReloadedEvent = GetComponent<WeaponReloadedEvent>();
         setActiveWeaponEvent = GetComponent<SetActiveWeaponEvent>();
+        stopReloadWeaponEvent = GetComponent<StopReloadWeaponEvent>();
     }
+    
 
     private void OnEnable() {
         reloadWeaponEvent.OnReloadWeapon += ReloadWeaponEvent_OnReloadWeapon;
         setActiveWeaponEvent.OnSetActiveWeapon += SetActiveWeaponEvent_OnSetActiveWeapon;
+        stopReloadWeaponEvent.OnStopReloadWeapon += StopReloadWeaponEvent_OnStopReloadWeapon;
     }
     private void OnDisable() {
         reloadWeaponEvent.OnReloadWeapon -= ReloadWeaponEvent_OnReloadWeapon;
         setActiveWeaponEvent.OnSetActiveWeapon -= SetActiveWeaponEvent_OnSetActiveWeapon;
+        stopReloadWeaponEvent.OnStopReloadWeapon -= StopReloadWeaponEvent_OnStopReloadWeapon;
     }
 
     private void ReloadWeaponEvent_OnReloadWeapon(ReloadWeaponEvent reloadWeaponEvent, ReloadWeaponEventArgs reloadWeaponEventArgs){
@@ -92,6 +98,17 @@ public class ReloadWeapon : MonoBehaviour
             }
 
             reloadWeaponCoroutine = StartCoroutine(ReloadWeaponRoutine(weapon, 0));
+        }
+    }
+
+    private void StopReloadWeaponEvent_OnStopReloadWeapon(StopReloadWeaponEvent stopReloadWeaponEvent, StopReloadWeaponEventArgs stopReloadWeaponEventArgs){
+        Weapon weapon = stopReloadWeaponEventArgs.weapon;
+        if (weapon.isWeaponReloading){
+            if (reloadWeaponCoroutine != null){
+                weapon.isWeaponReloading = false;
+                weapon.weaponReloadTimer = 0f;
+                StopCoroutine(reloadWeaponCoroutine);
+            }
         }
     }
 }
