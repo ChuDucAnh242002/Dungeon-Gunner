@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GameResources : MonoBehaviour
 {
@@ -33,6 +34,12 @@ public class GameResources : MonoBehaviour
     [Tooltip("The current player SO, used to reference the current player between scenes")]
     #endregion
     public CurrentPlayerSO currentPlayerSO;
+
+    #region Header SOUNDS
+    [Space(10)]
+    [Header("SOUNDS")]
+    #endregion
+    public AudioMixerGroup soundsMasterMixerGroup;
 
     #region Header MATERIALS
     [Space(10)]
