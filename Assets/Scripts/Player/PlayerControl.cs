@@ -169,16 +169,18 @@ public class PlayerControl : MonoBehaviour
     private void ReloadWeaponInput(){
         Weapon currentWeapon = player.activeWeapon.GetCurrentWeapon();
         int weaponClipAmmoCapacity = currentWeapon.weaponDetails.weaponClipAmmoCapacity;
+        int weaponClipRemainingAmmo = currentWeapon.weaponClipRemainingAmmo;
         bool hasInfiniteAmmo = currentWeapon.weaponDetails.hasInfiniteAmmo;
+        bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
 
         if (currentWeapon.isWeaponReloading) return;
 
         // Don't have enough ammo in clip
-        if (currentWeapon.weaponRemainingAmmo < weaponClipAmmoCapacity && !hasInfiniteAmmo) return;
+        if (weaponClipRemainingAmmo < weaponClipAmmoCapacity && !hasInfiniteAmmo) return;
 
-        if (currentWeapon.weaponClipRemainingAmmo == weaponClipAmmoCapacity) return;
+        if (weaponClipRemainingAmmo == weaponClipAmmoCapacity) return;
 
-        if (Input.GetKeyDown(KeyCode.R)){
+        if (Input.GetKeyDown(KeyCode.R) || (!hasInfiniteClipCapacity && weaponClipRemainingAmmo <= 0)){
             player.reloadWeaponEvent.CallReloadWeaponEvent(currentWeapon, 0);
         }
     }

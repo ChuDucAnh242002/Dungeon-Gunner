@@ -48,4 +48,8 @@ public static class Settings
     public const float useAimAngleDistance = 3.5f; // if the target distance is less than this then aim angle will beuse, 
         // otherwise the weapon aim angle will be used
     #endregion
+
+    #region UI PARAMETERS
+    public const float uiAmmoIconSpacing = 4f;
+    #endregion
 }

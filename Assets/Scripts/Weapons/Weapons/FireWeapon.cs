@@ -66,14 +66,10 @@ public class FireWeapon : MonoBehaviour
         bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
 
         if (currentWeapon.weaponRemainingAmmo <= 0 && !hasInfiniteAmmo) return false;
-
         if (currentWeapon.isWeaponReloading) return false;
-        if (firePreChargeTimer >0f || fireRateCoolDownTimer > 0f) return false;
+        if (firePreChargeTimer > 0f || fireRateCoolDownTimer > 0f) return false;
+        if (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0) return false;
         
-        if (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0){
-            reloadWeaponEvent.CallReloadWeaponEvent(currentWeapon, 0);
-            return false;
-        }
         return true;
     }
 
@@ -90,10 +86,13 @@ public class FireWeapon : MonoBehaviour
             ammo.InitialiseAmmo(currentAmmo, aimAngle, weaponAimAngle, ammoSpeed, weaponAimDirectionVector);
 
             Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
-            if(!currentWeapon.weaponDetails.hasInfiniteClipCapacity){
+            bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
+            if(!hasInfiniteClipCapacity){
                 currentWeapon.weaponClipRemainingAmmo--;
                 currentWeapon.weaponRemainingAmmo--;
             }
+
+            weaponFiredEvent.CallWeaponFiredEvent(currentWeapon);
         }
     }
 
