@@ -32,6 +32,9 @@ GameObject:
   - component: {fileID: 8365258085599543538}
   - component: {fileID: 5780286563883560258}
   - component: {fileID: 6976895514488812875}
+  - component: {fileID: 6943129256564545216}
+  - component: {fileID: 3310083362547568390}
+  - component: {fileID: 4774575937413503108}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -255,6 +258,8 @@ MonoBehaviour:
   activeWeapon: {fileID: 0}
   fireWeaponEvent: {fileID: 0}
   weaponFiredEvent: {fileID: 0}
+  reloadWeaponEvent: {fileID: 0}
+  weaponReloadedEvent: {fileID: 0}
   movementByVelocityEvent: {fileID: 0}
   movementToPositionEvent: {fileID: 0}
   spriteRenderer: {fileID: 0}
@@ -443,6 +448,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 746fd029578e26449a2f8653f6b4f2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6943129256564545216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835671389664453206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed995a7c261983042881305d90c0710c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3310083362547568390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835671389664453206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccaae21d8749c6a48a9074c71d80848d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4774575937413503108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835671389664453206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9dc18b7b7f2284ea5c3266689c82aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &835671389822432221

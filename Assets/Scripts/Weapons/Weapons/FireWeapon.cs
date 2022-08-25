@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(ActiveWeapon))]
 [RequireComponent(typeof(FireWeaponEvent))]
 [RequireComponent(typeof(WeaponFiredEvent))]
+[RequireComponent(typeof(ReloadWeaponEvent))]
 [DisallowMultipleComponent]
 public class FireWeapon : MonoBehaviour
 {
@@ -11,11 +12,13 @@ public class FireWeapon : MonoBehaviour
     private ActiveWeapon activeWeapon;
     private FireWeaponEvent fireWeaponEvent;
     private WeaponFiredEvent weaponFiredEvent;
+    private ReloadWeaponEvent reloadWeaponEvent;
 
     private void Awake(){
         activeWeapon = GetComponent<ActiveWeapon>();
         fireWeaponEvent = GetComponent<FireWeaponEvent>();
         weaponFiredEvent = GetComponent<WeaponFiredEvent>();
+        reloadWeaponEvent = GetComponent<ReloadWeaponEvent>();
     }
 
     private void OnEnable(){
@@ -44,19 +47,20 @@ public class FireWeapon : MonoBehaviour
     }
 
     private bool IsWeaponReadyToFire(){
-        if (activeWeapon.GetCurrentWeapon().weaponRemainingAmmo <= 0 && !activeWeapon.GetCurrentWeapon().weaponDetails.hasInfiniteAmmo){
-            return false;
-        }
-        if (activeWeapon.GetCurrentWeapon().isWeaponReloading){
-            return false;
-        }
-        if(fireRateCoolDownTimer > 0f){
-            return false;
-        }
-        if(!activeWeapon.GetCurrentWeapon().weaponDetails.hasInfiniteClipCapacity && activeWeapon.GetCurrentWeapon().weaponClipRemainingAmmo <= 0){
-            return false;
-        }
 
+        Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
+        bool hasInfiniteAmmo = currentWeapon.weaponDetails.hasInfiniteAmmo;
+        bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
+
+        if (currentWeapon.weaponRemainingAmmo <= 0 && !hasInfiniteAmmo) return false;
+
+        if (currentWeapon.isWeaponReloading) return false;
+        if (fireRateCoolDownTimer > 0f) return false;
+        
+        if (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0){
+            reloadWeaponEvent.CallReloadWeaponEvent(currentWeapon, 0);
+            return false;
+        }
         return true;
     }
 

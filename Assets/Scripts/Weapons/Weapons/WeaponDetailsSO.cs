@@ -30,7 +30,7 @@ public class WeaponDetailsSO : ScriptableObject {
     public int weaponAmmoCapacity = 100; // total ammo
     public float weaponFireRate = 0.2f;
     public float weaponPrechargeTime = 0f; // hold button down before fire
-    public float weapoonReloadTime = 0f;
+    public float weaponReloadTime = 0f;
 
     #region Validation
 #if UNITY_EDITOR

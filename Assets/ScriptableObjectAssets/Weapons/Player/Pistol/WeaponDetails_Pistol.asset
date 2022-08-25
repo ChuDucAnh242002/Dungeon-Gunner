@@ -22,4 +22,4 @@ MonoBehaviour:
   weaponAmmoCapacity: 0
   weaponFireRate: 0.25
   weaponPrechargeTime: 0
-  weapoonReloadTime: 1.2
+  weaponReloadTime: 1.2

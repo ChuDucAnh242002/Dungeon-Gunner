@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 11943
+  controlID: 22
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 11944
+  controlID: 23
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 49086
+  m_LastSelectedObjectID: 60634
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52b50000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 16fbffff
       m_RenameOverlay:
@@ -986,7 +986,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 0
     m_Folders:
-    - Assets/ScriptableObjectAssets/Player/Movement
+    - Assets/ScriptableObjectAssets/Weapons/Player/Pistol
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e4540000
     m_LastClickedID: 21732
-    m_ExpandedIDs: ffffffff00000000f0b10000f2b10000f4b10000f6b10000f8b10000fcb10000feb1000000b2000002b20000bcb30000f0b30000fab3000070b40000d4b40000d8b40000dcb4000000bd000002bd0000
+    m_ExpandedIDs: 000000002eb2000030b2000032b2000034b2000036b2000038b200003ab200003cb200003eb2000040b2000042b2000044b2000046b2000048b200004ab200004cb200004eb20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1027,9 +1027,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52b50000
-    m_LastClickedID: 46418
-    m_ExpandedIDs: ffffffff00000000f0b10000f2b10000f4b10000f6b10000f8b10000fcb10000feb1000000b2000002b20000bcb30000f0b30000fab3000070b40000d4b40000d8b40000dcb4000000bd000002bd0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff000000002eb2000030b2000032b2000034b2000036b2000038b200003ab200003cb200003eb2000040b2000042b2000044b2000046b2000048b200004ab200004cb200004eb20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1054,8 +1054,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 52b50000
-    m_LastClickedInstanceID: 46418
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
