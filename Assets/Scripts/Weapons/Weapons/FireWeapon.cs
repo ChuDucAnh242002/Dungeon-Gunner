@@ -42,7 +42,8 @@ public class FireWeapon : MonoBehaviour
 
         if(fireWeaponEventArgs.fire){
             if(IsWeaponReadyToFire()){
-                FireAmmo(fireWeaponEventArgs.aimAngle, fireWeaponEventArgs.weaponAimAngle, fireWeaponEventArgs.weaponAimDirectionVector);
+                FireAmmo(fireWeaponEventArgs.aimAngle, fireWeaponEventArgs.weaponAimAngle,
+                    fireWeaponEventArgs.weaponAimDirectionVector, fireWeaponEventArgs.fireTime);
 
                 ResetCoolDownTimer();
 
@@ -73,15 +74,15 @@ public class FireWeapon : MonoBehaviour
         return true;
     }
 
-    private void FireAmmo(float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector){
+    private void FireAmmo(float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector, float fireTime){
         AmmoDetailsSO currentAmmo = activeWeapon.GetCurrentAmmo();
         
         if(currentAmmo != null){
-            StartCoroutine(FireAmmoRoutine(currentAmmo, aimAngle, weaponAimAngle, weaponAimDirectionVector));
+            StartCoroutine(FireAmmoRoutine(currentAmmo, aimAngle, weaponAimAngle, weaponAimDirectionVector, fireTime));
         }
     }
 
-    private IEnumerator FireAmmoRoutine(AmmoDetailsSO currentAmmo, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector){
+    private IEnumerator FireAmmoRoutine(AmmoDetailsSO currentAmmo, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector, float fireTime){
 
         int ammoCounter = 0;
 
@@ -105,7 +106,7 @@ public class FireWeapon : MonoBehaviour
 
             IFireable ammo = (IFireable) PoolManager.Instance.ReuseComponent(ammoPrefab, activeWeapon.GetShootPosition(), Quaternion.identity);
 
-            ammo.InitialiseAmmo(currentAmmo, aimAngle, weaponAimAngle, ammoSpeed, weaponAimDirectionVector);
+            ammo.InitialiseAmmo(currentAmmo, aimAngle, weaponAimAngle, ammoSpeed, weaponAimDirectionVector, fireTime);
 
             yield return new WaitForSeconds(ammoSpawnInterval);
         }
@@ -119,6 +120,8 @@ public class FireWeapon : MonoBehaviour
         }
 
         weaponFiredEvent.CallWeaponFiredEvent(currentWeapon);
+
+        WeaponSoundEffect();
     }
 
     private void ResetCoolDownTimer(){
@@ -128,6 +131,14 @@ public class FireWeapon : MonoBehaviour
     private void ResetPrechargeTimer(){
         float weaponPrechargeTime = activeWeapon.GetCurrentWeapon().weaponDetails.weaponPrechargeTime;
         firePreChargeTimer = weaponPrechargeTime;
+    }
+
+    private void WeaponSoundEffect(){
+        Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
+        SoundEffectSO weaponFiringSoundEffect = currentWeapon.weaponDetails.weaponFiringSoundEffect;
+        if(weaponFiringSoundEffect != null){
+            SoundEffectManager.Instance.PlaySoundEffect(weaponFiringSoundEffect);
+        }
     }
 
 }

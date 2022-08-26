@@ -20,6 +20,7 @@ public class PlayerControl : MonoBehaviour
     private bool isPlayerRolling = false;
     private float playerRollCooldownTimer = 0f;
     private bool reverse = false;
+    private float fireTime = 0;
 
     private void Awake(){
         player = GetComponent<Player>();
@@ -154,9 +155,11 @@ public class PlayerControl : MonoBehaviour
 
     private void FireWeaponInput(Vector3 weaponDirection, float weaponAngleDegrees, float playerAngleDegrees, AimDirection playerAimDirection){
         if(Input.GetMouseButton(0)){
-            player.fireWeaponEvent.CallFireWeaponEvent(true, leftMouseDownPreviousFrame , playerAimDirection, playerAngleDegrees, weaponAngleDegrees, weaponDirection);
+            fireTime += Time.deltaTime;
+            player.fireWeaponEvent.CallFireWeaponEvent(true, leftMouseDownPreviousFrame , playerAimDirection, playerAngleDegrees, weaponAngleDegrees, weaponDirection, fireTime);
             leftMouseDownPreviousFrame = true;
         } else {
+            fireTime = 0;
             leftMouseDownPreviousFrame = false;
         }
     }

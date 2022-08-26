@@ -40,6 +40,7 @@ public class GameResources : MonoBehaviour
     [Header("SOUNDS")]
     #endregion
     public AudioMixerGroup soundsMasterMixerGroup;
+    public SoundEffectSO doorOpenCloseSoundEffect;
 
     #region Header MATERIALS
     [Space(10)]
@@ -68,6 +69,7 @@ public class GameResources : MonoBehaviour
     private void OnValidate(){
         HelperUtilities.ValidateCheckNullValue(this, nameof(roomNodeTypeList), roomNodeTypeList);
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayerSO), currentPlayerSO);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
         HelperUtilities.ValidateCheckNullValue(this, nameof(dimmedMaterial), dimmedMaterial);
         HelperUtilities.ValidateCheckNullValue(this, nameof(litMaterial), litMaterial);
         HelperUtilities.ValidateCheckNullValue(this, nameof(variableLitShader), variableLitShader);

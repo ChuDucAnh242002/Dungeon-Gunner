@@ -20,13 +20,13 @@ MonoBehaviour:
   ammoMaterial: {fileID: 2100000, guid: 5c86445c1f630c141ab88b05539eca5d, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
-  ammoDamage: 7
-  ammoSpeedMin: 13
-  ammoSpeedMax: 13
-  ammoRange: 15
+  ammoDamage: 10
+  ammoSpeedMin: 23
+  ammoSpeedMax: 23
+  ammoRange: 25
   ammoRotationSpeed: 1
-  ammoSpreadMin: 1
-  ammoSpreadMax: 3
+  ammoSpreadMin: 5
+  ammoSpreadMax: 7
   ammoSpawnAmountMin: 1
   ammoSpawnAmountMax: 1
   ammoSpawnIntervalMin: 0

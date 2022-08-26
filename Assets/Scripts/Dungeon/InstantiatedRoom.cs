@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-[DisallowMultipleComponent]
 [RequireComponent(typeof(BoxCollider2D))]
+[DisallowMultipleComponent]
 public class InstantiatedRoom : MonoBehaviour
 {
     [HideInInspector] public Room room;

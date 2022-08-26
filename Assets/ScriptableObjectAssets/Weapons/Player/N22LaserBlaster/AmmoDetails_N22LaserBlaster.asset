@@ -21,9 +21,9 @@ MonoBehaviour:
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
   ammoDamage: 15
-  ammoSpeedMin: 55
-  ammoSpeedMax: 55
-  ammoRange: 14
+  ammoSpeedMin: 70
+  ammoSpeedMax: 70
+  ammoRange: 30
   ammoRotationSpeed: 1
   ammoSpreadMin: 0.5
   ammoSpreadMax: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
   ammoSpawnIntervalMin: 0
   ammoSpawnIntervalMax: 0
   isAmmoTrail: 1
-  ammoTrailTime: 0.1
+  ammoTrailTime: 0.05
   ammoTrailMaterial: {fileID: 2100000, guid: f40d05d451e2ae24f91e9e3314c280da, type: 2}
-  ammoTrailStartWidth: 0.079
-  ammoTrailEndWidth: 0.2
+  ammoTrailStartWidth: 0.25
+  ammoTrailEndWidth: 0.07

@@ -54,6 +54,12 @@ public class ReloadWeapon : MonoBehaviour
         int weaponClipAmmoCapacity = weapon.weaponDetails.weaponClipAmmoCapacity;
         float weaponReloadTime = weapon.weaponDetails.weaponReloadTime;
         bool hasInfiniteAmmo = weapon.weaponDetails.hasInfiniteAmmo;
+        SoundEffectSO weaponReloadingSoundEffect = weapon.weaponDetails.weaponReloadingSoundEffect;
+
+        if(weaponReloadingSoundEffect != null){
+            SoundEffectManager.Instance.PlaySoundEffect(weaponReloadingSoundEffect);
+        }
+
 
         weapon.isWeaponReloading = true;
 

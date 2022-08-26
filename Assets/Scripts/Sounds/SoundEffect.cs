@@ -26,4 +26,5 @@ public class SoundEffect : MonoBehaviour
         audioSource.volume = soundEffect.soundEffectVolume;
         audioSource.clip = soundEffect.soundEffectClip;
     }
+
 }

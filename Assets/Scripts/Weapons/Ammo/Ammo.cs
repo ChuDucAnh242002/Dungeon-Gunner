@@ -46,10 +46,11 @@ public class Ammo : MonoBehaviour, IFireable
 
     public void InitialiseAmmo(AmmoDetailsSO ammoDetails,
         float aimAngle, float weaponAimAngle, float ammoSpeed,
-        Vector3 weaponAimDirectionVector, bool overrideAmmoMovement = false){
+        Vector3 weaponAimDirectionVector, float fireTime,
+        bool overrideAmmoMovement = false){
             #region Ammo
             this.ammoDetails = ammoDetails;
-            SetFireDirection(ammoDetails, aimAngle, weaponAimAngle, weaponAimDirectionVector);
+            SetFireDirection(ammoDetails, aimAngle, weaponAimAngle, weaponAimDirectionVector, fireTime);
 
             spriteRenderer.sprite = ammoDetails.ammoSprite;
 
@@ -88,8 +89,12 @@ public class Ammo : MonoBehaviour, IFireable
             #endregion Trail
         }
 
-    private void SetFireDirection(AmmoDetailsSO ammoDetails, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector){
-        float randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax);
+    private void SetFireDirection(AmmoDetailsSO ammoDetails, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector, float fireTime){
+        
+        float randomSpread = ammoDetails.ammoSpreadMin;
+        if (fireTime >= 0.2f){
+            randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax);
+        }
 
         int spreadToggle = Random.Range(0, 2)*2 -1;
         if(weaponAimDirectionVector.magnitude < Settings.useAimAngleDistance){
