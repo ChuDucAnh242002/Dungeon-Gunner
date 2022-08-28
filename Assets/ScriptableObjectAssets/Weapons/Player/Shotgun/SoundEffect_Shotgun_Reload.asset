@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fd420ecbaaa50943a9c79c82b051d7b, type: 3}
   m_Name: SoundEffect_Shotgun_Reload
   m_EditorClassIdentifier: 
-  soundEffectName: Shotgun Fire
+  soundEffectName: Shotgun Reload
   soundPrefab: {fileID: 1504514487756828174, guid: 9ce42ad6a33a01a4da5b54c2b31b453d, type: 3}
-  soundEffectClip: {fileID: 8300000, guid: 87cb7c4792ca3624fbf3c9d9ef50cf79, type: 3}
+  soundEffectClip: {fileID: 8300000, guid: 8bf4219f6394996469312e55ac2af0d1, type: 3}
   soundEffectPitchRandomVariationMin: 0.8
   soundEffectPitchRandomVariationMax: 1.2
   soundEffectVolume: 1

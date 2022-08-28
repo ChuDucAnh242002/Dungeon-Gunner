@@ -19,6 +19,7 @@ public class WeaponDetailsSO : ScriptableObject {
     #endregion 
     public Vector3 weaponShootPosition;
     public AmmoDetailsSO weaponCurrentAmmo;
+    public WeaponShootEffectSO weaponShootEffect;
     public SoundEffectSO weaponFiringSoundEffect;
     public SoundEffectSO weaponReloadingSoundEffect;
 
