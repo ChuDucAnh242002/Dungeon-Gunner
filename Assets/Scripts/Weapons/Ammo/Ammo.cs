@@ -40,6 +40,7 @@ public class Ammo : MonoBehaviour, IFireable
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        AmmoHitEffect();
         DisableAmmo();
     }
 
@@ -92,7 +93,10 @@ public class Ammo : MonoBehaviour, IFireable
     private void SetFireDirection(AmmoDetailsSO ammoDetails, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector, float fireTime){
         
         float randomSpread = ammoDetails.ammoSpreadMin;
-        if (fireTime >= 0.2f){
+        if(fireTime >= 0.1f && fireTime < 0.3f){
+            randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax/2);
+        }
+        if (fireTime >= 0.3f){
             randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax);
         }
 
@@ -112,6 +116,17 @@ public class Ammo : MonoBehaviour, IFireable
 
     private void DisableAmmo(){
         gameObject.SetActive(false);
+    }
+
+    private void AmmoHitEffect(){
+        if(ammoDetails.ammoHitEffect != null && ammoDetails.ammoHitEffect.ammoHitEffectPrefab != null){
+            AmmoHitEffect ammoHitEffect = (AmmoHitEffect) PoolManager.Instance.ReuseComponent(
+                ammoDetails.ammoHitEffect.ammoHitEffectPrefab, transform.position, Quaternion.identity
+            );
+            ammoHitEffect.SetHitEffect(ammoDetails.ammoHitEffect);
+
+            ammoHitEffect.gameObject.SetActive(true);
+        }
     }
     private void SetAmmoMaterial(Material material){
         spriteRenderer.material = material;

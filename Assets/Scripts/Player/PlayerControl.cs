@@ -20,6 +20,7 @@ public class PlayerControl : MonoBehaviour
     private bool isPlayerRolling = false;
     private float playerRollCooldownTimer = 0f;
     private bool reverse = false;
+    private int previousWeaponIndex = 0;
     private float fireTime = 0;
 
     private void Awake(){
@@ -174,6 +175,9 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl)){
             SwitchBetweenTwoWeapon();
         }
+        if (Input.GetKeyDown(KeyCode.Q)){
+            FastSwitchWeapon();
+        }
         if (Input.GetKeyDown(KeyCode.Alpha1)){
             SetWeaponByIndex(1);
         }
@@ -213,6 +217,7 @@ public class PlayerControl : MonoBehaviour
         Weapon currentWeapon = player.activeWeapon.GetCurrentWeapon();
         
         if (weaponIndex -1 < player.weaponList.Count){
+            previousWeaponIndex = currentWeaponIndex;
             currentWeaponIndex = weaponIndex;
             Weapon weapon = player.weaponList[weaponIndex - 1];
             if(weapon == currentWeapon) return;
@@ -245,6 +250,10 @@ public class PlayerControl : MonoBehaviour
             PreviousWeapon();
         }
         reverse = !reverse;
+    }
+
+    private void FastSwitchWeapon(){
+        SetWeaponByIndex(previousWeaponIndex);
     }
 
     private void ReloadWeaponInput(){
