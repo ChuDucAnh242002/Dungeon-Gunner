@@ -24,7 +24,7 @@ MonoBehaviour:
   ammoDamage: 13
   ammoSpeedMin: 38
   ammoSpeedMax: 38
-  ammoRange: 40
+  ammoRange: 50
   ammoRotationSpeed: 1
   ammoSpreadMin: 0.5
   ammoSpreadMax: 1.5

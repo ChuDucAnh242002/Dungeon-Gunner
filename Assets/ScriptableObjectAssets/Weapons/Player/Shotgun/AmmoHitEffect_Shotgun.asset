@@ -41,15 +41,15 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  duration: 0.05
+  duration: 0.6
   startParticleSize: 0.25
   startParticleSpeed: 3
   startLifetime: 0.5
-  maxParticleNumber: 100
-  emissionRate: 100
+  maxParticleNumber: 20
+  emissionRate: 0
   burstParticleNumber: 20
-  effectGravity: -0
-  sprite: {fileID: 0}
+  effectGravity: -0.01
+  sprite: {fileID: 21300000, guid: bb7ccf2391a6a544ab96e81e36b6a0ed, type: 3}
   velocityOverLifetimeMin: {x: 0, y: 0, z: 0}
   velocityOverLifetimeMax: {x: 0, y: 0, z: 0}
-  ammoHitEffectPrefab: {fileID: 0}
+  ammoHitEffectPrefab: {fileID: 2905535786968711655, guid: e8e18a804e2515b4c9b368340356a24c, type: 3}
