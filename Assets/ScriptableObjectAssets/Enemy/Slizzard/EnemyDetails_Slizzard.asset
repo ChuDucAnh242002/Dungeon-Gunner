@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
   m_Name: EnemyDetails_Slizzard
   m_EditorClassIdentifier: 
-  enemyName: 
-  enemyPrefab: {fileID: 0}
+  enemyName: Slizzard
+  enemyPrefab: {fileID: 4715794772230571848, guid: 794f70c060643404fa365d39448ca075, type: 3}

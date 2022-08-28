@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
   m_Name: EnemyDetails_MudRock
   m_EditorClassIdentifier: 
-  enemyName: 
-  enemyPrefab: {fileID: 0}
+  enemyName: Mud Rock
+  enemyPrefab: {fileID: 8947587042963234208, guid: 06628d42cb1235947844762df3196fd3, type: 3}

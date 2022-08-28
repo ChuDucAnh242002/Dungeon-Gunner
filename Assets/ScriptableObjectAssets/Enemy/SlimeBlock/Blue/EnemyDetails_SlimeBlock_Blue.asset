@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
   m_Name: EnemyDetails_SlimeBlock_Blue
   m_EditorClassIdentifier: 
-  enemyName: 
-  enemyPrefab: {fileID: 0}
+  enemyName: Slime Block Blue
+  enemyPrefab: {fileID: 2916923082627347739, guid: a5517d6a020f8e34ebe10fe43271ef1c, type: 3}

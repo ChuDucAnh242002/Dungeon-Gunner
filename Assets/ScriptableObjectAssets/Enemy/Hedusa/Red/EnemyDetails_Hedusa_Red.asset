@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
   m_Name: EnemyDetails_Hedusa_Red
   m_EditorClassIdentifier: 
-  enemyName: Hedusa Green
-  enemyPrefab: {fileID: 7729625764069547130, guid: 152b405df95d09e469281934eabc1762, type: 3}
+  enemyName: Hedusa Red
+  enemyPrefab: {fileID: 7729625764069547130, guid: f3035d83c5a61d84ba35109b5c44b7e9, type: 3}
