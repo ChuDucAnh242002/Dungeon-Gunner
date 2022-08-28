@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
   m_Name: EnemyDetails_SlimeBlockKing_Red_Pistol
   m_EditorClassIdentifier: 
-  enemyName: Slime Block King Green
-  enemyPrefab: {fileID: 2005673493720447512, guid: 60f7d7f2250432945bed5e28fc608854, type: 3}
+  enemyName: Slime Block King Red
+  enemyPrefab: {fileID: 2005673493720447512, guid: c0964338fb254ba4893c4e385414532d, type: 3}
