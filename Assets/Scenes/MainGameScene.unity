@@ -246,7 +246,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777776, y: 1}
+    m_SensorSize: {x: 1.7777779, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -389,10 +389,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.0011876485
     y: 0
-    width: 0.9992193
-    height: 0.9989595
+    width: 0.9986805
+    height: 0.99894404
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2562,6 +2562,15 @@ MonoBehaviour:
   - prefab: {fileID: 1504514487756828174, guid: 9ce42ad6a33a01a4da5b54c2b31b453d, type: 3}
     poolSize: 40
     componentType: SoundEffect
+  - prefab: {fileID: 5973180252224680876, guid: 735586ebad1766747addbe2ccba63264, type: 3}
+    poolSize: 20
+    componentType: WeaponShootEffect
+  - prefab: {fileID: 2905535786968711655, guid: 181154bc723c2c74aaf79c229df2cf75, type: 3}
+    poolSize: 20
+    componentType: WeaponShootEffect
+  - prefab: {fileID: 6904495592926923139, guid: 7a4f8a57b8727bd46b7dfe5170d72f2a, type: 3}
+    poolSize: 20
+    componentType: WeaponShootEffect
 --- !u!4 &1825060546
 Transform:
   m_ObjectHideFlags: 0
