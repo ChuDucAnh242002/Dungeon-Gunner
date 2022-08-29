@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hedusa_Red
       objectReference: {fileID: 0}
+    - target: {fileID: 1562709184473822189, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: enemyDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 5757a48f86a6ffd4a8bc8b8214a5e3cf, type: 2}
     - target: {fileID: 1917099394806781941, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_Controller
       value: 
@@ -75,6 +79,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5861438104304097409, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 609452f0832964b42b027ca97a4375d0, type: 2}
     - target: {fileID: 7861324550719022588, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.875

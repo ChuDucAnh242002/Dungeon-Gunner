@@ -79,6 +79,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3885363456871390733, guid: a5517d6a020f8e34ebe10fe43271ef1c, type: 3}
+      propertyPath: enemyDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: ae202157dc5d19b4d80c1e6f26edb9df, type: 2}
+    - target: {fileID: 8150473150420432225, guid: a5517d6a020f8e34ebe10fe43271ef1c, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 185ebba529d4dab4484884bdd2a5601d, type: 2}
     - target: {fileID: 9074648794458965545, guid: a5517d6a020f8e34ebe10fe43271ef1c, type: 3}
       propertyPath: m_Color.b
       value: 0.47058824

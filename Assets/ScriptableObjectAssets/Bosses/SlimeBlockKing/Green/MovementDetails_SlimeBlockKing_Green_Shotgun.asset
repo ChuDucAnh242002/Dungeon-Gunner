@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
-  m_Name: EnemyDetails_Hedusa_Green 1
+  m_Script: {fileID: 11500000, guid: 6f5a96338de30e749a9ed4471d66be09, type: 3}
+  m_Name: MovementDetails_SlimeBlockKing_Green_Shotgun
   m_EditorClassIdentifier: 
-  enemyName: Hedusa Green
-  enemyPrefab: {fileID: 7729625764069547130, guid: 152b405df95d09e469281934eabc1762, type: 3}
+  minMoveSpeed: 2
+  maxMoveSpeed: 3
+  rollSpeed: 0
+  rollDistance: 0
+  rollCooldownTime: 0

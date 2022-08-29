@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ab29ad5fd93284d830e7e5ba5c0715, type: 3}
-  m_Name: EnemyDetails_Orc
+  m_Script: {fileID: 11500000, guid: 6f5a96338de30e749a9ed4471d66be09, type: 3}
+  m_Name: MovementDetails_SlimeBlockKing_Red_Pistol
   m_EditorClassIdentifier: 
-  enemyName: Orc
-  enemyPrefab: {fileID: 5322376622317450882, guid: 8496c06b5cfaa2e46a0c86aabf90a9b6, type: 3}
+  minMoveSpeed: 4
+  maxMoveSpeed: 5
+  rollSpeed: 0
+  rollDistance: 0
+  rollCooldownTime: 0

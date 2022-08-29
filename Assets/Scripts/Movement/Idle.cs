@@ -7,11 +7,12 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class Idle : MonoBehaviour
 {
-    private Rigidbody2D rigidbody2D;
+    // error occur
+    private Rigidbody2D body;
     private IdleEvent idleEvent;
 
     private void Awake(){
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        body = GetComponent<Rigidbody2D>();
         idleEvent = GetComponent<IdleEvent>();
     }
 
@@ -27,6 +28,6 @@ public class Idle : MonoBehaviour
     }
 
     private void MoveRigidBody(){
-        rigidbody2D.velocity = Vector2.zero;
+        body.velocity = Vector2.zero;
     }
 }

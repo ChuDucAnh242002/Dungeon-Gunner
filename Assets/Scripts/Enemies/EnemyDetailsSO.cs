@@ -11,6 +11,7 @@ public class EnemyDetailsSO : ScriptableObject {
     #endregion
     public string enemyName;
     public GameObject enemyPrefab;
+    public float chaseDistance = 50f;
 
     #region Validation
 #if UNITY_EDITOR

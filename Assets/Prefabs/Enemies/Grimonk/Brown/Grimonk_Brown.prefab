@@ -39,6 +39,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1562709184473822189, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: enemyDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 4769d618238122d40bc03492f9f74423, type: 2}
     - target: {fileID: 1917099394806781941, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_Controller
       value: 
@@ -103,6 +107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5861438104304097409, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 6b0c6cecc7e551148b1488805fc93839, type: 2}
     - target: {fileID: 6749750410207062985, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_Size.x
       value: 0.25
