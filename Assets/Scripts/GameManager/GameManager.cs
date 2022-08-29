@@ -25,6 +25,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     private PlayerDetailsSO playerDetails;
     private Player player;
     [HideInInspector] public GameState gameState;
+    [HideInInspector] public GameState previousGameState;
 
     protected override void Awake(){
         base.Awake();
@@ -55,6 +56,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     }
 
     private void Start(){
+        previousGameState = GameState.gameStarted;
         gameState = GameState.gameStarted;
     }
 
