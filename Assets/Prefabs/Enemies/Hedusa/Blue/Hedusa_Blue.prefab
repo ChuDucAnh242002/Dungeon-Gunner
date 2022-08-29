@@ -81,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5861438104304097409, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5861438104304097409, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: movementDetails

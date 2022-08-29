@@ -246,7 +246,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1, y: 1}
+    m_SensorSize: {x: 1.7772862, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -390,9 +390,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 0
-    height: 0
+    y: 0.03814714
+    width: 1.0002767
+    height: 0.92370576
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2784,6 +2784,7 @@ GameObject:
   - component: {fileID: 2066804823}
   - component: {fileID: 2066804822}
   - component: {fileID: 2066804824}
+  - component: {fileID: 2066804825}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2811,7 +2812,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 13103dadfb8273a49a02bbba2babd7f5, type: 2}
   - {fileID: 11400000, guid: 6619c20700777ed45bd67485835ab6e4, type: 2}
   - {fileID: 11400000, guid: 332c037b328bc314ebebb3f5aaa1cf40, type: 2}
-  currentDungeonLevelListIndex: 0
+  currentDungeonLevelListIndex: 2
   gameState: 0
 --- !u!4 &2066804823
 Transform:
@@ -2836,6 +2837,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066804821}
   m_Enabled: 1
+--- !u!114 &2066804825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066804821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0783a365ff3d8b946b7a6475d40a92fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomTemplateSO: {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
 --- !u!1 &2125145633
 GameObject:
   m_ObjectHideFlags: 0
