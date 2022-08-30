@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Slime Block King Red
   enemyPrefab: {fileID: 2005673493720447512, guid: c0964338fb254ba4893c4e385414532d, type: 3}
+  chaseDistance: 50
+  enemyStandardMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  enemyMaterializeTime: 0
+  enemyMaterializeShader: {fileID: -6465566751694194690, guid: 5fec8f8e6ea244648a3c6ede24a56288, type: 3}
+  enemyMaterializeColor: {r: 8.47419, g: 0, b: 6.122713, a: 1}
+  enemyWeapon: {fileID: 0}
+  firingIntervalMin: 0.1
+  firingIntervalMax: 1
+  firingDurationMin: 1
+  firingDurationMax: 2
+  firingLineOfSightRequired: 0

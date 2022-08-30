@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 5566815226637263763}
   - component: {fileID: 2326992779941896936}
   - component: {fileID: 2957529895289748563}
+  - component: {fileID: 4062007141925483816}
   m_Layer: 15
   m_Name: Enemy
   m_TagString: Untagged
@@ -60,6 +61,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyDetails: {fileID: 0}
+  aimWeaponEvent: {fileID: 0}
+  fireWeaponEvent: {fileID: 0}
   movementToPositionEvent: {fileID: 0}
   idleEvent: {fileID: 0}
   spriteRendererArray: []
@@ -300,6 +303,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b4dc4ae256f4a74b95fc1b904dfd874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4062007141925483816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594106633709476091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5064ab8994760439a01313581e2238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  weaponShootPosition: {fileID: 0}
 --- !u!1 &1156102552472092090
 GameObject:
   m_ObjectHideFlags: 0
