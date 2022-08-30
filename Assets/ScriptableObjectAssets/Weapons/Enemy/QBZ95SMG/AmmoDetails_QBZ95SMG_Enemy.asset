@@ -10,28 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14254115017cf2141be02335240910db, type: 3}
-  m_Name: AmmoDetails_Shotgun
+  m_Name: AmmoDetails_QBZ95SMG_Enemy
   m_EditorClassIdentifier: 
-  ammoName: Shotgun Ammo
+  ammoName: QBZ95 SMG Ammo
   isPlayerAmmo: 1
-  ammoSprite: {fileID: 21300000, guid: c3be09077243891458bdbf46a57d2e8a, type: 3}
+  ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:
-  - {fileID: 477551918507955260, guid: b133e398b06462d47b23272511e82ced, type: 3}
+  - {fileID: 477551918507955260, guid: 005acd91ada398d49b35d13de7a77515, type: 3}
   ammoMaterial: {fileID: 2100000, guid: c92da765fb7cca448a71d99956fe00bd, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
-  ammoHitEffect: {fileID: 11400000, guid: abcce213331e8344aa28a559760a7c5d, type: 2}
-  ammoDamage: 6
-  ammoSpeedMin: 23
-  ammoSpeedMax: 27
-  ammoRange: 20
+  ammoHitEffect: {fileID: 11400000, guid: 9cd4759225d098e48aeedb03b303110c, type: 2}
+  ammoDamage: 5
+  ammoSpeedMin: 34
+  ammoSpeedMax: 34
+  ammoRange: 24
   ammoRotationSpeed: 1
-  ammoSpreadMin: 1
-  ammoSpreadMax: 12
-  ammoSpawnAmountMin: 4
-  ammoSpawnAmountMax: 4
+  ammoSpreadMin: 2
+  ammoSpreadMax: 8
+  ammoSpawnAmountMin: 1
+  ammoSpawnAmountMax: 1
   ammoSpawnIntervalMin: 0
-  ammoSpawnIntervalMax: 0.01
+  ammoSpawnIntervalMax: 0
   isAmmoTrail: 0
   ammoTrailTime: 0
   ammoTrailMaterial: {fileID: 0}

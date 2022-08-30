@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd420ecbaaa50943a9c79c82b051d7b, type: 3}
+  m_Name: SoundEffect_Pistol_Fire_Boss
+  m_EditorClassIdentifier: 
+  soundEffectName: Pistol Fire Boss
+  soundPrefab: {fileID: 1504514487756828174, guid: 9ce42ad6a33a01a4da5b54c2b31b453d, type: 3}
+  soundEffectClip: {fileID: 8300000, guid: 71d623ca1199efc429d66921b7070dda, type: 3}
+  soundEffectPitchRandomVariationMin: 0.675
+  soundEffectPitchRandomVariationMax: 1.1
+  soundEffectVolume: 0.504

@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14254115017cf2141be02335240910db, type: 3}
-  m_Name: AmmoDetails_Shotgun
+  m_Name: AmmoDetails_Shotgun_Enemy
   m_EditorClassIdentifier: 
-  ammoName: Shotgun Ammo
-  isPlayerAmmo: 1
+  ammoName: Shotgun Ammo Enemy
+  isPlayerAmmo: 0
   ammoSprite: {fileID: 21300000, guid: c3be09077243891458bdbf46a57d2e8a, type: 3}
   ammoPrefabArray:
-  - {fileID: 477551918507955260, guid: b133e398b06462d47b23272511e82ced, type: 3}
-  ammoMaterial: {fileID: 2100000, guid: c92da765fb7cca448a71d99956fe00bd, type: 2}
+  - {fileID: 477551918507955260, guid: cb9f2c95b5d4d3a4993a8091ffb6006c, type: 3}
+  ammoMaterial: {fileID: 2100000, guid: a8f373dc317a30d40a68b73a78ce1d09, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
-  ammoHitEffect: {fileID: 11400000, guid: abcce213331e8344aa28a559760a7c5d, type: 2}
+  ammoHitEffect: {fileID: 11400000, guid: 65ffd09652f646a4e8829c9e52d18dcc, type: 2}
   ammoDamage: 6
-  ammoSpeedMin: 23
-  ammoSpeedMax: 27
+  ammoSpeedMin: 8
+  ammoSpeedMax: 11
   ammoRange: 20
   ammoRotationSpeed: 1
   ammoSpreadMin: 1
-  ammoSpreadMax: 12
-  ammoSpawnAmountMin: 4
-  ammoSpawnAmountMax: 4
+  ammoSpreadMax: 30
+  ammoSpawnAmountMin: 6
+  ammoSpawnAmountMax: 8
   ammoSpawnIntervalMin: 0
   ammoSpawnIntervalMax: 0.01
   isAmmoTrail: 0
