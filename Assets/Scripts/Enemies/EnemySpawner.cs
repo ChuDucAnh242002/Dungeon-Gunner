@@ -101,7 +101,7 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
 
     }
 
-    private void Enemy_OnDestroyed(DestroyedEvent destroyedEvent){
+    private void Enemy_OnDestroyed(DestroyedEvent destroyedEvent, DestroyedEventArgs destroyedEventArgs){
         destroyedEvent.OnDestroyed -= Enemy_OnDestroyed;
 
         currentEnemyCount--;

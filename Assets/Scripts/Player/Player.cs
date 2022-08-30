@@ -5,6 +5,9 @@ using UnityEngine.Rendering;
 
 #region REQUIRE COMPONENTS
 [RequireComponent(typeof(Health))]
+[RequireComponent(typeof(HealthEvent))]
+[RequireComponent(typeof(Destroyed))]
+[RequireComponent(typeof(DestroyedEvent))]
 
 [RequireComponent(typeof(PlayerControl))]
 [RequireComponent(typeof(IdleEvent))]
@@ -39,6 +42,8 @@ public class Player : MonoBehaviour
 {
     [HideInInspector] public PlayerDetailsSO playerDetails;
     [HideInInspector] public Health health;
+    [HideInInspector] public HealthEvent healthEvent;
+    [HideInInspector] public DestroyedEvent destroyedEvent;
     [HideInInspector] public IdleEvent idleEvent;
     [HideInInspector] public AimWeaponEvent aimWeaponEvent;
     [HideInInspector] public SetActiveWeaponEvent setActiveWeaponEvent;
@@ -57,6 +62,8 @@ public class Player : MonoBehaviour
 
     private void Awake(){
         health = GetComponent<Health>();
+        healthEvent = GetComponent<HealthEvent>();
+        destroyedEvent = GetComponent<DestroyedEvent>();
 
         idleEvent = GetComponent<IdleEvent>();
         aimWeaponEvent = GetComponent<AimWeaponEvent>();
@@ -72,6 +79,21 @@ public class Player : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+    }
+
+    private void OnEnable(){
+        healthEvent.OnHealthChanged += HealthEvent_OnHealthChanged;
+    }
+    private void OnDisable(){
+        healthEvent.OnHealthChanged -= HealthEvent_OnHealthChanged;
+    }
+
+    private void HealthEvent_OnHealthChanged(HealthEvent healthEvent, HealthEventArgs healthEventArgs){
+        Debug.Log("Health Amount = " + healthEventArgs.healthAmount);
+
+        if (healthEventArgs.healthAmount <= 0f){
+            destroyedEvent.CallDestroyedEvent(true);
+        }
     }
 
     public void Initialize(PlayerDetailsSO playerDetails){
