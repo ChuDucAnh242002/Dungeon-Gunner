@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
     private void HealthEvent_OnHealthChanged(HealthEvent healthEvent, HealthEventArgs healthEventArgs){
 
         if (healthEventArgs.healthAmount <= 0f){
-            destroyedEvent.CallDestroyedEvent(true);
+            destroyedEvent.CallDestroyedEvent(true, 0);
         }
     }
 
