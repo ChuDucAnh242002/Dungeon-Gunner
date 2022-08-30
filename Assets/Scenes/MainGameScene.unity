@@ -246,7 +246,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7773162, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -390,9 +390,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.007266122
-    width: 0.99922097
-    height: 0.98297006
+    y: 0.009082653
+    width: 1.0002596
+    height: 0.98399186
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2828,7 +2828,6 @@ GameObject:
   - component: {fileID: 2066804823}
   - component: {fileID: 2066804822}
   - component: {fileID: 2066804824}
-  - component: {fileID: 2066804825}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2882,18 +2881,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066804821}
   m_Enabled: 1
---- !u!114 &2066804825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066804821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0783a365ff3d8b946b7a6475d40a92fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2125145633
 GameObject:
   m_ObjectHideFlags: 0
