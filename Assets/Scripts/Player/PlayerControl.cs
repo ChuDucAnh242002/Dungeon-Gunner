@@ -19,6 +19,8 @@ public class PlayerControl : MonoBehaviour
     private WaitForFixedUpdate waitForFixedUpdate;
     private bool isPlayerRolling = false;
     private float playerRollCooldownTimer = 0f;
+    [HideInInspector] public bool isPlayerRolling = false;
+
     private bool reverse = false;
     private int previousWeaponIndex = 0;
     private float fireTime = 0;

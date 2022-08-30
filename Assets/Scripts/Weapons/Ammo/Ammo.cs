@@ -13,6 +13,7 @@ public class Ammo : MonoBehaviour, IFireable
     private float ammoChargeTimer;
     private bool isAmmoMaterialSet = false;
     private bool overrideAmmoMovement;
+    private bool isColliding = false;
 
     private void Awake(){
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -40,6 +41,7 @@ public class Ammo : MonoBehaviour, IFireable
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        if (isColliding) return;
         DealDamage(collision);
 
         AmmoHitEffect();
@@ -50,6 +52,8 @@ public class Ammo : MonoBehaviour, IFireable
         Health health = collision.GetComponent<Health>();
 
         if (health != null){
+            isColliding = true;
+
             health.TakeDamge(ammoDetails.ammoDamage);
         }
     }
@@ -61,6 +65,9 @@ public class Ammo : MonoBehaviour, IFireable
         bool overrideAmmoMovement = false){
             #region Ammo
             this.ammoDetails = ammoDetails;
+
+            isColliding = false;
+
             SetFireDirection(ammoDetails, aimAngle, weaponAimAngle, weaponAimDirectionVector, fireTime);
 
             spriteRenderer.sprite = ammoDetails.ammoSprite;
@@ -69,7 +76,6 @@ public class Ammo : MonoBehaviour, IFireable
                 ammoChargeTimer = ammoDetails.ammoChargeTime;
                 SetAmmoMaterial(ammoDetails.ammoChargeMaterial);
                 isAmmoMaterialSet= false;
-
             }
             else {
                 ammoChargeTimer = 0f;
