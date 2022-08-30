@@ -69,7 +69,11 @@ public class FireWeapon : MonoBehaviour
         if (currentWeapon.weaponRemainingAmmo <= 0 && !hasInfiniteAmmo) return false;
         if (currentWeapon.isWeaponReloading) return false;
         if (firePreChargeTimer > 0f || fireRateCoolDownTimer > 0f) return false;
-        if (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0) return false;
+        
+        if (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0){
+            reloadWeaponEvent.CallReloadWeaponEvent(currentWeapon, 0);
+            return false;
+        } 
         
         return true;
     }

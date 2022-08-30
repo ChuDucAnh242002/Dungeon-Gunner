@@ -31,6 +31,8 @@ public class PlayerDetailsSO : ScriptableObject {
     [Tooltip("Player starting health amount")]
     #endregion
     public int playerHealthAmount;
+    public bool isImmuneAfterHit = false;
+    public float hitImmunityTime;
 
     #region Header WEAPON
     [Space(10)]
@@ -65,6 +67,9 @@ public class PlayerDetailsSO : ScriptableObject {
         HelperUtilities.ValidateCheckNullValue(this, nameof(playerMiniMapIcon), playerMiniMapIcon);
         HelperUtilities.ValidateCheckNullValue(this, nameof(playerHandSprite), playerHandSprite);
         HelperUtilities.ValidateCheckNullValue(this, nameof(runtimeAnimatorController), runtimeAnimatorController);
+        if (isImmuneAfterHit){
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitImmunityTime), hitImmunityTime, false);
+        }
     }
 #endif
     #endregion
