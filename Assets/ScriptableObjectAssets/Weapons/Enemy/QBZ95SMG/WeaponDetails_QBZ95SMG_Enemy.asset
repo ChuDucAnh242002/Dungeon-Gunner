@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bedbc9cbd40e44cbc34ab6c98a2e8e, type: 3}
   m_Name: WeaponDetails_QBZ95SMG_Enemy
   m_EditorClassIdentifier: 
-  weaponName: QBZ95 SMG
+  weaponName: QBZ95 Assault Rifle Enemy
   weaponSprite: {fileID: 21300000, guid: dff74299f2cf7674eb05930ed6b07f8e, type: 3}
-  weaponShootPosition: {x: 1.284, y: 0.342, z: 0}
-  weaponCurrentAmmo: {fileID: 11400000, guid: 5e683fe7d9bb75e4bbbd5de23a9e73e7, type: 2}
-  weaponShootEffect: {fileID: 11400000, guid: 278dc83ff815c474e886ce99a533e642, type: 2}
-  weaponFiringSoundEffect: {fileID: 11400000, guid: 8d1ede8889d8d024baa9c727362ef4c7, type: 2}
-  weaponReloadingSoundEffect: {fileID: 11400000, guid: a8efa46e23d203b4c9a426ee502658c5, type: 2}
-  hasInfiniteAmmo: 0
+  weaponShootPosition: {x: 1.125, y: 0.313, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 170cdbb371f04c543b6842fd0f677439, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: 7d6ab9475707a1f4f850de2b0c33a28f, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 05f1d8deedde46f4eb5e4f6ead019796, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: 4645e74360b9b884d96a7eece16756d0, type: 2}
+  hasInfiniteAmmo: 1
   hasInfiniteClipCapacity: 0
-  weaponClipAmmoCapacity: 25
-  weaponAmmoCapacity: 125
-  weaponFireRate: 0.2
+  weaponClipAmmoCapacity: 12
+  weaponAmmoCapacity: 0
+  weaponFireRate: 0.33
   weaponPrechargeTime: 0
-  weaponReloadTime: 3
+  weaponReloadTime: 2

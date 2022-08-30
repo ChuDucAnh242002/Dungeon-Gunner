@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14254115017cf2141be02335240910db, type: 3}
   m_Name: AmmoDetails_QBZ95SMG
   m_EditorClassIdentifier: 
-  ammoName: QBZ95 SMG Ammo
+  ammoName: QBZ95 Assault Rifle Ammo
   isPlayerAmmo: 1
   ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:

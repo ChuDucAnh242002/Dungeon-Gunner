@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fd420ecbaaa50943a9c79c82b051d7b, type: 3}
   m_Name: SoundEffect_QBZ95SMG_Reload
   m_EditorClassIdentifier: 
-  soundEffectName: QBZ95 SMG Fire
+  soundEffectName: QBZ95 Assault Rifle Reload
   soundPrefab: {fileID: 1504514487756828174, guid: 9ce42ad6a33a01a4da5b54c2b31b453d, type: 3}
   soundEffectClip: {fileID: 8300000, guid: 212f1934ecd30614eb0bebcc5298f72e, type: 3}
   soundEffectPitchRandomVariationMin: 0.8
