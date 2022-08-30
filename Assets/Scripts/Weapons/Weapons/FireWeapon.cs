@@ -111,7 +111,6 @@ public class FireWeapon : MonoBehaviour
             yield return new WaitForSeconds(ammoSpawnInterval);
         }
 
-
         Weapon currentWeapon = activeWeapon.GetCurrentWeapon();
         bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
         if(!hasInfiniteClipCapacity){
