@@ -27,6 +27,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     [HideInInspector] public GameState gameState;
     [HideInInspector] public GameState previousGameState;
     private long gameScore;
+    private int scoreMultiplier;
 
     protected override void Awake(){
         base.Awake();
@@ -48,12 +49,16 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         StaticEventHandler.OnRoomChanged += StaticEventHandler_OnRoomChanged;
 
         StaticEventHandler.OnPointsScored += StaticEventHandler_OnPointsScored;
+
+        StaticEventHandler.OnMultiplierEvent += StaticEventHandler_OnMultiplierEvent;
     }
 
     private void OnDisable() {
         StaticEventHandler.OnRoomChanged -= StaticEventHandler_OnRoomChanged;
 
         StaticEventHandler.OnPointsScored -= StaticEventHandler_OnPointsScored;
+
+        StaticEventHandler.OnMultiplierEvent -= StaticEventHandler_OnMultiplierEvent;
     }
 
     private void StaticEventHandler_OnRoomChanged(RoomChangedEventArgs roomChangedEventArgs){
@@ -61,9 +66,20 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     }
 
     private void StaticEventHandler_OnPointsScored(PointsScoredAgrs pointsScoredAgrs){
-        gameScore += pointsScoredAgrs.points;
+        gameScore += pointsScoredAgrs.points * scoreMultiplier;
 
-        StaticEventHandler.CallScoreChangedEvent(gameScore);
+        StaticEventHandler.CallScoreChangedEvent(gameScore, scoreMultiplier);
+    }
+
+    private void StaticEventHandler_OnMultiplierEvent(MultiplierArgs multiplierArgs){
+        if (multiplierArgs.multiplier){
+            scoreMultiplier++;
+        } else {
+            scoreMultiplier--;
+        }
+        scoreMultiplier = Mathf.Clamp(scoreMultiplier, 1, 30);
+
+        StaticEventHandler.CallScoreChangedEvent(gameScore, scoreMultiplier);
     }
 
     private void Start(){
@@ -71,6 +87,8 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         gameState = GameState.gameStarted;
 
         gameScore = 0;
+
+        scoreMultiplier = 1;
     }
 
     private void Update(){
