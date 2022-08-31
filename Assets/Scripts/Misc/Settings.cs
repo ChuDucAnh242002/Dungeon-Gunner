@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public static class Settings 
 {
 
@@ -38,6 +39,8 @@ public static class Settings
     public static float baseSpeedForEnemyAnimation = 3f;
     // Door
     public static int open = Animator.StringToHash("open");
+    public static int destroy = Animator.StringToHash("destroy");
+    public static string stateDestroyed = "Destroyed";
     #endregion
 
     #region GAMEOBJECT TAGS

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5633370494672917533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0572096
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.49146998
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.028604805
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.254265
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.625
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.625
+      objectReference: {fileID: 0}
+    - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -12627925903700958, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: destroySoundEffect
+      value: 
+      objectReference: {fileID: 11400000, guid: 5de1a48090dc30340a516c8b964e92c6, type: 2}
+    - target: {fileID: 1385069077313401365, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385069077313401365, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Size.y
+      value: 1.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385069077313401365, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2622213409082645890, guid: ce9b0fcd06c36d541912c391dbdef096, type: 3}
+    - target: {fileID: 1385069077313401365, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021288519319806658, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2307397338692051481, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Name
+      value: BottleRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6344022152224942947, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b479f051e2b118345b780a03b494138d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}

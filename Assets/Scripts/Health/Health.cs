@@ -45,7 +45,7 @@ public class Health : MonoBehaviour
         // Optional for enemy, especially bosses
         else if (enemy != null){
             if (enemy.enemyDetails.isImmuneAfterHit){
-                isImmuneAfterHit = true;
+                isImmuneAfterHit = true;g
                 immunityTime = enemy.enemyDetails.hitImmunityTime;
                 spriteRenderer = enemy.spriteRendererArray[0];
             }
@@ -53,7 +53,9 @@ public class Health : MonoBehaviour
 
         if (enemy != null && enemy.enemyDetails.isHealthBarDisplayed == true && healthBar != null){
             healthBar.EnableHealthBar();
-        } else {
+        } 
+        else if (healthBar != null)
+        {
             healthBar.DisableHealthBar();
         }
     }
