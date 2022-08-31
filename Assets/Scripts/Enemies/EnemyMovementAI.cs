@@ -16,6 +16,7 @@ public class EnemyMovementAI : MonoBehaviour
     [HideInInspector] public float moveSpeed;
     private bool chasePlayer = false;
     [HideInInspector] public int updateFrameNumber = 1;
+    private List<Vector2Int> surroundingPositionList = new List<Vector2Int>();
 
     private void Awake(){
         enemy = GetComponent<Enemy>();
@@ -111,24 +112,59 @@ public class EnemyMovementAI : MonoBehaviour
 
         Vector2Int adjustedPlayerCellPosition = new Vector2Int(playerCellPosition.x - currentRoom.templateLowerBounds.x,
             playerCellPosition.y - currentRoom.templateLowerBounds.y);
-        int obstacle = currentRoom.instantiatedRoom.aStarMovementPenalty[adjustedPlayerCellPosition.x, adjustedPlayerCellPosition.y];
+        int obstacle = Mathf.Min(currentRoom.instantiatedRoom.aStarMovementPenalty[adjustedPlayerCellPosition.x, adjustedPlayerCellPosition.y],
+            currentRoom.instantiatedRoom.aStarItemObstacles[adjustedPlayerCellPosition.x, adjustedPlayerCellPosition.y]);
 
         if (obstacle == 0){
+            // for (int i = -1; i <= 1; i++){
+            //     for (int j = -1; j <= 1; j++){
+            //         if (j == 0 && i == 0) continue;
+
+            //         try {
+            //             obstacle = currentRoom.instantiatedRoom.aStarMovementPenalty[adjustedPlayerCellPosition.x + 1, adjustedPlayerCellPosition.y + 1];
+            //             if (obstacle != 0){
+            //                 return new Vector3Int(playerCellPosition.x + i, playerCellPosition.y + j, 0);
+            //             }
+            //         } 
+            //         catch {
+            //             continue;
+            //         }
+            //     }
+            // }
+
+            surroundingPositionList.Clear();
+
             for (int i = -1; i <= 1; i++){
                 for (int j = -1; j <= 1; j++){
                     if (j == 0 && i == 0) continue;
 
-                    try {
-                        obstacle = currentRoom.instantiatedRoom.aStarMovementPenalty[adjustedPlayerCellPosition.x + 1, adjustedPlayerCellPosition.y + 1];
-                        if (obstacle != 0){
-                            return new Vector3Int(playerCellPosition.x + i, playerCellPosition.y + j, 0);
-                        }
-                    } 
-                    catch {
-                        continue;
-                    }
+                    surroundingPositionList.Add(new Vector2Int(i, j));
                 }
             }
+
+            for (int l = 0; l < 8; l++){
+                int index = Random.Range(0, surroundingPositionList.Count);
+
+                try {
+                    obstacle = Mathf.Min(currentRoom.instantiatedRoom.aStarMovementPenalty[
+                        adjustedPlayerCellPosition.x + surroundingPositionList[index].x, 
+                        adjustedPlayerCellPosition.y + surroundingPositionList[index].y],
+                        currentRoom.instantiatedRoom.aStarItemObstacles[
+                        adjustedPlayerCellPosition.x + surroundingPositionList[index].x,
+                        adjustedPlayerCellPosition.y + surroundingPositionList[index].y]);
+
+                    if (obstacle != 0){
+                        return new Vector3Int(playerCellPosition.x + surroundingPositionList[index].x, 
+                            playerCellPosition.y + surroundingPositionList[index].y);
+                    }
+                } 
+                catch {
+
+                }
+
+                surroundingPositionList.RemoveAt(index);
+            }
+            return (Vector3Int) currentRoom.spawnPositionArray[Random.Range(0, currentRoom.spawnPositionArray.Length)];
         }
 
         return playerCellPosition;
