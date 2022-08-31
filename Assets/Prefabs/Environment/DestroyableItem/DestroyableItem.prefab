@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2244611538374423976}
   - component: {fileID: -2409533947444576932}
   - component: {fileID: -12627925903700958}
+  - component: {fileID: -1231485143383657915}
   m_Layer: 17
   m_Name: DestroyableItem
   m_TagString: Untagged
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a4ea43fe7ddf099428e90d7b7ac44139, type: 2}
+  - {fileID: 2100000, guid: fd5ae752e16da36428c7ae98c49dc19e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -190,3 +191,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealthAmount: 1
   destroySoundEffect: {fileID: 0}
+--- !u!114 &-1231485143383657915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307397338692051481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779b527c50fc9dd45b47b09449317272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1385069077313401365}

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1231485143383657915, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 6707267644996838920}
     - target: {fileID: -488362891184910242, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
       propertyPath: m_Size.x
       value: 1.0572096
@@ -121,3 +125,8 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: b479f051e2b118345b780a03b494138d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+--- !u!212 &6707267644996838920 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1385069077313401365, guid: b6cad150f41aa434884078b20a6c0eb5, type: 3}
+  m_PrefabInstance: {fileID: 5633370494672917533}
+  m_PrefabAsset: {fileID: 0}
