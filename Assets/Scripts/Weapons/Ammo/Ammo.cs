@@ -29,18 +29,22 @@ public class Ammo : MonoBehaviour, IFireable
             isAmmoMaterialSet = true;
         }
 
-        Vector3 distanceVector = fireDirectionVector * ammoSpeed * Time.deltaTime;
+        if (!overrideAmmoMovement){
+            Vector3 distanceVector = fireDirectionVector * ammoSpeed * Time.deltaTime;
 
-        transform.position += distanceVector;
+            transform.position += distanceVector;
 
-        ammoRange -= distanceVector.magnitude;
+            ammoRange -= distanceVector.magnitude;
 
-        if (ammoRange < 0f){
-            if (ammoDetails.isPlayerAmmo){
-                StaticEventHandler.CallMultiplierEvent(false);
+            if (ammoRange < 0f){
+                if (ammoDetails.isPlayerAmmo){
+                    StaticEventHandler.CallMultiplierEvent(false);
+                }
+                DisableAmmo();
             }
-            DisableAmmo();
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
