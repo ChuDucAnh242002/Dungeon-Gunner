@@ -48,7 +48,7 @@ public enum GameState
     gameWon,
     gameLost,
     gamePaused,
-    dugeonOverviewMap,
+    dungeonOverviewMap,
     restartGame
 }
 
