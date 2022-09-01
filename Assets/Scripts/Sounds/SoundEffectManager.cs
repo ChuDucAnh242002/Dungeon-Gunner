@@ -6,10 +6,18 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class SoundEffectManager : SingletonMonobehaviour<SoundEffectManager>
 {
-    public int soundsVolume = 8;
+    public int soundsVolume = 10;
 
     private void Start(){
+        if (PlayerPrefs.HasKey("soundsVolume")){
+            soundsVolume = PlayerPrefs.GetInt("soundsVolume");
+        }
+
         SetSoundsVolume(soundsVolume);
+    }
+
+    private void OnDisable(){
+        PlayerPrefs.SetInt("soundsVolume", soundsVolume);
     }
 
     public void PlaySoundEffect(SoundEffectSO soundEffect){
@@ -22,6 +30,26 @@ public class SoundEffectManager : SingletonMonobehaviour<SoundEffectManager>
     private IEnumerator DisableSound(SoundEffect sound, float soundDuration){
         yield return new WaitForSeconds(soundDuration);
         sound.gameObject.SetActive(false);
+    }
+
+    public void IncreaseSoundVolume(){
+        int maxSoundVolume = 20;
+
+        if (soundsVolume >= maxSoundVolume) return;
+
+        soundsVolume += 1;
+
+        SetSoundsVolume(soundsVolume);
+    }
+
+    public void DecreaseSoundVolume(){
+        int minSoundVolume = 0;
+
+        if (soundsVolume <= minSoundVolume) return;
+
+        soundsVolume -= 1;
+
+        SetSoundsVolume(soundsVolume);
     }
 
     private void SetSoundsVolume(int soundsVolume){

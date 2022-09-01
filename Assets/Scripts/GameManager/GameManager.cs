@@ -12,6 +12,8 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     [Space(10)]
     [Header("GAMEOBJECT REFERENCES")]
     #endregion
+    [SerializeField] private GameObject pauseMenu;
+
     [SerializeField] private TextMeshProUGUI messageTextTMP;
     [SerializeField] private CanvasGroup canvasGroup;
 
@@ -139,8 +141,16 @@ public class GameManager : SingletonMonobehaviour<GameManager>
                 RoomEnemiesDefeated();
                 break;
             case GameState.playingLevel:
+                if (Input.GetKeyDown(KeyCode.Escape)){
+                    PauseGameMenu();
+                }
                 if (Input.GetKeyDown(KeyCode.Tab)){
                     DisplayDungeonOverviewMap();
+                }
+                break;
+            case GameState.engagingEnemies:
+                if (Input.GetKeyDown(KeyCode.Escape)){
+                    PauseGameMenu();
                 }
                 break;
 
@@ -151,13 +161,24 @@ public class GameManager : SingletonMonobehaviour<GameManager>
                 break;
 
             case GameState.bossStage:
+                if (Input.GetKeyDown(KeyCode.Escape)){
+                    PauseGameMenu();
+                }
                 if (Input.GetKeyDown(KeyCode.Tab)){
                     DisplayDungeonOverviewMap();
                 }
                 break;
+
+            case GameState.engagingBoss:
+                if (Input.GetKeyDown(KeyCode.Escape)){
+                    PauseGameMenu();
+                }
+                break;
+
             case GameState.levelCompleted:
                 StartCoroutine(LevelCompleted());
                 break;
+
             case GameState.gameWon:
                 if (previousGameState != GameState.gameWon){
                     StartCoroutine(GameWon());
@@ -171,6 +192,12 @@ public class GameManager : SingletonMonobehaviour<GameManager>
                 break;
             case GameState.restartGame:
                 RestartGame();
+                break;
+
+            case GameState.gamePaused:
+                if (Input.GetKeyDown(KeyCode.Escape)){
+                    PauseGameMenu();
+                }
                 break;
         }
     }
@@ -208,6 +235,23 @@ public class GameManager : SingletonMonobehaviour<GameManager>
             gameState = GameState.bossStage;
 
             StartCoroutine(BossStage());
+        }
+    }
+
+    public void PauseGameMenu(){
+        if (gameState != GameState.gamePaused){
+            pauseMenu.SetActive(true);
+            GetPlayer().playerControl.DisablePlayer();
+
+            previousGameState = gameState;
+            gameState = GameState.gamePaused;
+        }
+        else if (gameState == GameState.gamePaused){
+            pauseMenu.SetActive(false);
+            GetPlayer().playerControl.EnablePlayer();
+
+            gameState = previousGameState;
+            previousGameState = GameState.gamePaused;
         }
     }
 
@@ -387,6 +431,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     #region Validation
 #if UNITY_EDITOR
     private void OnValidate(){
+        HelperUtilities.ValidateCheckNullValue(this, nameof(pauseMenu), pauseMenu);
         HelperUtilities.ValidateCheckNullValue(this, nameof(messageTextTMP), messageTextTMP);
         HelperUtilities.ValidateCheckNullValue(this, nameof(canvasGroup), canvasGroup);
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(dungeonLevelList), dungeonLevelList);

@@ -49,7 +49,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: c82baeb6c1d98cc4bb6821e1cb3378cc
   m_FloatValues:
-    963b63a101f555247ad84a4a7310ff4a: -30.320126
+    963b63a101f555247ad84a4a7310ff4a: -80
   m_TransitionOverrides: {}
 --- !u!241 &24100000
 AudioMixerController:
@@ -126,7 +126,8 @@ AudioMixerSnapshotController:
   m_Name: MusicOnFull
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: dbc3d1e0109608c4eaf2c5184658117a
-  m_FloatValues: {}
+  m_FloatValues:
+    5a04fc6f0c18aa947bf4d801fd3dc137: -0.27209902
   m_TransitionOverrides: {}
 --- !u!244 &314142533981532039
 AudioMixerEffectController:
@@ -199,5 +200,5 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 29d463649ae76844d88d958c8eab65ca
   m_FloatValues:
-    963b63a101f555247ad84a4a7310ff4a: -24.900742
+    963b63a101f555247ad84a4a7310ff4a: -30.320126
   m_TransitionOverrides: {}
