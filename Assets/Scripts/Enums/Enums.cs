@@ -16,6 +16,27 @@ public enum AimDirection{
     Down
 }
 
+public enum ChestSpawnEvent
+{
+    onRoomEntry,
+    onEnemiesDefeated
+}
+
+public enum ChestSpawnPosition
+{
+    atSpawnerPosition,
+    atPlayerPosition
+}
+
+public enum ChestState
+{
+    closed,
+    healthItem,
+    ammoItem,
+    weaponItem,
+    emtpy
+}
+
 public enum GameState 
 {
     gameStarted,

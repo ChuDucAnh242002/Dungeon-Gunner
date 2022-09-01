@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
         return transform.position;
     }
 
-    private Weapon AddWeaponToPlayer(WeaponDetailsSO weaponDetails){
+    public Weapon AddWeaponToPlayer(WeaponDetailsSO weaponDetails){
         Weapon weapon = new Weapon() {
             weaponDetails = weaponDetails,
             weaponReloadTimer = 0f,
@@ -138,5 +138,12 @@ public class Player : MonoBehaviour
         setActiveWeaponEvent.CallSetActiveWeaponEvent(weapon);
 
         return weapon;
+    }
+
+    public bool IsWeaponHeldByPlayer(WeaponDetailsSO weaponDetails){
+        foreach (Weapon weapon in weaponList){
+            if (weapon.weaponDetails == weaponDetails) return true;
+        }
+        return false;
     }
 }
