@@ -26,6 +26,7 @@ public class GameResources : MonoBehaviour
     #endregion
 
     public RoomNodeTypeListSO roomNodeTypeList;
+    public GameObject playerSelectionPrefab;
 
     #region Header PLAYER
     [Space(10)]
@@ -35,12 +36,15 @@ public class GameResources : MonoBehaviour
     [Tooltip("The current player SO, used to reference the current player between scenes")]
     #endregion
     public CurrentPlayerSO currentPlayerSO;
+    public List<PlayerDetailsSO> playerDetailsList;
+
 
     #region Header MUSIC
     [Space(10)]
     [Header("MUSIC")]
     #endregion
     public AudioMixerGroup musicMasterMixerGroup;
+    public MusicTrackSO mainMenuMusic;
     public AudioMixerSnapshot musicOnFullSnapshot;
     public AudioMixerSnapshot musicLowSnapshot;
     public AudioMixerSnapshot musicOffSnapshot;
@@ -102,7 +106,11 @@ public class GameResources : MonoBehaviour
 #if UNITY_EDITOR
     private void OnValidate(){
         HelperUtilities.ValidateCheckNullValue(this, nameof(roomNodeTypeList), roomNodeTypeList);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(playerSelectionPrefab), playerSelectionPrefab);
+        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(playerDetailsList), playerDetailsList);
+
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayerSO), currentPlayerSO);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(mainMenuMusic), mainMenuMusic);
         HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
         HelperUtilities.ValidateCheckNullValue(this, nameof(doorOpenCloseSoundEffect), doorOpenCloseSoundEffect);
         HelperUtilities.ValidateCheckNullValue(this, nameof(tableFlip), tableFlip);
