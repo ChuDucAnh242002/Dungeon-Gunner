@@ -107,14 +107,16 @@ public class RoomNodeGraphEditor : EditorWindow
 
         // Draw vertical
         for (int i = 0; i< verticalLineCount; i++){
-            Handles.DrawLine(new Vector3(gridSize * i, -gridSize, 0) + gridOffset,
-                             new Vector3(gridSize * i, position.height + gridSize, 0f) + gridOffset);
+            Vector3 verticalX = new Vector3(gridSize * i, -gridSize, 0) + gridOffset;
+            Vector3 verticalY = new Vector3(gridSize * i, position.height + gridSize, 0f) + gridOffset;
+            Handles.DrawLine(verticalX, verticalY);
         }
 
         // Draw horizontal
         for (int j = 0; j < horizontalLineCount; j++){
-            Handles.DrawLine(new Vector3(-gridSize, gridSize * j, 0) + gridOffset,
-                             new Vector3(position.width + gridSize, gridSize * j, 0f) + gridOffset);
+            Vector3 horizontalX = new Vector3(-gridSize, gridSize * j, 0) + gridOffset;
+            Vector3 horizontalY = new Vector3(position.width + gridSize, gridSize * j, 0f) + gridOffset;
+            Handles.DrawLine(horizontalX, horizontalY);
         }
 
         Handles.color = Color.white;
@@ -122,8 +124,11 @@ public class RoomNodeGraphEditor : EditorWindow
 
     private void DrawDraggedLine(){
         if (currentRoomNodeGraph.linePosition != Vector2.zero){
-            Handles.DrawBezier(currentRoomNodeGraph.roomNodeToDrawLineFrom.rect.center, currentRoomNodeGraph.linePosition,
-                currentRoomNodeGraph.roomNodeToDrawLineFrom.rect.center, currentRoomNodeGraph.linePosition, Color.white, null, connectingLineWidth);
+            Vector2 roomNodeToDrawLineFromCenter = currentRoomNodeGraph.roomNodeToDrawLineFrom.rect.center;
+            Vector2 linePos = currentRoomNodeGraph.linePosition;
+
+            Handles.DrawBezier(roomNodeToDrawLineFromCenter, linePos, roomNodeToDrawLineFromCenter, linePos,
+                Color.white, null, connectingLineWidth);
         }
     }
 
@@ -174,7 +179,6 @@ public class RoomNodeGraphEditor : EditorWindow
 
             case EventType.KeyDown:
                 ProcessKeyDownEvent(currentEvent);
-                // Debug.Log("Key Down");
                 break;
 
             default:
@@ -237,6 +241,7 @@ public class RoomNodeGraphEditor : EditorWindow
         AssetDatabase.SaveAssets();
 
         currentRoomNodeGraph.OnValidate();
+
     }
 
     private void SelectAllRoomNodes(){
@@ -311,8 +316,6 @@ public class RoomNodeGraphEditor : EditorWindow
 
             AssetDatabase.SaveAssets();
         }
-
-
     }
 
     private void ProcessMouseUpEvent(Event currentEvent){
@@ -359,7 +362,7 @@ public class RoomNodeGraphEditor : EditorWindow
     }
 
 
-    private void ProcessKeyDownEvent (Event currentEvent){
+    private void ProcessKeyDownEvent(Event currentEvent){
         if (currentEvent.control){
 
             if(currentEvent.keyCode == KeyCode.C){
