@@ -134,44 +134,49 @@ public class ChestSpawner : MonoBehaviour
         int choice;
 
         if (numberOfItemsToSpawn == 1){
-            choice = Random.Range(0, 3);
-            if (choice == 0){
-                weapons++;
-                return;
-            }
-            if (choice == 1){
-                ammo++;
-                return;
-            }
-            if (choice == 2){
-                health++;
-                return;
-            }
-            else if (numberOfItemsToSpawn == 2){
-                choice = Random.Range(0, 3);
-                if (choice == 0){
-                    weapons++;
-                    ammo++;
-                    return;
-                }
-                if (choice == 1){
-                    ammo++;
-                    health++;
-                    return;
-                }
-                if (choice == 2){
-                    health++;
-                    weapons++;
-                    return;
-                }
-            }
-            else if (numberOfItemsToSpawn >= 3){
-                weapons++;
-                ammo++;
-                health++;
-                return;
-            }
+            // choice = Random.Range(0, 3);
+            // if (choice == 0){
+            weapons++;
+            return;
+            // }
+            // if (choice == 1){
+            //     ammo++;
+            //     return;
+            // }
+            // if (choice == 2){
+            //     health++;
+            //     return;
+            // }
         }
+        else if (numberOfItemsToSpawn == 2){
+            choice = Random.Range(0, 3);
+            // if (choice == 0){
+            //     weapons++;
+            //     ammo++;
+            //     return;
+            // }
+            // if (choice == 1){
+            if (choice == 0){
+                ammo++;
+            }
+            else if (choice == 1){
+                health++;
+            }
+            return;
+            // }
+            // if (choice == 2){
+            //     health++;
+            //     weapons++;
+            //     return;
+            // }
+        }
+        else if (numberOfItemsToSpawn >= 3){
+            weapons++;
+            ammo++;
+            health++;
+            return;
+        }
+        
     }
 
     private int GetHealthPercentToSpawn(int healthNum){

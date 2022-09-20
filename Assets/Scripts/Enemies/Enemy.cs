@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour
         destroyedEvent.CallDestroyedEvent(false, health.GetStartingHealth());
     }
 
-    public void EnemyInitialization(EnemyDetailsSO enemyDetails, int enemySpawnNumber, DungeonLevelSO dungeonLevel){
+    public void EnemyInitialization(EnemyDetailsSO enemyDetails, int enemySpawnNumber, DungeonLevelSO dungeonLevel, bool materialize){
         this.enemyDetails = enemyDetails;
 
         SetEnemyMovementUpdateFrame(enemySpawnNumber);
@@ -102,7 +102,11 @@ public class Enemy : MonoBehaviour
 
         SetEnemyAnimationSpeed();
 
-        StartCoroutine(MaterializeEnemy());
+        if(materialize){
+            StartCoroutine(MaterializeEnemy());
+        } else {
+            EnemyEnable(true);
+        }
     }
 
     private void SetEnemyMovementUpdateFrame(int enemySpawnNumber){

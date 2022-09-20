@@ -8,6 +8,7 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
     private int currentEnemyCount;
     private int enemiesSpawedSoFar;
     private int enemyMaxConcurrentSpawnNumber;
+    private int totalFirstWave;
     private Room currentRoom;
     private RoomEnemySpawnParameters roomEnemySpawnParameters;
 
@@ -26,11 +27,8 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
 
         MusicManager.Instance.PlayMusic(currentRoom.ambientMusic, 0.2f, 2f);
 
-        if (currentRoom.roomNodeType.isCorridorEW || currentRoom.roomNodeType.isCorridorNS || currentRoom.roomNodeType.isEntrance) 
-            return;
-
+        if (currentRoom.roomNodeType.isCorridorEW || currentRoom.roomNodeType.isCorridorNS || currentRoom.roomNodeType.isEntrance) return;
         if (currentRoom.isClearedOfEnemies) return;
-
 
         DungeonLevelSO currentDungeonLevel = GameManager.Instance.GetCurrentDungeonLevel();
         enemiesToSpawn = currentRoom.GetNumberOfEnemiesToSpawn(currentDungeonLevel);
@@ -38,11 +36,12 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
 
         if (enemiesToSpawn == 0){
             currentRoom.isClearedOfEnemies = true;
-
             return;
         }
 
         enemyMaxConcurrentSpawnNumber = GetConcurrentEnemies();
+
+        totalFirstWave = roomEnemySpawnParameters.totalFirstWave;
 
         MusicManager.Instance.PlayMusic(currentRoom.battleMusic, 0.2f, 0.5f);
 
@@ -74,13 +73,17 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
 
         if (currentRoom.spawnPositionArray.Length > 0){
             for (int i = 0; i < enemiesToSpawn; i++){
-                while (currentEnemyCount >= enemyMaxConcurrentSpawnNumber){
+                while (currentEnemyCount >= enemyMaxConcurrentSpawnNumber || (currentEnemyCount > 0 && enemiesSpawedSoFar == totalFirstWave)){
                     yield return null;
                 }
 
                 Vector3Int cellPosition = (Vector3Int) currentRoom.spawnPositionArray[Random.Range(0, currentRoom.spawnPositionArray.Length)];
 
-                CreateEnemy(randomEnemyHelperClass.GetItem(), grid.CellToWorld(cellPosition));
+                if(enemiesSpawedSoFar >= totalFirstWave){
+                    CreateEnemy(randomEnemyHelperClass.GetItem(), grid.CellToWorld(cellPosition), true);
+                } else {
+                    CreateEnemy(randomEnemyHelperClass.GetItem(), grid.CellToWorld(cellPosition), false);
+                }
 
                 yield return new WaitForSeconds(GetEnemySpawnInterval());
             }
@@ -95,7 +98,7 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
         return Random.Range(roomEnemySpawnParameters.minConcurrentEnemies, roomEnemySpawnParameters.maxConcurrentEnemies);
     }
 
-    private void CreateEnemy(EnemyDetailsSO enemyDetails, Vector3 position){
+    private void CreateEnemy(EnemyDetailsSO enemyDetails, Vector3 position, bool materialize){
 
         enemiesSpawedSoFar++;
         currentEnemyCount++;
@@ -104,7 +107,7 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
 
         GameObject enemy = Instantiate(enemyDetails.enemyPrefab, position, Quaternion.identity, transform);
 
-        enemy.GetComponent<Enemy>().EnemyInitialization(enemyDetails, enemiesSpawedSoFar, currentDungeonLevel);
+        enemy.GetComponent<Enemy>().EnemyInitialization(enemyDetails, enemiesSpawedSoFar, currentDungeonLevel, materialize);
 
         enemy.GetComponent<DestroyedEvent>().OnDestroyed += Enemy_OnDestroyed;
 

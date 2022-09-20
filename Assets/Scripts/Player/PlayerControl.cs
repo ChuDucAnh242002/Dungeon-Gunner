@@ -277,7 +277,7 @@ public class PlayerControl : MonoBehaviour
 
         if (weaponClipRemainingAmmo == weaponClipAmmoCapacity) return;
 
-        if (Input.GetKeyDown(KeyCode.R)){
+        if (Input.GetKeyDown(KeyCode.R) || (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0)){
             player.reloadWeaponEvent.CallReloadWeaponEvent(currentWeapon, 0);
         }
     }

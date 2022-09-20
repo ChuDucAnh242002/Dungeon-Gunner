@@ -6,13 +6,13 @@ using UnityEngine;
 public class ChestItem : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    private TextMeshPro textTMP;
+    // private TextMeshPro textTMP;
     private MaterializeEffect materializeEffect;
     [HideInInspector] public bool isItemMaterialized = false;
 
     private void Awake(){
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        textTMP = GetComponentInChildren<TextMeshPro>();
+        // textTMP = GetComponentInChildren<TextMeshPro>();
         materializeEffect = GetComponent<MaterializeEffect>();
     }
 
@@ -31,6 +31,6 @@ public class ChestItem : MonoBehaviour
 
         isItemMaterialized = true;
 
-        textTMP.text = text;
+        // textTMP.text = text;
     }
 }

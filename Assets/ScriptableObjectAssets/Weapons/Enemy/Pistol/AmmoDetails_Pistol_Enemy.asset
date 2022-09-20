@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoName: Pistol Ammo Enemy
   isPlayerAmmo: 0
-  ammoSprite: {fileID: 21300000, guid: 4df9cc7131cd27f4288bca5e76c82034, type: 3}
+  ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:
   - {fileID: 477551918507955260, guid: cb9f2c95b5d4d3a4993a8091ffb6006c, type: 3}
   ammoMaterial: {fileID: 2100000, guid: a8f373dc317a30d40a68b73a78ce1d09, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
   ammoHitEffect: {fileID: 11400000, guid: 4bd6deb3e23d4ea4081c626ed473e055, type: 2}
-  ammoDamage: 6
-  ammoSpeedMin: 13
-  ammoSpeedMax: 15
+  ammoDamage: 20
+  ammoSpeedMin: 10
+  ammoSpeedMax: 10
   ammoRange: 20
   ammoRotationSpeed: 1
   ammoSpreadMin: 2

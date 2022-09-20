@@ -174,7 +174,7 @@ public static class HelperUtilities
         string fieldNameMaximum, int valueToCheckMaximum, bool isZeroAllowed){
         bool error = false;
         if(valueToCheckMinimum > valueToCheckMaximum){
-            Debug.Log(fieldNameMinimum + " must be less than or equal to " + fieldNameMinimum + " in object " + thisObject.name.ToString());
+            Debug.Log(fieldNameMinimum + " must be less than or equal to " + fieldNameMaximum + " in object " + thisObject.name.ToString());
             error = true;
         }
 

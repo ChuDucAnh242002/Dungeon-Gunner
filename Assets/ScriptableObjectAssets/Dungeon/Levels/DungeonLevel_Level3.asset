@@ -14,42 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: The Spirit Catacombs
   roomTemplateList:
-  - {fileID: 11400000, guid: 5e10298487db4a548a9e425ea037c915, type: 2}
-  - {fileID: 11400000, guid: 9927e94b574775f4c83d6ac8ef1a7ea1, type: 2}
-  - {fileID: 11400000, guid: ebc7898f88cf218449b384f033e86675, type: 2}
-  - {fileID: 11400000, guid: ead9fb8d1d6f0dd48886b54083b20f65, type: 2}
-  - {fileID: 11400000, guid: 17aab39e60e31b44cbb99c260366f725, type: 2}
-  - {fileID: 11400000, guid: 75e9ed4d33bf76c439c799075b936c76, type: 2}
-  - {fileID: 11400000, guid: 58168ebb0df392f41b061a0c6b25da05, type: 2}
-  - {fileID: 11400000, guid: 230557191ef7e66449fde6cecaf858cb, type: 2}
-  - {fileID: 11400000, guid: a9de631861c958a4b8b6f5da0f8d45a6, type: 2}
-  - {fileID: 11400000, guid: 74c9dcaed5ec2f949878a19a2067a840, type: 2}
-  - {fileID: 11400000, guid: 8560fcec9e5cd454aae62d7775c44da1, type: 2}
-  - {fileID: 11400000, guid: 1d5c4c4b7468b7749bced9ffcf6799be, type: 2}
-  - {fileID: 11400000, guid: 0570548b50ed26c469aa21fbd2cce109, type: 2}
-  - {fileID: 11400000, guid: f2a366d151026cc4ab8d50cdfd60529e, type: 2}
-  - {fileID: 11400000, guid: 3cdc996eae718644dad8dad24ae2c39f, type: 2}
-  - {fileID: 11400000, guid: 03fb8e6e180566844b9c3942a093676e, type: 2}
-  - {fileID: 11400000, guid: 44aecdcc3db913e4499e1717a8957c90, type: 2}
-  - {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
-  - {fileID: 11400000, guid: 162bb1ef7e418cb45b8a9972883291e2, type: 2}
-  - {fileID: 11400000, guid: 441b01f46e3eeb442ade8694ca990dae, type: 2}
-  - {fileID: 11400000, guid: e9398e3d34710984f9bc2ddf731aaaf4, type: 2}
-  - {fileID: 11400000, guid: 6744ab19da7482a498a77a8f8134b14d, type: 2}
-  - {fileID: 11400000, guid: a513c365c6072fa4c9068779c5d2173e, type: 2}
-  - {fileID: 11400000, guid: a1c147aa88a50d64dbc012a46f5d011c, type: 2}
-  - {fileID: 11400000, guid: ffb5abf059fa3cb4187f05ee5225308f, type: 2}
-  - {fileID: 11400000, guid: 68ce17f0d8ab2134a9bbda3b2b5c5c55, type: 2}
-  - {fileID: 11400000, guid: a1fc9a74671f47140ab0810c460f9623, type: 2}
-  - {fileID: 11400000, guid: 1cbc835c305513640970724d8b4d26ef, type: 2}
-  - {fileID: 11400000, guid: 6de62b1aab2953146a354bd9e5f255d0, type: 2}
-  - {fileID: 11400000, guid: ca3ebf2399132f74589db4539c90168f, type: 2}
-  - {fileID: 11400000, guid: f7eb3d585fba40941805d195e7ca6a1f, type: 2}
-  - {fileID: 11400000, guid: 38e938fd0392ecd4f859df7c1a9a4371, type: 2}
-  - {fileID: 11400000, guid: aeaa238dda2b934409291731e7646e39, type: 2}
+  - {fileID: 11400000, guid: 1cd496f5538226841b38a3f29aa20b32, type: 2}
+  - {fileID: 11400000, guid: 868cb8f2c66c22e4eaf4595ea0166488, type: 2}
+  - {fileID: 11400000, guid: a7c48fe117e30a547b4b4296e3eed5d8, type: 2}
+  - {fileID: 11400000, guid: 2bb4e0e5f8e9aca4e904f3a8078d4c4a, type: 2}
+  - {fileID: 11400000, guid: 7e082dd072b82ee48a0f4d679ea3f3fe, type: 2}
+  - {fileID: 11400000, guid: 865da7dd9acd1924eace29501e6548ec, type: 2}
+  - {fileID: 11400000, guid: e6160d96fab2817489d453bac8f4f8ed, type: 2}
+  - {fileID: 11400000, guid: 8eb540054492b9a4a8824b5ea62bfe6a, type: 2}
   roomNodeGraphList:
   - {fileID: 11400000, guid: f348be8bf827f1345a28d6a26c6e5b3a, type: 2}
-  - {fileID: 11400000, guid: 565b216f4c17fd740a3e2f6722c6db67, type: 2}
-  - {fileID: 11400000, guid: 1355031816c257f42be407978beb841a, type: 2}
-  - {fileID: 11400000, guid: 3524a14eff9a0f34c8f75ea5293ae894, type: 2}
-  - {fileID: 11400000, guid: a4bd5209602bfe84e8659fb188589dd7, type: 2}

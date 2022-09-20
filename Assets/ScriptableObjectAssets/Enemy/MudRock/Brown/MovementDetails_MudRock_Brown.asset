@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MovementDetails_MudRock_Brown
   m_EditorClassIdentifier: 
   minMoveSpeed: 3
-  maxMoveSpeed: 5
+  maxMoveSpeed: 3
   rollSpeed: 0
   rollDistance: 0
   rollCooldownTime: 0

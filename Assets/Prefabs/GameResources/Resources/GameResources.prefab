@@ -50,7 +50,6 @@ MonoBehaviour:
   playerDetailsList:
   - {fileID: 11400000, guid: 97105eeffbecf714cbefac802d73f70a, type: 2}
   - {fileID: 11400000, guid: e8d8f346351863b47ad3e12e8d519ee3, type: 2}
-  - {fileID: 11400000, guid: 5b901a8d4cf13424696ad6677d0c3629, type: 2}
   musicMasterMixerGroup: {fileID: -7206380732494497733, guid: 2ac509b551addfb48950fbdc0d9cefb4, type: 2}
   mainMenuMusic: {fileID: 11400000, guid: 777dea4d6c410bd46b536f55cdcd7dba, type: 2}
   musicOnFullSnapshot: {fileID: 24500006, guid: 2ac509b551addfb48950fbdc0d9cefb4, type: 2}

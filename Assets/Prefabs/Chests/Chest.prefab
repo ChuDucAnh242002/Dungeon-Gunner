@@ -93,12 +93,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6864062289161536222}
-  - component: {fileID: 3755549871144413822}
   - component: {fileID: 4258199403290014051}
   - component: {fileID: 7033287803173510200}
-  - component: {fileID: 5589738329532426013}
   - component: {fileID: 5642871347693833398}
   - component: {fileID: 5322053831574776768}
+  - component: {fileID: 3755549871144413822}
+  - component: {fileID: 5589738329532426013}
   - component: {fileID: 7657829287104957351}
   m_Layer: 17
   m_Name: Chest
@@ -125,18 +125,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3755549871144413822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716510276049767785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4dc4ae256f4a74b95fc1b904dfd874, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &4258199403290014051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -184,20 +172,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5589738329532426013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716510276049767785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d61f96106baf55429e61d17d0d10cfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSoundEffect: {fileID: 11400000, guid: 42c4ea68bf66f89499416a5888d05d47, type: 2}
-  boxCollider2D: {fileID: 0}
 --- !u!212 &5642871347693833398
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -270,6 +244,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3755549871144413822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716510276049767785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4dc4ae256f4a74b95fc1b904dfd874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5589738329532426013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716510276049767785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d61f96106baf55429e61d17d0d10cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSoundEffect: {fileID: 11400000, guid: 42c4ea68bf66f89499416a5888d05d47, type: 2}
+  boxCollider2D: {fileID: 0}
 --- !u!114 &7657829287104957351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materializeColor: {r: 15.999729, g: 12.481464, b: 1.507828, a: 0}
-  materializeTime: 3
+  materializeTime: 2
   itemSpawnPoint: {fileID: 2172328007756198532}
 --- !u!1 &1098109119659617942
 GameObject:

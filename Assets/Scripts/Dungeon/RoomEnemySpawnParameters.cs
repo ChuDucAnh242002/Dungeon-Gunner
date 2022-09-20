@@ -9,4 +9,5 @@ public class RoomEnemySpawnParameters
     public int maxConcurrentEnemies;
     public int minSpawnInterval;
     public int maxSpawnInterval;
+    public int totalFirstWave;
 }

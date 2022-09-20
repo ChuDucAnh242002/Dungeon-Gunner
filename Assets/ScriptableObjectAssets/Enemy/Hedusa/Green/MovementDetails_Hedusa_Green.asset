@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MovementDetails_Hedusa_Green
   m_EditorClassIdentifier: 
   minMoveSpeed: 5
-  maxMoveSpeed: 8
+  maxMoveSpeed: 5
   rollSpeed: 0
   rollDistance: 0
   rollCooldownTime: 0

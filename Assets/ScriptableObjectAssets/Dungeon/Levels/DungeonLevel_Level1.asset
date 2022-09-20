@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: The Hall Of Heroes
   roomTemplateList:
-  - {fileID: 11400000, guid: 3cdc996eae718644dad8dad24ae2c39f, type: 2}
-  - {fileID: 11400000, guid: 17aab39e60e31b44cbb99c260366f725, type: 2}
-  - {fileID: 11400000, guid: 75e9ed4d33bf76c439c799075b936c76, type: 2}
-  - {fileID: 11400000, guid: 58168ebb0df392f41b061a0c6b25da05, type: 2}
-  - {fileID: 11400000, guid: 74c9dcaed5ec2f949878a19a2067a840, type: 2}
-  - {fileID: 11400000, guid: 8560fcec9e5cd454aae62d7775c44da1, type: 2}
-  - {fileID: 11400000, guid: 1d5c4c4b7468b7749bced9ffcf6799be, type: 2}
-  - {fileID: 11400000, guid: a513c365c6072fa4c9068779c5d2173e, type: 2}
-  - {fileID: 11400000, guid: a1c147aa88a50d64dbc012a46f5d011c, type: 2}
-  - {fileID: 11400000, guid: 1cbc835c305513640970724d8b4d26ef, type: 2}
-  - {fileID: 11400000, guid: 6de62b1aab2953146a354bd9e5f255d0, type: 2}
-  - {fileID: 11400000, guid: ca3ebf2399132f74589db4539c90168f, type: 2}
-  - {fileID: 11400000, guid: 5ec7c3fd29261984abd0f0a91400645d, type: 2}
-  - {fileID: 11400000, guid: 441b01f46e3eeb442ade8694ca990dae, type: 2}
-  - {fileID: 11400000, guid: 5e10298487db4a548a9e425ea037c915, type: 2}
-  - {fileID: 11400000, guid: b497cf51860cc124088acdf3dfcc4bdc, type: 2}
+  - {fileID: 11400000, guid: 1cd496f5538226841b38a3f29aa20b32, type: 2}
+  - {fileID: 11400000, guid: 7e082dd072b82ee48a0f4d679ea3f3fe, type: 2}
+  - {fileID: 11400000, guid: 865da7dd9acd1924eace29501e6548ec, type: 2}
+  - {fileID: 11400000, guid: 868cb8f2c66c22e4eaf4595ea0166488, type: 2}
+  - {fileID: 11400000, guid: a7c48fe117e30a547b4b4296e3eed5d8, type: 2}
+  - {fileID: 11400000, guid: a56160c7289bc1b4b9c3cba51d77d8cb, type: 2}
+  - {fileID: 11400000, guid: aa7b38cee9c350943aa59540738e2985, type: 2}
+  - {fileID: 11400000, guid: f0a86e6c84140144885ffaf84df2b643, type: 2}
+  - {fileID: 11400000, guid: 94cbfbc131f45044cb5c520107f2becc, type: 2}
+  - {fileID: 11400000, guid: 8eb540054492b9a4a8824b5ea62bfe6a, type: 2}
+  - {fileID: 11400000, guid: d5d122ca63e0e6249af618cd7ecf13b0, type: 2}
+  - {fileID: 11400000, guid: 8d01496ee2892954cbd4ed289601ec41, type: 2}
+  - {fileID: 11400000, guid: 657bf6bc487a2d342970e0f9f1b84342, type: 2}
+  - {fileID: 11400000, guid: d508562df1ba7504daf8346f71e3b896, type: 2}
+  - {fileID: 11400000, guid: 40ce1ff5a50a0494c87c55bc17870187, type: 2}
+  - {fileID: 11400000, guid: 2ff4da64aaa080243bf6516706205f85, type: 2}
+  - {fileID: 11400000, guid: f862ae9c933ab2f49aa7aa16140c91bd, type: 2}
+  - {fileID: 11400000, guid: c034f1719b7bb354588e35f2bdfed1cf, type: 2}
   roomNodeGraphList:
   - {fileID: 11400000, guid: 90cc07ad731ebe04289cbc27b05e0444, type: 2}
-  - {fileID: 11400000, guid: 01a57142c6bc03f4e98fbc3263759afe, type: 2}
+  - {fileID: 11400000, guid: 7426b77691f4dd1469cae801d1ad0973, type: 2}
   - {fileID: 11400000, guid: cabc08535ac5007408cfba5489f96d1f, type: 2}
-  - {fileID: 11400000, guid: 4e19f33f4c904074aaf47ec61c7f1d53, type: 2}
-  - {fileID: 11400000, guid: 022a377811c8fac4394c05c3c2cead3a, type: 2}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
+  m_Name: Room_SmallRoom_Maze_18
+  m_EditorClassIdentifier: 
+  guid: f8872f659d274944591a73c151f652eb
+  prefab: {fileID: 2039420477065462710, guid: 0304cce9e87fedb46ad55745859ddf60, type: 3}
+  previousPrefab: {fileID: 2039420477065462710, guid: 0304cce9e87fedb46ad55745859ddf60, type: 3}
+  battleMusic: {fileID: 11400000, guid: c346fb113d4c49e4aa8a0bb5bb257da3, type: 2}
+  ambientMusic: {fileID: 11400000, guid: 57c2c302a1360bc44896c467ffd63a23, type: 2}
+  roomNodeType: {fileID: 11400000, guid: c1deba1d95d9109419fc05adf1ed7ddc, type: 2}
+  lowerBounds: {x: -14, y: -16}
+  upperBounds: {x: 14, y: 23}
+  doorwayList:
+  - position: {x: 9, y: 23}
+    orientation: 0
+    doorPrefab: {fileID: 3192534824367553717, guid: d302e15acb1773848bc22f36acce2d0c, type: 3}
+    doorwayStartCopyPosition: {x: 6, y: 23}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 6
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -8, y: -16}
+    orientation: 2
+    doorPrefab: {fileID: 3192534824367553717, guid: d302e15acb1773848bc22f36acce2d0c, type: 3}
+    doorwayStartCopyPosition: {x: -11, y: -14}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 3
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 14, y: -11}
+    orientation: 1
+    doorPrefab: {fileID: 139730667397740249, guid: 4b6820b397c8ea944a70918e85edb828, type: 3}
+    doorwayStartCopyPosition: {x: 12, y: -5}
+    doorwayCopyTileWidth: 3
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -14, y: -11}
+    orientation: 3
+    doorPrefab: {fileID: 139730667397740249, guid: 4b6820b397c8ea944a70918e85edb828, type: 3}
+    doorwayStartCopyPosition: {x: -14, y: -5}
+    doorwayCopyTileWidth: 3
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: 0, y: 7}
+  - {x: 1, y: 5}
+  - {x: 9, y: 7}
+  - {x: -6, y: 5}
+  - {x: 15, y: 7}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

@@ -104,19 +104,14 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
         bool noRoomOverlaps = true;
         noRoomOverlaps = ProcessRommsInOpenRoomNodeQueue(roomNodeGraph, openRoomNodeQueue, noRoomOverlaps);
 
-        // Debug.Log(openRoomNodeQueue.Count);
-        // Debug.Log(noRoomOverlaps);
         return openRoomNodeQueue.Count == 0 && noRoomOverlaps;
     }
 
     private bool ProcessRommsInOpenRoomNodeQueue(RoomNodeGraphSO roomNodeGraph, Queue<RoomNodeSO> openRoomNodeQueue, bool noRoomOverlaps){
-        
-
         while(openRoomNodeQueue.Count > 0 && noRoomOverlaps){
             RoomNodeSO roomNode = openRoomNodeQueue.Dequeue();
 
             foreach (RoomNodeSO childRoomNode in roomNodeGraph.GetChildRoomNodes(roomNode)){
-
                 if(childRoomNode != null){
                     openRoomNodeQueue.Enqueue(childRoomNode);
                 }
@@ -164,7 +159,6 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
     private IEnumerable<Doorway> GetUnconnectedAvailableDoorways(List<Doorway> roomDoorwayList){
         foreach (Doorway doorway in roomDoorwayList){
             if(!doorway.isConnected && !doorway.isUnavailable){
-                // Debug.Log("unconnected doorway");
                 yield return doorway;
             }
         }
@@ -228,7 +222,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
                 break;
         }
 
-        //room lowerbounds, upper bound
+        // Room lowerbounds, upper bound
         room.lowerBounds = parentDoorwayPosition + adjustment + room.templateLowerBounds - doorway.position;
         room.upperBounds = room.lowerBounds + room.templateUpperBounds - room.templateLowerBounds;
 
@@ -300,11 +294,11 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
             }
         }
 
-        if(matchingRoomTemplateList.Count == 0){
-            return null;
-        }
+        if(matchingRoomTemplateList.Count == 0) return null;
 
-        return matchingRoomTemplateList[UnityEngine.Random.Range(0, matchingRoomTemplateList.Count)];
+        RoomTemplateSO roomTemplateUsed = matchingRoomTemplateList[UnityEngine.Random.Range(0, matchingRoomTemplateList.Count)];
+        
+        return roomTemplateUsed;
     }
 
     private Room CreateRoomFromRoomTemplate(RoomTemplateSO roomTemplate, RoomNodeSO roomNode){

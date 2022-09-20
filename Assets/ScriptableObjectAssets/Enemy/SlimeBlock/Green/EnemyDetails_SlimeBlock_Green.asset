@@ -16,10 +16,10 @@ MonoBehaviour:
   enemyPrefab: {fileID: 5681709516330580620, guid: 56f480d042de7824aa9f5814a9479996, type: 3}
   chaseDistance: 50
   enemyStandardMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  enemyMaterializeTime: 3
+  enemyMaterializeTime: 2
   enemyMaterializeShader: {fileID: -6465566751694194690, guid: 5fec8f8e6ea244648a3c6ede24a56288, type: 3}
   enemyMaterializeColor: {r: 0.84298223, g: 8.47419, b: 0, a: 1}
-  enemyWeapon: {fileID: 11400000, guid: f12bb79d554604d4aa164f7af8182a8f, type: 2}
+  enemyWeapon: {fileID: 11400000, guid: bb297d733858c56408a172e302c5f9b9, type: 2}
   firingIntervalMin: 1
   firingIntervalMax: 1.5
   firingDurationMin: 4
@@ -27,7 +27,7 @@ MonoBehaviour:
   firingLineOfSightRequired: 1
   enemyHealthDetailsArray:
   - dungeonLevel: {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
-    enemyHealthAmount: 20
+    enemyHealthAmount: 15
   - dungeonLevel: {fileID: 11400000, guid: 4500060e3106fe540a7036910b581a96, type: 2}
     enemyHealthAmount: 25
   - dungeonLevel: {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
@@ -40,3 +40,4 @@ MonoBehaviour:
     enemyHealthAmount: 40
   isImmuneAfterHit: 0
   hitImmunityTime: 0
+  isHealthBarDisplayed: 0
