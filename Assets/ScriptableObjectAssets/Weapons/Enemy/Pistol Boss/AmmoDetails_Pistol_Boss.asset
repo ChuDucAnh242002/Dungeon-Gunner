@@ -14,14 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoName: Pistol Ammo Boss
   isPlayerAmmo: 0
-  ammoSprite: {fileID: 21300000, guid: 4df9cc7131cd27f4288bca5e76c82034, type: 3}
+  ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:
-  - {fileID: 477551918507955260, guid: cb9f2c95b5d4d3a4993a8091ffb6006c, type: 3}
+  - {fileID: 1754786021981860875, guid: dabde0297f653444db9b20d879529c2f, type: 3}
+  - {fileID: 2713723708555629660, guid: 57a234885cab16640bb8341aab566145, type: 3}
+  - {fileID: 4957684239817529211, guid: 0d633db0abcc27a4fb212c4e400f2190, type: 3}
+  - {fileID: 8275089386647494931, guid: e554f7c97fadd874c98d2e8bae406d19, type: 3}
   ammoMaterial: {fileID: 2100000, guid: a8f373dc317a30d40a68b73a78ce1d09, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 0}
   ammoHitEffect: {fileID: 11400000, guid: 92f94f1be39604749835e72d241f880b, type: 2}
-  ammoDamage: 8
+  ammoDamage: 20
   ammoSpeedMin: 15
   ammoSpeedMax: 20
   ammoRange: 30

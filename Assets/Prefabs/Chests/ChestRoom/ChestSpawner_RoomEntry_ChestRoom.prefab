@@ -72,6 +72,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5019771067396791693, guid: c989d79445d06c845aa1b633bb4648a9, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019771067396791693, guid: c989d79445d06c845aa1b633bb4648a9, type: 3}
       propertyPath: ammoSpawnByLevelList.Array.data[0].max
       value: 60
       objectReference: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MovementDetails_Slizzard
   m_EditorClassIdentifier: 
   minMoveSpeed: 2
-  maxMoveSpeed: 4
+  maxMoveSpeed: 2
   rollSpeed: 0
   rollDistance: 0
   rollCooldownTime: 0

@@ -649,7 +649,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7774684, y: 1}
+    m_SensorSize: {x: 2.2659123, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -793,9 +793,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 0.99992764
+    y: 0.3034483
+    width: 0.8880266
+    height: 0.8878079
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -5064,6 +5064,18 @@ MonoBehaviour:
   - prefab: {fileID: 4957684239817529211, guid: 2f125bf9510554742aefd0ad88c976c1, type: 3}
     poolSize: 10
     componentType: IFireable
+  - prefab: {fileID: 4957684239817529211, guid: 0d633db0abcc27a4fb212c4e400f2190, type: 3}
+    poolSize: 10
+    componentType: IFireable
+  - prefab: {fileID: 1754786021981860875, guid: dabde0297f653444db9b20d879529c2f, type: 3}
+    poolSize: 10
+    componentType: IFireable
+  - prefab: {fileID: 2713723708555629660, guid: 57a234885cab16640bb8341aab566145, type: 3}
+    poolSize: 10
+    componentType: IFireable
+  - prefab: {fileID: 8275089386647494931, guid: e554f7c97fadd874c98d2e8bae406d19, type: 3}
+    poolSize: 10
+    componentType: IFireable
 --- !u!4 &1825060546
 Transform:
   m_ObjectHideFlags: 0
@@ -5869,9 +5881,6 @@ MonoBehaviour:
   canvasGroup: {fileID: 2070543204}
   dungeonLevelList:
   - {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
-  - {fileID: 11400000, guid: 4500060e3106fe540a7036910b581a96, type: 2}
-  - {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
-  - {fileID: 11400000, guid: 03329250669dc464cb924147e88217f8, type: 2}
   currentDungeonLevelListIndex: 0
   gameState: 0
   previousGameState: 0
