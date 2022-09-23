@@ -18,46 +18,90 @@ MonoBehaviour:
   battleMusic: {fileID: 11400000, guid: c346fb113d4c49e4aa8a0bb5bb257da3, type: 2}
   ambientMusic: {fileID: 11400000, guid: 57c2c302a1360bc44896c467ffd63a23, type: 2}
   roomNodeType: {fileID: 11400000, guid: ddc930fb7388f0c45b38f3b3f484c868, type: 2}
-  lowerBounds: {x: -22, y: -10}
-  upperBounds: {x: 21, y: 31}
+  lowerBounds: {x: -18, y: -4}
+  upperBounds: {x: 15, y: 38}
   doorwayList:
-  - position: {x: 15, y: 31}
+  - position: {x: 9, y: 38}
     orientation: 0
     doorPrefab: {fileID: 3192534824367553717, guid: d302e15acb1773848bc22f36acce2d0c, type: 3}
-    doorwayStartCopyPosition: {x: 12, y: 31}
+    doorwayStartCopyPosition: {x: 6, y: 38}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 6
     isConnected: 0
     isUnavailable: 0
-  - position: {x: -16, y: -10}
+  - position: {x: -12, y: -4}
     orientation: 2
     doorPrefab: {fileID: 3192534824367553717, guid: d302e15acb1773848bc22f36acce2d0c, type: 3}
-    doorwayStartCopyPosition: {x: -19, y: -8}
+    doorwayStartCopyPosition: {x: -15, y: -2}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 4
     isConnected: 0
     isUnavailable: 0
-  - position: {x: 21, y: 18}
+  - position: {x: 15, y: 27}
     orientation: 1
     doorPrefab: {fileID: 139730667397740249, guid: 4b6820b397c8ea944a70918e85edb828, type: 3}
-    doorwayStartCopyPosition: {x: 19, y: 24}
+    doorwayStartCopyPosition: {x: 13, y: 33}
     doorwayCopyTileWidth: 3
     doorwayCopyTileHeight: 8
     isConnected: 0
     isUnavailable: 0
-  - position: {x: -22, y: -3}
+  - position: {x: -18, y: 4}
     orientation: 3
     doorPrefab: {fileID: 139730667397740249, guid: 4b6820b397c8ea944a70918e85edb828, type: 3}
-    doorwayStartCopyPosition: {x: -22, y: 3}
+    doorwayStartCopyPosition: {x: -18, y: 10}
     doorwayCopyTileWidth: 3
     doorwayCopyTileHeight: 8
     isConnected: 0
     isUnavailable: 0
   spawnPositionArray:
-  - {x: -1, y: 10}
-  - {x: -10, y: 5}
-  - {x: -2, y: -11}
-  - {x: 7, y: -12}
-  - {x: 15, y: 11}
-  enemiesByLevelList: []
-  roomEnemySpawnParametersList: []
+  - {x: -11, y: 11}
+  - {x: -10, y: 11}
+  - {x: -9, y: 11}
+  - {x: -8, y: 11}
+  - {x: -7, y: 11}
+  - {x: -6, y: 11}
+  - {x: 2, y: 11}
+  - {x: 3, y: 11}
+  - {x: 4, y: 11}
+  - {x: 5, y: 11}
+  - {x: 6, y: 11}
+  - {x: 7, y: 11}
+  - {x: 8, y: 11}
+  - {x: -3, y: 18}
+  - {x: -2, y: 18}
+  - {x: -1, y: 18}
+  - {x: 0, y: 18}
+  - {x: -3, y: 17}
+  - {x: -2, y: 17}
+  - {x: -1, y: 17}
+  - {x: 0, y: 17}
+  enemiesByLevelList:
+  - dungeonLevel: {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: c0af1aef5b38b5042826d593551d1c05, type: 2}
+      ratio: 8
+    - dungeonObject: {fileID: 11400000, guid: fc945fcb5899ebd40b311b7901baaab6, type: 2}
+      ratio: 5
+  - dungeonLevel: {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: c0af1aef5b38b5042826d593551d1c05, type: 2}
+      ratio: 8
+    - dungeonObject: {fileID: 11400000, guid: fc945fcb5899ebd40b311b7901baaab6, type: 2}
+      ratio: 5
+  roomEnemySpawnParametersList:
+  - dungeonLevel: {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
+    minTotalEnemiesToSpawn: 6
+    maxTotalEnemiesToSpawn: 6
+    minConcurrentEnemies: 5
+    maxConcurrentEnemies: 5
+    minSpawnInterval: 0
+    maxSpawnInterval: 0
+    totalFirstWave: 4
+  - dungeonLevel: {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
+    minTotalEnemiesToSpawn: 6
+    maxTotalEnemiesToSpawn: 6
+    minConcurrentEnemies: 5
+    maxConcurrentEnemies: 5
+    minSpawnInterval: 0
+    maxSpawnInterval: 0
+    totalFirstWave: 4

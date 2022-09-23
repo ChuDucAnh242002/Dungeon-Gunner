@@ -130,10 +130,13 @@ public class Ammo : MonoBehaviour, IFireable
     private void SetFireDirection(AmmoDetailsSO ammoDetails, float aimAngle, float weaponAimAngle, Vector3 weaponAimDirectionVector, float fireTime){
         
         float randomSpread = ammoDetails.ammoSpreadMin;
-        if(fireTime >= 0.1f && fireTime < 0.3f){
-            randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax/2);
+        if(fireTime >= 0f && fireTime < 0.1f){
+            randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax/3);
         }
-        if (fireTime >= 0.3f){
+        else if (fireTime >= 0.1f && fireTime < 0.3f){
+            randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax/3 * 2);
+        }
+        else if (fireTime >= 0.3f){
             randomSpread = Random.Range(ammoDetails.ammoSpreadMin, ammoDetails.ammoSpreadMax);
         }
 

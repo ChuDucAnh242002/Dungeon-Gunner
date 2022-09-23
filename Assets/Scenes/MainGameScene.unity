@@ -649,7 +649,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7774684, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -794,8 +794,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.9991636
-    height: 1
+    width: 1
+    height: 0.99992764
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -3664,7 +3664,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7792659, y: 1}
+    m_SensorSize: {x: 1.7773399, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

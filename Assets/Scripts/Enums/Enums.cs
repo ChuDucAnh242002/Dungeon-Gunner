@@ -33,8 +33,7 @@ public enum ChestState
     closed,
     healthItem,
     ammoItem,
-    weaponItem,
-    emtpy
+    weaponItem
 }
 
 public enum GameState 

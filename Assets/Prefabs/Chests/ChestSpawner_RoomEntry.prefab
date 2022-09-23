@@ -56,8 +56,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7437165319109251102, guid: 74335c9f76ad11f4685012914cac07c3, type: 3}
+      propertyPath: spawnType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437165319109251102, guid: 74335c9f76ad11f4685012914cac07c3, type: 3}
+      propertyPath: chestSpawnChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437165319109251102, guid: 74335c9f76ad11f4685012914cac07c3, type: 3}
       propertyPath: chestSpawnChanceMin
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7437165319109251102, guid: 74335c9f76ad11f4685012914cac07c3, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7437165319109251102, guid: 74335c9f76ad11f4685012914cac07c3, type: 3}
       propertyPath: chestSpawnChanceByLevelList.Array.size

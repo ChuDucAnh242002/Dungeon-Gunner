@@ -54,10 +54,69 @@ MonoBehaviour:
     isConnected: 0
     isUnavailable: 0
   spawnPositionArray:
-  - {x: -1, y: 10}
-  - {x: -10, y: 5}
-  - {x: -2, y: -11}
-  - {x: 7, y: -12}
-  - {x: 15, y: 11}
-  enemiesByLevelList: []
-  roomEnemySpawnParametersList: []
+  - {x: -3, y: -6}
+  - {x: -2, y: -6}
+  - {x: -1, y: -6}
+  - {x: -3, y: -5}
+  - {x: -2, y: -5}
+  - {x: -1, y: -5}
+  - {x: -3, y: -4}
+  - {x: -2, y: -4}
+  - {x: -1, y: -4}
+  - {x: -3, y: -3}
+  - {x: -2, y: -3}
+  - {x: -1, y: -3}
+  - {x: 4, y: -4}
+  - {x: 5, y: -4}
+  - {x: 6, y: -4}
+  - {x: 4, y: -5}
+  - {x: 5, y: -5}
+  - {x: 6, y: -5}
+  - {x: 4, y: 10}
+  - {x: 5, y: 10}
+  - {x: 6, y: 10}
+  - {x: 4, y: 9}
+  - {x: 5, y: 9}
+  - {x: 4, y: 9}
+  - {x: 4, y: 8}
+  - {x: 5, y: 8}
+  - {x: 6, y: 8}
+  - {x: 4, y: 7}
+  - {x: 5, y: 7}
+  - {x: 6, y: 7}
+  - {x: -5, y: 9}
+  - {x: -4, y: 9}
+  - {x: -3, y: 9}
+  - {x: -5, y: 10}
+  - {x: -4, y: 10}
+  - {x: -3, y: 10}
+  enemiesByLevelList:
+  - dungeonLevel: {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: c0af1aef5b38b5042826d593551d1c05, type: 2}
+      ratio: 8
+    - dungeonObject: {fileID: 11400000, guid: fc945fcb5899ebd40b311b7901baaab6, type: 2}
+      ratio: 5
+  - dungeonLevel: {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
+    spawnableObjectRatioList:
+    - dungeonObject: {fileID: 11400000, guid: c0af1aef5b38b5042826d593551d1c05, type: 2}
+      ratio: 8
+    - dungeonObject: {fileID: 11400000, guid: fc945fcb5899ebd40b311b7901baaab6, type: 2}
+      ratio: 5
+  roomEnemySpawnParametersList:
+  - dungeonLevel: {fileID: 11400000, guid: 9ac11bcfbaf2d6f43bc7efece166598c, type: 2}
+    minTotalEnemiesToSpawn: 6
+    maxTotalEnemiesToSpawn: 6
+    minConcurrentEnemies: 5
+    maxConcurrentEnemies: 5
+    minSpawnInterval: 0
+    maxSpawnInterval: 0
+    totalFirstWave: 4
+  - dungeonLevel: {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
+    minTotalEnemiesToSpawn: 6
+    maxTotalEnemiesToSpawn: 6
+    minConcurrentEnemies: 5
+    maxConcurrentEnemies: 5
+    minSpawnInterval: 0
+    maxSpawnInterval: 0
+    totalFirstWave: 4

@@ -72,8 +72,6 @@ public class Chest : MonoBehaviour, IUseable
             case ChestState.weaponItem:
                 CollectWeaponItem();
                 break;
-            case ChestState.emtpy:
-                return;
             default: 
                 return;
         }
@@ -83,12 +81,6 @@ public class Chest : MonoBehaviour, IUseable
         animator.SetBool(Settings.use, true);
 
         SoundEffectManager.Instance.PlaySoundEffect(GameResources.Instance.chestOpen);
-
-        if (weaponDetails != null){
-            if (GameManager.Instance.GetPlayer().IsWeaponHeldByPlayer(weaponDetails)){
-                weaponDetails = null;
-            }
-        }
 
         UpdateChestState();
     }
@@ -105,9 +97,6 @@ public class Chest : MonoBehaviour, IUseable
         else if (weaponDetails != null){
             chestState = ChestState.weaponItem;
             InstatiateWeaponItem();
-        }
-        else {
-            chestState = ChestState.emtpy;
         }
     }
 
@@ -141,6 +130,7 @@ public class Chest : MonoBehaviour, IUseable
         GameManager.Instance.GetPlayer().health.AddHealth(healthPercent);
 
         SoundEffectManager.Instance.PlaySoundEffect(GameResources.Instance.healthPickUp);
+        StartCoroutine(DisplayMessage("+20", 1f));
 
         healthPercent = 0;
 
@@ -157,6 +147,7 @@ public class Chest : MonoBehaviour, IUseable
         player.reloadWeaponEvent.CallReloadWeaponEvent(player.activeWeapon.GetCurrentWeapon(), ammoPercent);
 
         SoundEffectManager.Instance.PlaySoundEffect(GameResources.Instance.ammoPickup);
+        StartCoroutine(DisplayMessage("FULL AMMO", 1f));
 
         ammoPercent = 0;
 
@@ -173,10 +164,11 @@ public class Chest : MonoBehaviour, IUseable
             GameManager.Instance.GetPlayer().AddWeaponToPlayer(weaponDetails);
 
             SoundEffectManager.Instance.PlaySoundEffect(GameResources.Instance.weaponPickup);
+            StartCoroutine(DisplayMessage(weaponDetails.weaponName, 1f));
         } 
-        else {
-            StartCoroutine(DisplayMessage("WEAPON\nALREAYD\nEQUIPPED", 5f));
-        }
+        // else {
+        //     StartCoroutine(DisplayMessage("WEAPON\nALREAYD\nEQUIPPED", 5f));
+        // }
         weaponDetails = null;
 
         Destroy(chestItemGameObject);

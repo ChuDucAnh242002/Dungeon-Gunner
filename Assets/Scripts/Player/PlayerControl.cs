@@ -271,10 +271,10 @@ public class PlayerControl : MonoBehaviour
         bool hasInfiniteClipCapacity = currentWeapon.weaponDetails.hasInfiniteClipCapacity;
 
         if (currentWeapon.isWeaponReloading) return;
-        
-        // Don't have enough ammo in clip
-        // if (weaponClipRemainingAmmo < weaponClipAmmoCapacity && !hasInfiniteAmmo) return;
 
+        if (currentWeapon.weaponRemainingAmmo <= 0 && !hasInfiniteAmmo) return;
+
+        // Clip is full
         if (weaponClipRemainingAmmo == weaponClipAmmoCapacity) return;
 
         if (Input.GetKeyDown(KeyCode.R) || (!hasInfiniteClipCapacity && currentWeapon.weaponClipRemainingAmmo <= 0)){
