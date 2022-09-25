@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5a96338de30e749a9ed4471d66be09, type: 3}
   m_Name: MovementDetails_SkullFace_Blue_Pistol
   m_EditorClassIdentifier: 
-  minMoveSpeed: 3
-  maxMoveSpeed: 3
+  minMoveSpeed: 4
+  maxMoveSpeed: 4
   rollSpeed: 0
   rollDistance: 0
   rollCooldownTime: 0

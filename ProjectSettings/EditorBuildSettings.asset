@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGameScene.unity
     guid: cd303d1db913e934ab484d35a805481a
+  - enabled: 1
+    path: Assets/Scenes/HardModeScene.unity
+    guid: e220e11d6d23c7f49a4bc2b19e267b91
   m_configObjects: {}

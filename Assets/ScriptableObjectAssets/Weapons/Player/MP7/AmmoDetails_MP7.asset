@@ -27,7 +27,7 @@ MonoBehaviour:
   ammoRange: 26
   ammoRotationSpeed: 1
   ammoSpreadMin: 2
-  ammoSpreadMax: 8
+  ammoSpreadMax: 10
   ammoSpawnAmountMin: 1
   ammoSpawnAmountMax: 1
   ammoSpawnIntervalMin: 0

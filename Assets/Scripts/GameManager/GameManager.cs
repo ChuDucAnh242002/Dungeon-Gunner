@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -40,6 +41,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     private int scoreMultiplier;
     private InstantiatedRoom bossRoom;
     private bool isFading = false;
+    private float speedRunTimer = 0.0f;
 
     protected override void Awake(){
         base.Awake();
@@ -59,24 +61,17 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
     private void OnEnable() {
         StaticEventHandler.OnRoomChanged += StaticEventHandler_OnRoomChanged;
-
         StaticEventHandler.OnRoomEnemiesDefeated += StaticEventHandler_OnRoomEnemiesDefeated;
-
         StaticEventHandler.OnPointsScored += StaticEventHandler_OnPointsScored;
-
         StaticEventHandler.OnMultiplierEvent += StaticEventHandler_OnMultiplierEvent;
 
         player.destroyedEvent.OnDestroyed += Player_OnDestroyed;
-
     }
 
     private void OnDisable() {
         StaticEventHandler.OnRoomChanged -= StaticEventHandler_OnRoomChanged;
-
         StaticEventHandler.OnRoomEnemiesDefeated -= StaticEventHandler_OnRoomEnemiesDefeated;
-
         StaticEventHandler.OnPointsScored -= StaticEventHandler_OnPointsScored;
-
         StaticEventHandler.OnMultiplierEvent -= StaticEventHandler_OnMultiplierEvent;
 
         player.destroyedEvent.OnDestroyed -= Player_OnDestroyed;
@@ -107,8 +102,6 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         StaticEventHandler.CallScoreChangedEvent(gameScore, scoreMultiplier);
     }
 
-    
-
     private void Player_OnDestroyed(DestroyedEvent destroyedEvent, DestroyedEventArgs destroyedEventArgs){
         previousGameState = gameState;
         gameState = GameState.gameLost;
@@ -127,10 +120,8 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
     private void Update(){
         HandleGameState();
+        speedRunTimer += Time.deltaTime;
 
-        // if (Input.GetKeyDown(KeyCode.P)){
-        //     gameState = GameState.gameStarted;
-        // }
     }
 
     private void HandleGameState(){
@@ -205,7 +196,6 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     public void SetCurrentRoom(Room room){
         previousRoom = currentRoom;
         currentRoom = room;
-
     }
 
     private void RoomEnemiesDefeated(){
@@ -284,8 +274,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         GetPlayer().playerControl.DisablePlayer();
 
-        string messageText = "LEVEL " + (currentDungeonLevelListIndex + 1).ToString() + "\n\n" + dungeonLevelList
-            [currentDungeonLevelListIndex].levelName.ToUpper();
+        string messageText = dungeonLevelList[currentDungeonLevelListIndex].levelName.ToUpper();
 
         yield return StartCoroutine(DisplayMessageRoutine(messageText, Color.white, 2f));
 
@@ -324,7 +313,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         yield return StartCoroutine(Fade(0f, 1f, 2f, new Color(0f, 0f, 0f, 0.4f)));
 
         string bossStageText = "WELL DONE " + GameResources.Instance.currentPlayerSO.playerName + "! YOU'VE SURVIVED \n NOW  FIND AND DEFEAT THE BOSS GOOD LUCK!";
-        yield return StartCoroutine(DisplayMessageRoutine(bossStageText, Color.white, 5f));
+        yield return StartCoroutine(DisplayMessageRoutine(bossStageText, Color.white, 2f));
 
         yield return StartCoroutine(Fade(1f, 0f, 2f, new Color(0f, 0f, 0f, 0.4f)));
     }
@@ -343,6 +332,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         yield return StartCoroutine(Fade(1f, 0f, 2f, new Color(0f, 0f, 0f, 0.4f)));
 
+        // Enter button
         while (!Input.GetKeyDown(KeyCode.Return)){
             yield return null;
         }
@@ -369,7 +359,6 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         }
         
         isFading = false;
-
     }
 
     private IEnumerator GameWon(){
@@ -377,33 +366,15 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         GetPlayer().playerControl.DisablePlayer();
 
-        // int rank = HighScoreManager.Instance.GetRank(gameScore);
-
-        // string rankText;
-
-        // if (rank > 0 && rank <= Settings.numberOfHighScoresToSave){
-        //     rankText = "YOUR SCORE IS RANKED " + rank.ToString("#0") + " IN THE TOP " + Settings.numberOfHighScoresToSave.ToString("#0");
-
-        //     string name = GameResources.Instance.currentPlayerSO.playerName;
-
-        //     if (name == ""){
-        //         name = playerDetails.playerCharacterName.ToUpper();
-        //     }
-
-        //     HighScoreManager.Instance.AddScore(new Score(){
-        //         playerName = name,
-        //         levelDescription = "LEVEL " + (currentDungeonLevelListIndex + 1).ToString() + "-" + GetCurrentDungeonLevel().levelName.ToUpper(),
-        //         playerScore = gameScore
-        //     }, rank);
-        // } else {
-        //     rankText = "YOUR SCORE ISN'T RANKED IN THE TOP " + Settings.numberOfHighScoresToSave.ToString("#0");
-        // }
-
         yield return StartCoroutine(Fade(0f, 1f, 2f, Color.black));
 
-        yield return StartCoroutine(DisplayMessageRoutine("WELL DONE " + GameResources.Instance.currentPlayerSO.playerName + "! YOU HAVE DEFEATED THE DUNGEON", Color.white, 3f));
+        yield return StartCoroutine(DisplayMessageRoutine("WELL DONE " + GameResources.Instance.currentPlayerSO.playerName + "! YOU HAVE DEFEATED THE DUNGEON", Color.white, 2.5f));
 
-        // yield return StartCoroutine(DisplayMessageRoutine("YOU SCORED " + gameScore.ToString("###,###0") + "\n\n" + rankText, Color.white, 4f));
+        int speedRunTime = (int) Math.Round(speedRunTimer, 0);
+        int speedRunMinute = speedRunTime / 60;
+        int speedRunSecond = speedRunTime % 60;
+
+        yield return StartCoroutine(DisplayMessageRoutine("YOU BEAT THE GAME IN " + speedRunMinute.ToString() + ":" + speedRunSecond.ToString(), Color.white, 2.5f));
 
         yield return StartCoroutine(DisplayMessageRoutine("PRESS ENTER TO RESTART THE GAME", Color.white, 0f));
 
@@ -415,28 +386,6 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         GetPlayer().playerControl.DisablePlayer();
 
-        // int rank = HighScoreManager.Instance.GetRank(gameScore);
-
-        // string rankText;
-
-        // if (rank > 0 && rank <= Settings.numberOfHighScoresToSave){
-        //     rankText = "YOUR SCORE IS RANKED " + rank.ToString("#0") + " IN THE TOP " + Settings.numberOfHighScoresToSave.ToString("#0");
-
-        //     string name = GameResources.Instance.currentPlayerSO.playerName;
-
-        //     if (name == ""){
-        //         name = playerDetails.playerCharacterName.ToUpper();
-        //     }
-
-        //     HighScoreManager.Instance.AddScore(new Score(){
-        //         playerName = name,
-        //         levelDescription = "LEVEL " + (currentDungeonLevelListIndex + 1).ToString() + "-" + GetCurrentDungeonLevel().levelName.ToUpper(),
-        //         playerScore = gameScore
-        //     }, rank);
-        // } else {
-        //     rankText = "YOUR SCORE ISN'T RANKED IN THE TOP " + Settings.numberOfHighScoresToSave.ToString("#0");
-        // }
-
         yield return new WaitForSeconds(1f);
 
         yield return StartCoroutine(Fade(0f, 1f, 2f, Color.black));
@@ -447,9 +396,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         }
 
         string lostText = "NICE TRY " + GameResources.Instance.currentPlayerSO.playerName + "\n BUT YOU LOST!";
-        yield return StartCoroutine(DisplayMessageRoutine(lostText, Color.white, 4f));
-
-        // yield return StartCoroutine(DisplayMessageRoutine("YOU SCORED " + gameScore.ToString("###,###0") + "\n\n" + rankText, Color.white, 4f));
+        yield return StartCoroutine(DisplayMessageRoutine(lostText, Color.white, 2.5f));
 
         yield return StartCoroutine(DisplayMessageRoutine("PRESS ENTER TO RESTART GAME", Color.white, 0f));
 

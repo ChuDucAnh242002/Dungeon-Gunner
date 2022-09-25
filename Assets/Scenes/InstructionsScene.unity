@@ -426,7 +426,8 @@ MonoBehaviour:
 
     - R to reload
 
-    - Tab to view map'
+    - Tab to view map and Tab+Click
+    to room to teleport'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfe1ba23c638bec49a583843476bb5c9, type: 2}
   m_sharedMaterial: {fileID: 8120199949304618070, guid: dfe1ba23c638bec49a583843476bb5c9, type: 2}

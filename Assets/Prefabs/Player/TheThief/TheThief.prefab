@@ -142,7 +142,7 @@ PrefabInstance:
     - target: {fileID: 6358912507911779913, guid: b46a9b09cf8cad641af99f82e6321f6f, type: 3}
       propertyPath: movementDetails
       value: 
-      objectReference: {fileID: 11400000, guid: 73b8d1d754b0fe14d856c0d6593fb310, type: 2}
+      objectReference: {fileID: 11400000, guid: 9f8359fe437655041a7ac43dd00d7ccb, type: 2}
     - target: {fileID: 6423849801004679039, guid: b46a9b09cf8cad641af99f82e6321f6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -153,9 +152,7 @@ public class Enemy : MonoBehaviour
     private void EnemyEnable(bool isEnabled){
         circleCollider2D.enabled = isEnabled;
         polygonCollider2D.enabled = isEnabled;
-
         enemyMovementAI.enabled = isEnabled;
-
         fireWeapon.enabled = isEnabled;
     }
 }

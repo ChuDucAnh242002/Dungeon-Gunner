@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoName: Shotgun Ammo Enemy
   isPlayerAmmo: 0
-  ammoSprite: {fileID: 21300000, guid: c3be09077243891458bdbf46a57d2e8a, type: 3}
+  ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:
   - {fileID: 477551918507955260, guid: cb9f2c95b5d4d3a4993a8091ffb6006c, type: 3}
   ammoMaterial: {fileID: 2100000, guid: a8f373dc317a30d40a68b73a78ce1d09, type: 2}
@@ -26,7 +26,7 @@ MonoBehaviour:
   ammoSpeedMax: 11
   ammoRange: 20
   ammoRotationSpeed: 1
-  ammoSpreadMin: 1
+  ammoSpreadMin: 4
   ammoSpreadMax: 30
   ammoSpawnAmountMin: 6
   ammoSpawnAmountMax: 6

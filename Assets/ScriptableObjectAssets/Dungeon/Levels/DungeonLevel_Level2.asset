@@ -15,13 +15,62 @@ MonoBehaviour:
   levelName: The Shadow Crypt
   roomTemplateList:
   - {fileID: 11400000, guid: 1cd496f5538226841b38a3f29aa20b32, type: 2}
-  - {fileID: 11400000, guid: 868cb8f2c66c22e4eaf4595ea0166488, type: 2}
-  - {fileID: 11400000, guid: a7c48fe117e30a547b4b4296e3eed5d8, type: 2}
-  - {fileID: 11400000, guid: 2bb4e0e5f8e9aca4e904f3a8078d4c4a, type: 2}
   - {fileID: 11400000, guid: 7e082dd072b82ee48a0f4d679ea3f3fe, type: 2}
   - {fileID: 11400000, guid: 865da7dd9acd1924eace29501e6548ec, type: 2}
   - {fileID: 11400000, guid: e6160d96fab2817489d453bac8f4f8ed, type: 2}
+  - {fileID: 11400000, guid: e3d10e16a9d38b24ab5b5aabca17bf38, type: 2}
+  - {fileID: 11400000, guid: 5c81c2e120268e74e8400c3bd99d61e3, type: 2}
+  - {fileID: 11400000, guid: 868cb8f2c66c22e4eaf4595ea0166488, type: 2}
+  - {fileID: 11400000, guid: a7c48fe117e30a547b4b4296e3eed5d8, type: 2}
+  - {fileID: 11400000, guid: 2bb4e0e5f8e9aca4e904f3a8078d4c4a, type: 2}
+  - {fileID: 11400000, guid: 0bcd07c04b5c50a4883e2e1893278c1e, type: 2}
+  - {fileID: 11400000, guid: 6e18aad43e3eec4479c13cf4ba7cfb64, type: 2}
+  - {fileID: 11400000, guid: a56160c7289bc1b4b9c3cba51d77d8cb, type: 2}
   - {fileID: 11400000, guid: aa7b38cee9c350943aa59540738e2985, type: 2}
+  - {fileID: 11400000, guid: f0a86e6c84140144885ffaf84df2b643, type: 2}
+  - {fileID: 11400000, guid: 94cbfbc131f45044cb5c520107f2becc, type: 2}
+  - {fileID: 11400000, guid: 21934503230c0ae4680a708ccda698ed, type: 2}
+  - {fileID: 11400000, guid: 8acf0e92eac96394d97508e306f98d06, type: 2}
+  - {fileID: 11400000, guid: 8eb540054492b9a4a8824b5ea62bfe6a, type: 2}
+  - {fileID: 11400000, guid: d5d122ca63e0e6249af618cd7ecf13b0, type: 2}
+  - {fileID: 11400000, guid: 8d01496ee2892954cbd4ed289601ec41, type: 2}
+  - {fileID: 11400000, guid: 657bf6bc487a2d342970e0f9f1b84342, type: 2}
+  - {fileID: 11400000, guid: d508562df1ba7504daf8346f71e3b896, type: 2}
+  - {fileID: 11400000, guid: 40ce1ff5a50a0494c87c55bc17870187, type: 2}
+  - {fileID: 11400000, guid: 2ff4da64aaa080243bf6516706205f85, type: 2}
+  - {fileID: 11400000, guid: f862ae9c933ab2f49aa7aa16140c91bd, type: 2}
+  - {fileID: 11400000, guid: c034f1719b7bb354588e35f2bdfed1cf, type: 2}
+  - {fileID: 11400000, guid: 966af57458fe42046bc7d008f01d4618, type: 2}
+  - {fileID: 11400000, guid: 3ba60067b1125e849a490afa92922c7a, type: 2}
+  - {fileID: 11400000, guid: 239da6f2fe0481d47b6dab8a8ffb2b9b, type: 2}
+  - {fileID: 11400000, guid: 8b58ec6f967626041a9361b2672e63d8, type: 2}
+  - {fileID: 11400000, guid: 6d6491c27d94bf042b7033a9b315a130, type: 2}
+  - {fileID: 11400000, guid: 0669f82fb33d2204ebe666c2e21bf1db, type: 2}
+  - {fileID: 11400000, guid: fc990780938a2a647bb30219ed7fad37, type: 2}
+  - {fileID: 11400000, guid: a922a7345f8e5fc49b4b459b6a136fbc, type: 2}
+  - {fileID: 11400000, guid: 971a08fa435ad5c438b70a35438d6ab3, type: 2}
+  - {fileID: 11400000, guid: 74c1b84b7de60dd43a1ef871e8b846ec, type: 2}
+  - {fileID: 11400000, guid: 7774d6f68e9f91948ae7d517006e987e, type: 2}
+  - {fileID: 11400000, guid: e97f585d899d95142b828bb1878c7d2f, type: 2}
+  - {fileID: 11400000, guid: 11682c462f4e6754db1dbe27a1a93a67, type: 2}
+  - {fileID: 11400000, guid: 488cb12829d32ab48aeb78603df7df3d, type: 2}
+  - {fileID: 11400000, guid: ebe6c44adf55c7e468f247af73680b9e, type: 2}
+  - {fileID: 11400000, guid: 2d2259f80fee62145903553bdfe53589, type: 2}
+  - {fileID: 11400000, guid: 1b6592097dc0def419ca35a464a741a3, type: 2}
+  - {fileID: 11400000, guid: 6c341f181ee132c4480999928e47d749, type: 2}
+  - {fileID: 11400000, guid: f0ce3c7f11264df48ab7e4882ff80b9f, type: 2}
+  - {fileID: 11400000, guid: f54e03097a225404ea52bb3a44a837c3, type: 2}
+  - {fileID: 11400000, guid: e52ebdfd0f3480e4f9977f02ff20297f, type: 2}
+  - {fileID: 11400000, guid: 1cef5e717d3fc824288d90aad42bfeeb, type: 2}
+  - {fileID: 11400000, guid: 88fcf2fb6dda2ce41bf7d449771db04a, type: 2}
+  - {fileID: 11400000, guid: c6c40d7ebade8d04ab5fefd6d1778657, type: 2}
+  - {fileID: 11400000, guid: a30f39b84fb9eb04ab1535dd82315d15, type: 2}
+  - {fileID: 11400000, guid: dab29ce81fcace2458fd4a509cce4a5b, type: 2}
+  - {fileID: 11400000, guid: 829b04bce6ce027429a1052ec2fecb07, type: 2}
+  - {fileID: 11400000, guid: c088c222afc5cd340970e94cae5571ec, type: 2}
+  - {fileID: 11400000, guid: 5b10c55054e612e4ca0e0a5e5b2d0d7d, type: 2}
   - {fileID: 11400000, guid: 74301283626548f489e5b48edd6d0c57, type: 2}
   roomNodeGraphList:
-  - {fileID: 11400000, guid: 47a9682b48ce49a46aefb124cfc7795b, type: 2}
+  - {fileID: 11400000, guid: 90cc07ad731ebe04289cbc27b05e0444, type: 2}
+  - {fileID: 11400000, guid: 7426b77691f4dd1469cae801d1ad0973, type: 2}
+  - {fileID: 11400000, guid: cabc08535ac5007408cfba5489f96d1f, type: 2}

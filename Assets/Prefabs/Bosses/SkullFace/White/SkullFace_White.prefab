@@ -43,6 +43,10 @@ PrefabInstance:
       propertyPath: enemyDetails
       value: 
       objectReference: {fileID: 11400000, guid: 312457d5cdcae1248b9d3542dbfc24dc, type: 2}
+    - target: {fileID: 1711935343394095225, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.91
+      objectReference: {fileID: 0}
     - target: {fileID: 1917099394806781941, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_Controller
       value: 
@@ -110,6 +114,10 @@ PrefabInstance:
     - target: {fileID: 2992075012993743510, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3770795114447468669, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.91
       objectReference: {fileID: 0}
     - target: {fileID: 5861438104304097409, guid: 953e28fbee804504998ad2b248f8435b, type: 3}
       propertyPath: movementDetails

@@ -61,9 +61,8 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
             GameManager.Instance.previousGameState = GameState.playingLevel;
             GameManager.Instance.gameState = GameState.engagingEnemies;
         }
-
+         
         StartCoroutine(SpawnEnemiesRoutine());
-        
     }
 
     private IEnumerator SpawnEnemiesRoutine(){
@@ -108,6 +107,10 @@ public class EnemySpawner : SingletonMonobehaviour<EnemySpawner>
         GameObject enemy = Instantiate(enemyDetails.enemyPrefab, position, Quaternion.identity, transform);
 
         enemy.GetComponent<Enemy>().EnemyInitialization(enemyDetails, enemiesSpawedSoFar, currentDungeonLevel, materialize);
+
+        // if (boss){
+        //     GameManager.Instance.boss = enemy.GetComponent<Enemy>();
+        // }
 
         enemy.GetComponent<DestroyedEvent>().OnDestroyed += Enemy_OnDestroyed;
 

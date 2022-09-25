@@ -96,7 +96,6 @@ public class GameResources : MonoBehaviour
     public Sprite heartIcon;
     public Sprite bulletIcon;
 
-
     #region Header MINIMAP
     [Space(10)]
     [Header("MINIMAP")]

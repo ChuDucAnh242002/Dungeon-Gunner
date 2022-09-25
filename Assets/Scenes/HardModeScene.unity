@@ -649,7 +649,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 2.3114188, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -793,9 +793,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 0.9997537
+    y: 0.71527094
+    width: 0.37028825
+    height: 0.37019706
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -5880,7 +5880,7 @@ MonoBehaviour:
   messageTextTMP: {fileID: 9091560}
   canvasGroup: {fileID: 2070543204}
   dungeonLevelList:
-  - {fileID: 11400000, guid: efcd912fc42838b48be3dbfce1abd522, type: 2}
+  - {fileID: 11400000, guid: 4500060e3106fe540a7036910b581a96, type: 2}
   currentDungeonLevelListIndex: 0
   gameState: 0
   previousGameState: 0

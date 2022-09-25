@@ -31,6 +31,10 @@ public class MainMenuUI : MonoBehaviour
         SceneManager.LoadScene("MainGameScene");
     }
 
+    public void PlayHardMode(){
+        SceneManager.LoadScene("HardModeScene");
+    }
+
     public void LoadHighScores(){
         playButton.SetActive(false);
         quitButton.SetActive(false);

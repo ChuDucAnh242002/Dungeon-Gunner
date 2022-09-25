@@ -53,9 +53,9 @@ public class Health : MonoBehaviour
 
         if (enemy != null && enemy.enemyDetails.isHealthBarDisplayed == true && healthBar != null){
             healthBar.EnableHealthBar();
+
         } 
-        else if (healthBar != null)
-        {
+        else if (healthBar != null){
             healthBar.DisableHealthBar();
         }
     }
@@ -81,7 +81,6 @@ public class Health : MonoBehaviour
                 healthBar.SetHealthBarValue((float) currentHealth / (float) startingHealth);
             }
         }
-
     }
 
     private void PostHitImmunity(){

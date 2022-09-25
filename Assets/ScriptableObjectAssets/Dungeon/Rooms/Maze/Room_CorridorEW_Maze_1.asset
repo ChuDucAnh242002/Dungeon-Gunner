@@ -18,7 +18,7 @@ MonoBehaviour:
   battleMusic: {fileID: 11400000, guid: c346fb113d4c49e4aa8a0bb5bb257da3, type: 2}
   ambientMusic: {fileID: 11400000, guid: 57c2c302a1360bc44896c467ffd63a23, type: 2}
   roomNodeType: {fileID: 11400000, guid: 45485d27c9387fb4ab3b80d459770110, type: 2}
-  lowerBounds: {x: -5, y: -4}
+  lowerBounds: {x: -5, y: -5}
   upperBounds: {x: 0, y: 3}
   doorwayList:
   - position: {x: -5, y: -2}

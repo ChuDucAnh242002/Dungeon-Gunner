@@ -60,13 +60,7 @@ public class ReloadWeapon : MonoBehaviour
             SoundEffectManager.Instance.PlaySoundEffect(weaponReloadingSoundEffect);
         }
 
-
         weapon.isWeaponReloading = true;
-
-        while(weapon.weaponReloadTimer < weaponReloadTime){
-            weapon.weaponReloadTimer += Time.deltaTime;
-            yield return null;
-        }
 
         // Increase ammo
         if (topUpAmmoPercent != 0){
@@ -78,6 +72,11 @@ public class ReloadWeapon : MonoBehaviour
             } else {
                 weapon.weaponRemainingAmmo = totalAmmo;
             }
+        }
+
+        while(weapon.weaponReloadTimer < weaponReloadTime){
+            weapon.weaponReloadTimer += Time.deltaTime;
+            yield return null;
         }
 
         if (hasInfiniteAmmo){
