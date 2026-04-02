@@ -19,3 +19,4 @@
 ## Credits
 - This game is an online Udemy course Dungeon Gunner Rougelike Development Course: https://www.udemy.com/course/unity-2d-dungeon-gunner-roguelike-development-course/
 - The game is based on Enter the Gungeon of Dodge Roll studio.
+- Gameplay Feedback Contributor: Kruz D'costa
